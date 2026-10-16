@@ -93,6 +93,9 @@ def load_collection(path):
         for k in ("id", "retail_id", "icon_fdid"):
             r[k] = int(r[k])
         r["displays"] = [int(d) for d in r["displays"].split(",")]
+        if not 1 <= len(r["displays"]) <= 4:
+            sys.exit("%s: %s has %d looks; a creature has 1 to 4 (creature_template_model.Idx 0-3)"
+                     % (path, r["name"], len(r["displays"])))
         if r["kind"] not in KINDS:
             sys.exit("%s: %s is a %s, not one of %s" % (path, r["name"], r["kind"], ", ".join(KINDS)))
         if not BLOCK[0] <= r["id"] <= BLOCK[1]:

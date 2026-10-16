@@ -28,7 +28,8 @@ can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 
 - **Pets** are companions like the stock ones, summoned from the Pets tab.
 - **Several looks:** a retail mount or pet with more than one look (faction colours, a pet's
   breeds, seasonal coats) is one spell here, and its creature wears one of them at random each
-  time it is summoned.
+  time it is summoned. A creature takes at most four looks, so the three mounts with more keep
+  retail's first four.
 - **Left out:** placeholder and test rows in retail's tables; the mounts and pets the client
   already has (a stock mount whose look retail redrew, like the Charger, stays the stock one);
   anything another module already sells (the build takes that module's look list, see Building);

@@ -46,6 +46,9 @@ WATER_TYPES = {254}
 # flag 0x2: the player turns into the creature, which a mounted aura can't do).
 GHOST_TYPE = 242
 MOUNT_FLAG_SELF = 0x2
+# A creature has at most four looks (creature_template_model.Idx 0-3, a check in the core's
+# schema): a mount with more keeps retail's first four.
+MAX_LOOKS = 4
 # The module's own block: ids in it that the spell patch has are this module's rows, not stock ones.
 BLOCK = (400000, 419999)
 
@@ -196,6 +199,11 @@ def main():
             continue
         kept.append(r)
     rows = kept
+    for r in rows:
+        if len(r["displays"]) > MAX_LOOKS:
+            skipped.setdefault("looks past the first %d dropped" % MAX_LOOKS, []).append(
+                "%s (%d)" % (r["name"], len(r["displays"])))
+            del r["displays"][MAX_LOOKS:]
 
     if any(r["id"] >= PET_BASE for r in rows if r["kind"] != "pet") or any(r["id"] >= PET_BASE + 10000 for r in rows):
         sys.exit("a retail id no longer fits its block (mounts 400000-409999, pets 410000-419999)")
