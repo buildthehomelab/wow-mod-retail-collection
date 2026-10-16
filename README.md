@@ -37,7 +37,8 @@ can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 
   creature (a mount can't do that here); and a second copy of a row with the same name and looks.
 - **Don't drop rows once players have them.** The core deletes a spell it no longer knows from
   every character at login, so a mount removed from the list (or the module uninstalled) is gone
-  for good. The build warns when a rebuild drops one.
+  for good. The build warns when a rebuild drops one (compared with the input patch and with the
+  module's current SQL).
 
 ## Installing
 
@@ -88,7 +89,9 @@ RETAIL_SOURCE=cdn python3 tools/build_items.py --patch <your spell patch> --clie
 
 `--db2` needs Mount, MountCapability, MountTypeXCapability, SpellMisc, BattlePetSpecies and
 Creature from wago.tools (the census fetches most of them; wow-mod-retail-creatures'
-`fetch.db2` gets the rest). The build only adds rows in 400000-419999 to the five tables and
+`fetch.db2` gets the rest). `--client` is only read for its icons; it skips the client's own copy
+of the patch being rebuilt (same file name as `--patch`), so keep that name, or an older build's
+icons count as already there. The build only adds rows in 400000-419999 to the five tables and
 leaves every other row and file alone; running it again on its own output changes nothing.
 
 ## Removing

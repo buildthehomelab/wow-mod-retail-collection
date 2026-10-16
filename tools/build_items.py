@@ -38,6 +38,7 @@ import csv
 import ctypes
 import glob
 import os
+import re
 import struct
 import sys
 import tempfile
@@ -208,9 +209,12 @@ def patch_dbcs(files, rows, args, tmp):
         if r["icon"].lower() not in have and name not in files:
             try:
                 data = fetch.casc(args.cache, r["icon_fdid"])
-            except Exception as e:  # not in the build, or unreleased (encrypted)
-                sys.exit("%s: can't download its icon %d (%s): set its icon to empty in the collection"
-                         % (r["name"], r["icon_fdid"], e))
+            except (KeyError, RuntimeError, OSError) as e:  # not in the build, or a failed download
+                sys.exit("%s: can't download its icon %d (%r)" % (r["name"], r["icon_fdid"], e))
+            except Exception as e:
+                if type(e).__name__ != "Encrypted":  # unreleased content (tact.Encrypted)
+                    raise
+                sys.exit("%s: its icon %d is encrypted (not released yet)" % (r["name"], r["icon_fdid"]))
             local = os.path.join(tmp, "icon-%d.blp" % r["icon_fdid"])
             with open(local, "wb") as f:
                 f.write(icon_blp(data, r["icon_fdid"]))
@@ -334,6 +338,16 @@ def main():
         print("%s: %d mounts and pets, %d files, %.1f MB" % (
             args.out, len(rows), len(files), os.path.getsize(args.out) / 1e6))
     if args.sql:
+        # The SQL file is what the server has: warn about spells it had that this build drops too
+        # (the check in patch_dbcs only sees the spells of an earlier build in --patch).
+        if os.path.exists(args.sql):
+            old = open(args.sql, encoding="utf-8").read()
+            start = old.find("INSERT INTO `spell_dbc` VALUES")
+            had = {int(m) for m in re.findall(r"^\((4[01]\d{4}),", old[start:], re.M)} if start >= 0 else set()
+            gone = sorted(had - {r["id"] for r in rows})
+            if gone:
+                print("WARNING: %d spells in the current %s are not in this build: %s"
+                      % (len(gone), os.path.basename(args.sql), ", ".join(map(str, gone))))
         write_sql(args.sql, rows, new_spells)
 
 
