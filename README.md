@@ -11,8 +11,9 @@ can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 
   it is spell, item and creature 402304 here: `.additem 402304`.
 - [`data/collection.tsv`](data/collection.tsv) lists them: id, kind, retail id, name, the
   library looks the creature wears, the icon, and retail's lore text (the item's description).
-- **Nothing sells or drops the items yet.** This module makes them exist; where players get them
-  (vendors, drops, achievements, a shop) is for other modules or later versions. Until then a GM
+- **This module doesn't sell or drop the items.** It makes them exist; where players get them
+  (vendors, drops, achievements, a shop) is for other modules. Archaeology's rare rewards already
+  hand out the Fossilized Raptor and Fossilized Hatchling; until a module covers the rest, a GM
   hands them out.
 
 ## How they work
@@ -105,8 +106,8 @@ the collection.
 Category: Collections
 
 - 1,240 mounts and 1,665 companion pets from later expansions are now in the game as items that
-  teach them. 634 of the mounts fly where flying mounts can once you have Expert Riding. None of
-  them can be found yet: they will come from achievements, vendors and other sources in later
+  teach them. 634 of the mounts fly where flying mounts can once you have Expert Riding. Most of
+  them can't be found yet: they will come from achievements, vendors and other sources in later
   updates.
 
 ## Credits
