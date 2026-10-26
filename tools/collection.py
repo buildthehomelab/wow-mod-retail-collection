@@ -164,10 +164,10 @@ def main():
     # Rows the list already has stay, even when another module sells that mount now or a spell of
     # another module has its retail spell's id: players may own their spells, and the core takes a
     # spell it no longer knows from every character.
-    had = set()
+    had = {}  # id: the looks it wears now
     if os.path.exists(args.out):
         with open(args.out, encoding="utf-8") as f:
-            had = {int(r["id"]) for r in csv.DictReader(f, delimiter="\t")}
+            had = {int(r["id"]): [int(d) for d in r["displays"].split(",")] for r in csv.DictReader(f, delimiter="\t")}
 
     rows, skipped, stock = [], {}, []
     for m in table(args.db2, "Mount"):
@@ -263,6 +263,9 @@ def main():
             skipped.setdefault("looks past the first %d dropped" % MAX_LOOKS, []).append(
                 "%s (%d)" % (r["name"], len(r["displays"])))
             del r["displays"][MAX_LOOKS:]
+        # A row the list has keeps the looks it wears, and only gains ones it lacks.
+        if r["id"] in had:
+            r["displays"] = (had[r["id"]] + [d for d in r["displays"] if d not in had[r["id"]]])[:max(MAX_LOOKS, len(had[r["id"]]))]
 
     if any(r["id"] >= PET_BASE for r in rows if r["kind"] != "pet") or any(r["id"] >= PET_BASE + 10000 for r in rows):
         sys.exit("a retail id no longer fits its block (mounts 400000-409999, pets 410000-419999)")
@@ -274,7 +277,7 @@ def main():
             skipped.setdefault("no icon (uses the question mark)", []).append(r["name"])
             r["icon_fdid"] = 0
 
-    gone = sorted(had - {r["id"] for r in rows})
+    gone = sorted(set(had) - {r["id"] for r in rows})
     if gone:
         sys.exit("%d rows of %s would go (%s): the core would take those spells from every character "
                  "who has them. Find out why before building." % (len(gone), args.out, ", ".join(map(str, gone[:20]))))
