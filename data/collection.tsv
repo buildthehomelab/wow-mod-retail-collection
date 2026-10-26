@@ -1,4 +1,5 @@
 id	kind	retail_id	name	displays	icon_fdid	icon	description
+400032	mount	32	Tiger	206443	132242	ability_mount_jungletiger	
 400350	mount	350	Sunwalker Kodo	230366	132245	ability_mount_kodo_03	This magnificent beast, adorned in sacred charms and painted with holy imagery, radiates with the warmth of the sun.
 400351	mount	351	Great Sunwalker Kodo	230501	329848	ability_mount_kodosunwalkerelite	At daybreak, the noble Sunwalkers often perform rituals to bless their mounts, imbuing them with holy magic.
 400367	mount	367	Exarch's Elekk	231367	136103	spell_nature_swiftness	Draenei exarchs have long marched into war atop these imposing mounts, bred for their razor-sharp tusks.
@@ -17,14 +18,22 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400398	mount	398	Brown Riding Camel	235136	454771	ability_mount_camel_brown	Fennimore Quigley is credited with milking the first camel and breaking the record for "longest unintentional flight," all in the same afternoon.
 400399	mount	399	Tan Riding Camel	235134	454773	ability_mount_camel_tan	Fennimore Quigley is credited with milking the first camel and breaking the record for "longest unintentional flight," all in the same afternoon.
 400400	mount	400	Grey Riding Camel	235135	454772	ability_mount_camel_gray	Fennimore Quigley is credited with milking the first camel and breaking the record for "longest unintentional flight," all in the same afternoon.
+400404	mount	404	Ultramarine Qiraji Battle Tank	215672	458250	trade_archaeology_sceptor of azaqir	The Tol'vir sorcerer Azj'Aqir was said to possess a scepter that would allow him to control a Qiraj battle tank outside of its Silithus home.
 400405	mount	405	Spectral Steed	237160	464161	inv_mount_spectralhorse	Dark spirits flee before the radiance of its presence.
 400406	mount	406	Spectral Wolf	237159	464162	inv_mount_spectralwolf	Fears only fire.
+400408	flyer	408	Mottled Drake	237231	236232	ability_mount_drake_bronze	I thought the thing was ill until it took to the air. It flies as true as any of my own. -Alexstrasza
+400410	mount	410	Armored Razzashi Raptor	214341	132253	ability_mount_raptor	The purebred royal raptors of Zul'Gurub, these mounts have become a rare sight in Stranglethorn Vale. The Gurubashi have been known to fly into a rage at the sight of any non-troll riding one of their precious beasts.
+400411	mount	411	Swift Zulian Panther	237799	132225	ability_mount_blackpanther	The jungle trolls have long coveted panther fangs, using them for rituals or as ingredients in mojos.
+400412	flyer	412	Amani Dragonhawk	237800	132188	ability_hunter_pet_dragonhawk	Dragonhawks liberated from troll enslavement are considered among the most loyal of all their kin.
 400413	flyer	413	Flameward Hippogryph	238018	132265	ability_mount_warhippogryph	Flameward Hippogryphs revel in the defeat of Ragnaros, Lord of Fire.
 400415	flyer	415	Pureblood Fire Hawk	238031	134337	inv_misc_orb_05	Legends state that the Pureblood line may be traced back to the very creation of the Firelands.
 400416	flyer	416	Felfire Hawk	238032	134467	inv_misc_summerfest_braziergreen	Felfire is deadly to the touch. Luckily, the hawk can suppress the flames, choosing not to incinerate its rider in an emerald effigy.
 400417	flyer	417	Corrupted Fire Hawk	238046	134336	inv_misc_orb_04	Millagazor was a fire hawk loyal to Ragnaros. At this time it is unknown how many of Millagazor's eggs were corrupted.
+400418	mount	418	Savage Raptor	238048	132253	ability_mount_raptor	One-time companion of Kanga the Primal, the fallen troll hero. The raptor's name is unknown, for Kanga only spoke to it in bear form.
+400419	mount	419	Amani Battle Bear	238261	132117	ability_druid_challangingroar	The Amani trolls decorate these ferocious mounts in magic amulets and ceremonial masks as a way to venerate the bear god Nalorakk.
 400420	mount	420	Subdued Seahorse	234955	433440	ability_mount_seahorse	"One has not truly lived until they have felt the tidal current rushing through their hair while atop a majestic seahorse," said no one. Ever.
 400421	flyer	421	Winged Guardian	238260	526356	inv_mount_wingedlion	Unearthed recently in an ancient tomb, this mighty winged lion may have once served one of the ancient Tol'vir princes.
+400422	mount	422	Vicious War Steed	238668	524049	ability_mount_alliancepvpmount	Armored to withstand collisions in battle.
 400423	mount	423	Vicious War Wolf	238607	524154	ability_mount_hordepvpmount	At Warchief Hellscream's command, Horde trainers began raising wolves to thrive in the shock and ferocity of sustained combat.
 400424	flyer	424	Vicious Gladiator's Twilight Drake	238756	236235	ability_mount_drake_twilight	Heroes who proved their might in the gladiatorial arenas during the Cataclysm were awarded the most exceptional of the twilight drake broods.
 400425	mount	425	Flametalon of Alysrazor	238783	526578	ability_mount_fireravengodmount	As with their matriarch, Alysrazor, the fury and fervor of these elemental avians are unquenchable.
@@ -44,6 +53,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400442	flyer	442	Blazing Drake	239561	236234	ability_mount_drake_red	Blazing Drakes exhibit a boundless passion for life, and are considered by many to be among the most loyal mounts on Azeroth.
 400443	flyer	443	Twilight Harbinger	239562	236234	ability_mount_drake_red	Whatever dark magic once compelled the Twilight Harbinger is now broken... or is it?
 400444	flyer	444	Life-Binder's Handmaiden	239563	236234	ability_mount_drake_red	Alexstrasza, the former dragon Aspect of Life, is known to be a kind and patient mentor. Under her tutelage, only the most dedicated pupils acquire the title of "Life-Binder's Handmaiden."
+400445	flyer	445	Experiment 12-B	239229	236235	ability_mount_drake_twilight	Some believe Experiment 12-B is the result of a covert SI-7 initiative, others consider it the outcome of embyronic tinkering by goblin scientists. No matter the case, this much is certain: given its strength, speed and agility, Experiment 12-B was a success!
 400446	flyer	446	Heart of the Aspects	240029	576138	inv_dragonchromaticmount	You are Azeroth's true guardians and the future of this world is in your hands, for the dawning of the age of mortals has begun. - Alexstrasza
 400447	flyer	447	Feldrake	240568	587740	ability_mount_feldrake	Fighting the Burning Legion millennia ago, this valiant drake fell to corruption after its body was infused with raw demonic magic.
 400448	flyer	448	Jade Cloud Serpent	240590	656172	inv_pandarenserpentmount_green	Jade Cloud Serpents are light and agile; quick and deadly.
@@ -112,6 +122,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400521	flyer	521	Jade Pandaren Kite	242147	656240	ability_mount_pandarenkitemount_blue	The residents of Pandaria salute your enthusiasm for wildlife preservation. They do have concerns about housing 150 animals per visit, though.
 400522	flyer	522	Sky Golem	246686	894222	ability_mount_shreddermount	A glorious feat of engineering, the sky golem takes traditional shredder technology to a whole new level (and altitude!).
 400523	flyer	523	Swift Windsteed	246729	773250	ability_mount_swiftwindsteed	One of Pandaria's most elusive creatures, said to bring good fortune to its rider.
+400526	flyer	526	Grand Armored Gryphon	246929	773275	inv_misc_elitegryphonarmored	This noble gryphon is as staunch a battle companion as any member of the Alliance could ask for.
+400527	flyer	527	Grand Armored Wyvern	246930	773277	inv_misc_elitewyvernarmored	This ferocious beast, renowned among wyvern handlers, was one of the first mounts chosen to take part in the Horde's Dominance Offensive.
+400528	flyer	528	Grand Gryphon	247166	773274	inv_misc_elitegryphon	Gryphons' keen eyesight allows them to see over vast distances and warn their riders of any dangers that lie ahead.
+400529	flyer	529	Grand Wyvern	247165	773276	inv_misc_elitewyvern	Wyverns hail from some of the most inhospitable regions of Kalimdor, making them masters of adapting to any environment.
 400530	flyer	530	Armored Skyscreamer	247256	838682	ability_mount_pterodactylmount	Only those heroic souls who surmount every challenge the mogu tyrants place before them can proudly fly the skies on a war-prepared skyscreamer.
 400531	mount	531	Spawn of Horridon	247238	791593	ability_mount_triceratopsmount	When you see a hurricane coming, you get out of the way. Horridon would fight the hurricane and win.
 400532	flyer	532	Ghastly Charger	248014	796703	inv_ghostlycharger	Not all of Medivh's victims are gone for good.
@@ -119,6 +133,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400534	mount	534	Amber Primordial Direhorn	247718	838688	ability_mount_triceratopsmount_yellow	There is an old Zandalari saying about wild direhorns: "Run!"
 400535	mount	535	Slate Primordial Direhorn	247715	838687	ability_mount_triceratopsmount_grey	The masks aren't to control the direhorn; they are so no one sees your face when it turns on you.
 400536	mount	536	Jade Primordial Direhorn	247717	838686	ability_mount_triceratopsmount_green	The festive coloring belies deadly intent.
+400537	mount	537	Bone-White Primal Raptor	247825	838684	ability_mount_raptor_white	"They are lethal at eight months, very lethal." -Hemet Nesingwary Jr.
+400538	mount	538	Red Primal Raptor	247826	132193	ability_hunter_pet_raptor	Raptors have spread to nearly all of the lands of Azeroth. It is uncertain whether the trolls led them or followed them.
+400539	mount	539	Black Primal Raptor	247828	838683	ability_mount_raptor_black	Speed, cunning, and ferocity are the things trolls and raptors admire about each other.
+400540	mount	540	Green Primal Raptor	247827	132253	ability_mount_raptor	"Raptors are as loyal as they are vicious. If you ain't friend, you are food." -Kijara
 400541	flyer	541	Malevolent Gladiator's Cloud Serpent	247976	838515	inv_pandarenserpentmount_white	These cloud serpents have scales that... are the color of clouds, actually.
 400542	flyer	542	Thundering Cobalt Cloud Serpent	247981	838689	inv_pandarenserpentmount_lightning_blue	This is a descendant of the irascible Nalak. Lightning erupts from its scales and arcs over the saddle. Dare you sit?
 400543	flyer	543	Clutch of Ji-Kun	247983	800879	achievement_boss_ji-kun	Although Ji-Kun feasted on the failed creations of mogu flesh-shapers, her progeny is willing to eat more pedestrian carcasses.
@@ -134,6 +152,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400554	mount	554	Vicious Kaldorei Warsaber	251037	901174	ability_mount_warnightsaber	The blades adorning this mount's armor are designed to both inspire fear and pre-slice meals for the warsaber.
 400555	mount	555	Vicious Skeletal Warhorse	251048	877361	inv_skeletalwarhorse	Only rewarded to those who have bested their foes in battle.
 400557	flyer	557	Spawn of Galakras	251479	903870	ability_mount_korkronprotodrake	This formidable creature's lineage may be traced to Galakras, and yet further to Galakrond, one of the most infamous of all proto-dragons.
+400558	mount	558	Kor'kron War Wolf	251482	524154	ability_mount_hordepvpmount	The Kor'kron use only the mightiest wolves for their mounts, bedecking them in armor that would break the backs of lesser creatures.
 400559	mount	559	Kor'kron Juggernaut	251485	464143	inv_mount_hordescorpiong	The Kor'kron Juggernaut is a weapon of unbridled destruction, born from the mind of Garrosh Hellscream and made real by his engineers.
 400560	mount	560	Ashhide Mushan Beast	251484	901299	inv_mushanbeastmountblack	Some people say that riding an ashhide mushan will result in favorable health and increased prosperity. These people are called "mount vendors."
 400561	flyer	561	Thundering Onyx Cloud Serpent	251488	901301	inv_pandarenserpentmount_lightning_black	This ebony cloud serpent is a lightning-wreathed vision of such rarity as to have driven many mortals to madness.
@@ -145,6 +164,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400593	flyer	593	Warforged Nightmare	255896	986419	ability_mount_clockworkhorse	A nightmarish steed of hardened steel and vengeful spirits, this companion will follow you to the depths of the Firelands and back without complaint.
 400594	flyer	594	Grinning Reaver	255907	986420	ability_mount_ravager2mount	The difference between a smile and a grin is the difference between a kiss and tasting.
 400600	flyer	600	Dread Raven	253774	952015	inv_ravenlordmount	Filled with the hatred of an ancient god, the dread raven are the Arakkoa's most trusted guardians.
+400603	mount	603	Creeping Carpet	246453	1029750	inv_tailoring_blackcarpet	Can't fly, but can creep very quickly.
 400606	mount	606	Core Hound	258772	236191	ability_hunter_pet_corehound	Molten to the core!
 400607	mount	607	Gorestrider Gronnling	259159	1044801	inv_lessergronnmount_red	Once "befriended", a gronnling will happily carry its rider to their death.
 400608	mount	608	Witherhide Cliffstomper	259321	1044794	inv_clefthoofdraenormount_blue	Tiny notches cover the hooves of this variation of clefthoof, allowing it to safely scale mountainous regions in search of food.
@@ -152,6 +172,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400611	mount	611	Tundra Icehoof	259324	1044794	inv_clefthoofdraenormount_blue	A translucent layer of down hair covers this breed's leathery hide, acting as the perfect insulation for cold environments.
 400612	mount	612	Bloodhoof Bull	259323	1044794	inv_clefthoofdraenormount_blue	Members of the Warsong clan have long hunted these clefthoof to use their crimson-hued skin for battle standards.
 400613	mount	613	Ironhoof Destroyer	259837	1045155	inv_ironhordeclefthoof	Blackhand is said to have personally designed the fiery armaments used on the Iron Horde's clefthoof battle mounts.
+400614	mount	614	Mottled Meadowstomper	259339	1031305	ability_mount_elekkdraenormount	The elekk's long trunk allows it to sniff out sources of food, avoid danger, and steal snacks from your bags when you're not looking.
+400615	mount	615	Trained Meadowstomper	259340	1031305	ability_mount_elekkdraenormount	The draenei perfected elekk husbandry long ago, adorning the creatures with Light-infused crystals to make them more docile.
+400616	mount	616	Shadowhide Pearltusk	259341	1031305	ability_mount_elekkdraenormount	Some legends say the draenei first befriended the elekk after one of the beasts saved an injured scout from a pack of vicious podlings.
+400617	mount	617	Dusty Rockhide	259342	1031305	ability_mount_elekkdraenormount	Ever since acquiring this mount, you have been plagued by strange fever dreams of hippety-hoppety clippety-cloppety elekk on parade.
 400618	mount	618	Armored Irontusk	259343	1045156	inv_iron horde elekk	It is said an elekk never forgets. No wonder it despises the Iron Horde, considering the torment the orcs put the beast through.
 400619	mount	619	Blacksteel Battleboar	259349	1044799	inv_giantboarmount_brown	Refuses to run unless its head is covered in heavy, spiked metal. It's an ego thing.
 400620	mount	620	Rocktusk Battleboar	259348	1044799	inv_giantboarmount_brown	It's not the metal helmet that attracts mates; it's the sweet mohawk.
@@ -192,6 +216,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400656	mount	656	Llothien Prowler	268851	1338908	foxmounticon	These sleek foxes can prowl amongst newly-fallen leaves without making a sound, even at this size.
 400657	mount	657	Garn Nighthowl	254114	132224	ability_mount_blackdirewolf	The garn are the most fierce predators on Draenor, and always hunt in packs.
 400663	mount	663	Bloodfang Widow	269276	1370997	inv_spidermount	Its long, serrated limbs drip with the blood of its enemies and/or mate.
+400664	flyer	664	Emerald Drake	225834	236231	ability_mount_drake_blue	"Is the emerald drake rare? You have no idea. If I had a silver for every time someone asked me about one, I could have retired years ago." -Mei Francis
 400678	mount	678	Chauffeured Mechano-Hog	261803	134240	inv_misc_key_06	Why drive yourself around when you can hire someone to do it for you?
 400679	mount	679	Chauffeured Mekgineer's Chopper	261804	134240	inv_misc_key_06	Transportation is a precise business.
 400682	mount	682	Voidtalon of the Dark Star	238785	1094600	ability_mount_fireravengodmountpurple	Corrupted by the presence of the Dark Star in Draenor, the Voidtalons resisted being broken by the Shadowmoon Clan and were ultimately destroyed by Ner'zhul. Only a single egg remains, lost in the void.
@@ -199,6 +224,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400751	flyer	751	Felsteel Annihilator	262893	1114455	ability_mount_felreavermount	Forged deep within Hellfire Citadel by a mad blacksmith, the Felsteel Annihilator combines the metalworking knowledge of the Iron Horde with the chaotic fel energies of the Burning Legion into an unholy union of steel and flame.
 400753	flyer	753	Corrupted Dreadwing	263032	1115910	inv_feldreadravenmount	Bathed in the blood of demons, these corrupted Dread Ravens are significantly more aggressive, and will often kill one another if kept in confinement.
 400755	mount	755	Vicious War Mechanostrider	263249	1113014	ability_mount_viciouswarmechanostrider	Equipped with head-mounted Critter Destroyer 9000.
+400756	mount	756	Vicious War Kodo	263580	1120007	ability_mount_viciouswarkodo	The spiked ball on the tail is strong enough to crush through even the most reinforced Alliance defenses.
 400758	mount	758	Infernal Direwolf	263873	1125819	inv_wolfdraenor_felmount	A mighty wolf of Draenor, touched by the fel energies unleashed by Gul'dan in Tanaan Jungle. It has not gone completely mad... yet.
 400759	mount	759	Primal Gladiator's Felblood Gronnling	263956	1127958	inv_fellessergronnmount	One of the gronnlings of Tanaan Jungle caught in the eruption of fel energies unleashed by Gul'dan, and now beholden to an unquenchable lust for chaos.
 400760	mount	760	Wild Gladiator's Felblood Gronnling	264378	1137556	inv_fellessergronnmount_pale	One of the gronnlings of Tanaan Jungle caught in the eruption of fel energies unleashed by Gul'dan, and now beholden to an unquenchable lust for chaos.
@@ -207,10 +233,13 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400763	mount	763	Illidari Felstalker	264582	1113192	inv_felstalkermount	The Illidari have broken some lesser demons for use against their Legion masters.
 400764	flyer	764	Grove Warden	264583	1129627	inv_moosemount	These magical companions are the wardens of peaceful, primordial groves within the Emerald Dream.
 400765	mount	765	Bristling Hellboar	264726	1044799	inv_giantboarmount_brown	The one and only source for the rare culinary ingredient: cursed bacon.
+400767	mount	767	Charger	214584	1360759	ability_paladin_divinesteed	Redeemed by the Light. Devoted to your cause.
 400768	mount	768	Deathtusk Felboar	264849	1044799	inv_giantboarmount_brown	Veterans of the battle for Outland's Hellfire Peninsula are traumatized by thoughts of these beasts to this day.
 400769	mount	769	Minion of Grumpus	264960	1245298	inv_misc_pet_pandaren_yeti_grey	No one quite knows when the legend of Grumpus began in Draenor, but his toys are just the worst.
 400772	flyer	772	Soaring Skyterror	265040	1027878	spell_beastmaster_rylak	The extra-light equipment on this chromatic rylak allows it to swoop and glide through the clouds easily, free from the bounds of the land below.
 400773	flyer	773	Grove Defiler	272700	1450148	inv_moosemount2nightmare	The Grove Wardens of the Emerald Dream were some of the first to fall to the corrupting influence of the Nightmare.
+400775	mount	775	Prestigious War Steed	265760	571330	inv_alliancepvpmount	Armored to withstand collisions in battle.
+400778	flyer	778	Eclipse Dragonhawk	265994	132188	ability_hunter_pet_dragonhawk	Captured from the renegade blood elves at Eclipse Point, these purple dragonhawks were often sought after by Scryers posted to the Sanctum of the Stars.
 400779	flyer	779	Spirit of Eche'ro	270874	1390637	inv_ghostlymoosemount	The spirit of Huln Highmountain's pet moose.
 400780	mount	780	Felsaber	267575	1672586	inv_dhmount_felsaber	A special creation of Lord Illidan gifted to his most trusted demon hunters.
 400781	flyer	781	Infinite Timereaver	267594	1308528	inv_infinitedragonmount	Fickle and savage, these drakes slip in and out of time until they find a worthy rider.
@@ -223,8 +252,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400797	mount	797	Steelbound Devourer	270099	1387705	inv_mount_felcorehoundmoun	Only the sturdiest-forged chains can restrain this beast.
 400799	mount	799	Flarecore Infernal	270127	1373133	inv_infernalmountlava	The Legion has conquered thousands of other planets, devising fiendish alterations to their war machines when faced with extreme conditions.
 400800	mount	800	Brinedeep Bottom-Feeder	268849	1339352	inv_fishmount	These elusive fish prefer to skulk in the deepest reaches of the Great Sea, searching the darkness for food.
+400802	flyer	802	Long-Forgotten Hippogryph	229361	132265	ability_mount_warhippogryph	You are the only one that remembered.
 400803	flyer	803	Mastercraft Gravewing	300108	3852563	inv_gargoylebrute2mount_brown	Handcrafted by the Stonewright herself, this mastefully crafted stoneborn is entrusted only to those she deems worthy.
 400804	mount	804	Ratstallion	270619	1450569	inv_ratmount	Years of chain-chugging potions in Dalaran's sewer system have allowed him to grow large, agile, and shadow resistant.
+400825	mount	825	Thalassian Charger	219085	1360759	ability_paladin_divinesteed	A loyal companion to any who would protect Silvermoon.
 400826	flyer	826	Prestigious Bronze Courser	271001	1393182	inv_horse2mount	One of the bold equines of the Broken Isles, unmatched among the steeds of Azeroth in ferocity and strength.
 400831	flyer	831	Prestigious Royal Courser	270997	1450961	inv_horse2mountpurple	One of the bold equines of the Broken Isles, unmatched among the steeds of Azeroth in ferocity and strength.
 400832	flyer	832	Prestigious Forest Courser	270999	1450959	inv_horse2mountgreen	One of the bold equines of the Broken Isles, unmatched among the steeds of Azeroth in ferocity and strength.
@@ -235,6 +266,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400841	mount	841	Vicious Gilnean Warhorse	271973	1418019	inv_mount_vicioushorse	Born, bred and battle tested in Gilneas.
 400842	mount	842	Vicious War Trike	271816	1408996	inv_viciousgoblintrike	The most devastating technology money can buy.
 400843	mount	843	Vicious Warstrider	271975	1417741	ability_mount_vicioushawkstrider	Exquisite, dignified and deadly.
+400844	mount	844	Vicious War Elekk	272020	1444270	ability_mount_viciouswarelekk	A favorite of warriors of the Exodar.
 400845	flyer	845	Mechanized Lumber Extractor	272071	894222	ability_mount_shreddermount	Jepetto may have over done it a little...
 400846	flyer	846	Leyfeather Hippogryph	263625	1455896	inv_mount_hippogryph_arcane	Ancient mounts of the Highborne, now left to run wild in the Broken Isles, they can rarely be found due to their latent magical powers.
 400847	mount	847	Arcadian War Turtle	268848	1339043	inv_turtlemount	Bred for destruction by an insane warlord in a far-off land, but at least the seat is warm.
@@ -257,7 +289,9 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 400872	flyer	872	Huntmaster's Dire Wolfhawk	273781	1519096	inv_huntermount_blue	If asked to fetch, will most likely bring you back the head of a small mammal or humanoid.
 400873	mount	873	Vicious War Bear	273805	1499689	inv_mount_viciousalliancebearmount	Almost twice as vicious as its Horde counterpart.
 400874	mount	874	Vicious War Bear	273806	1499690	inv_mount_vicioushordebearmount	Nearly twice as vicious as its Alliance counterpart.
+400875	mount	875	Midnight	273808	132238	ability_mount_dreadsteed	Still one of the most vicious steeds stabled in Karazhan.
 400876	mount	876	Vicious War Lion	273817	1517168	inv_viciousgoldenking	Many squires were harmed in the making of this mount.
+400877	mount	877	Ivory Hawkstrider	273991	1531511	inv_ability_mount_cockatricemount_white	"My winged children fill the skies. Not this one though." -Aviana
 400878	mount	878	Brawler's Burly Basilisk	273248	1306097	inv_basaliskmount	The spikes on this beast can pierce plate armor with ease -- only the most elite riders can even consider mounting this deadly pincushion.
 400881	flyer	881	Arcanist's Manasaber	281468	1525362	inv_suramarmount	Upon her return to The Nighthold, First Arcanist Thalyssra saw to it that adventurers who helped her liberate Suramar were rewarded with prized mounts from the royal stable. Summoning this mount in Suramar City will also apply Masquerade.
 400882	mount	882	Vicious War Scorpion	274034	1522940	ability_mount_viciouskorkronannihilator	Has very few non-pointy ends.
@@ -341,9 +375,14 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401007	mount	1007	Highmountain Thunderhoof	281113	1757668	inv_hmmoosemount	A gift from the tauren who trained this sure-footed highland moose to safely traverse the paths and peaks of Highmountain.
 401008	mount	1008	Nightborne Manasaber	274032	1781067	inv_nightborneracialmount	Born capable of sniffing out concentrations of arcane energy, this noble cat was presented with thanks to a proven ally of the nightborne.
 401009	mount	1009	Starcursed Voidstrider	281648	1786404	ability_mount_voidelfstridermount	This shadow-infused strider embodies the elves' commitment to harness the power of the Void in the name of the Alliance.
+401010	mount	1010	Admiralty Stallion	282148	2143095	inv_horse3saddle003_pale	These sleek white stallions are the few mounts allowed to embark on Kul Tiran ships.
 401011	flyer	1011	Shu-Zen, the Divine Sentinel	281772	1795322	inv_dogmount	As the Golden Lotus worked tirelessly to repair the Vale of Eternal Blossoms, a single statue came to life and wordlessly defended them from the Sha that assaulted them. Believed by some to be a sign of good fortune and others to be a gift from the Light, Shu-Zen provides faithful companionship to any that would defend Azeroth from the maddening whispers of the Old Gods.
 401012	mount	1012	Green Marsh Hopper	281952	1802889	ivn_toadloamount	Gottum collects spawns of Krag'wa from all around the Frogmarsh, but only the most bulbous are used as mounts.
 401013	flyer	1013	Honeyback Harvester	281967	2027853	inv_bee_default	While most Harvesters dream only of honey and flowers, this adventurous specimen looks to the wide world beyond Stormsong Valley.
+401015	mount	1015	Dapple Gray	281693	2143120	inv_horse3saddle006_stormsong_white	A favored mount of the sea priests who call Stormsong home.
+401016	mount	1016	Smoky Charger	282161	2143089	inv_horse3saddle003_black	Among the oldest horse breeds in Kul Tiras, they even led many a charge in the original struggle with the drust.
+401018	mount	1018	Terrified Pack Mule	281694	2143125	inv_horse3saddle008_donkey	This poor mule was around Drustvar when the witches took over. He's seen too much.
+401019	mount	1019	Goldenmane	281690	2143094	inv_horse3saddle003_palamino	Lord Stormsong ordered his cronies to steal this horse from the Norwington Estate in Tiragarde, as he was covetous of its luscious golden mane.
 401026	mount	1026	Vicious War Basilisk	282528	1827501	inv_viciouswarbasiliskhorde	Its breath is worse than its bite.
 401027	mount	1027	Vicious War Basilisk	282527	1827500	inv_viciouswarbasiliskalliance	Its breath is worse than its bite.
 401028	flyer	1028	Mecha-Mogul Mk2	280864	2011128	achievement_dungeon_mogulrazdunk	The Mk2 is an updated design with a focus on comfort and reliability over firepower.
@@ -371,14 +410,23 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401059	flyer	1059	Captured Swampstalker	277065	1624583	inv_pterrordax2mount_lightgreen	A swamp-dwelling subspecies of pterrordax known to feast on young bloodfeasters.
 401060	flyer	1060	Voldunai Dunescraper	280972	1624586	inv_pterrordax2mount_purple	These brightly-colored fliers are rarely captured in the wild due to their naturally untrusting natures.
 401061	flyer	1061	Expedition Bloodswarmer	276708	1618563	ability_mount_bloodtick_purple	Orphaned during the rout of the Blood Trolls, this bloodswarmer has been retrained by Talanji's handlers.
+401062	flyer	1062	Dusky Waycrest Gryphon	283666	773275	inv_misc_elitegryphonarmored	Common to the dark forests of Drustvar, these gryphon are silent and swift. Their prowess at operating on their own or as mounts lends them to be used for ambush and shock tactics.
+401063	flyer	1063	Stormsong Coastwatcher	283665	773275	inv_misc_elitegryphonarmored	Tasked with keeping watch on the seas for approaching dangers, the Stormsong Coastwatchers fly constant patrols.
+401064	flyer	1064	Proudmoore Sea Scout	283664	773275	inv_misc_elitegryphonarmored	Only a few gryphons are selected to be Sea Scouts operating from flag ships in the fleet. Their long range reconnaissance is an integral part of Kul Tiran sea dominance.
 401166	mount	1166	Great Sea Ray	273253	2127651	inv_stingray2mount_teal	The rays of the great sea can travel for many miles in great migratory patterns.
 401167	mount	1167	Frostshard Infernal	270126	1373132	inv_infernalmounice	These icy minions come from an unknown plane far from this one.
 401168	flyer	1168	Fiery Hearthsteed	287741	2126207	inv_pegasusmountred	These flying creatures thunder unseen across the heavens. How fortunate that this one has shown itself to you!
 401169	mount	1169	Surf Jelly	287747	237321	inv_misc_fish_70	The time between being stung and being enveloped and devoured is short enough to consider not swimming in the Great Sea.
 401172	mount	1172	Conqueror's Scythemaw	287772	1573605	inv_trilobitemount_green	The battle-hardened shell of this mighty beast can turn aside even the most hefty hammer or sharpened spear.
+401173	mount	1173	Broken Highland Mustang	287773	2143068	inv_horse3_chestnut	One of the Arathi horses, taken and broken by the Horde conquerors of Stromgarde.
+401174	mount	1174	Highland Mustang	287774	2143075	inv_horse3_pinto	A valiant steed on the Arathi Highlands, it knows no fear.
+401175	flyer	1175	Twilight Avenger	287775	236235	ability_mount_drake_twilight	Little is known about the fate of the twilight dragonflight, though they seem to exist in numbers in Grim Batol to this day.
 401176	mount	1176	Craghorn Chasm-Leaper	287776	797882	inv_misc_pet_pandaren_yeti	These mighty leapers have adapted to island life by learning to catch seagulls swooping through crags and fissures.
 401178	mount	1178	Qinsho's Eternal Hound	245836	625905	achievement_moguraid_01	Qinsho wrought his eternal guardian from pure gold and imbued it with the resilience of the earth.
 401179	mount	1179	Palehide Direhorn	287779	838688	ability_mount_triceratopsmount_yellow	Pale-skinned direhorns are quite rare, justifying the expense.
+401180	mount	1180	Swift Albino Raptor	214345	838684	ability_mount_raptor_white	The Witherbark warrior Beastrider Kama once cut bloody swathes of terror across the Arathi Highlands astride such a monster.
+401182	mount	1182	Lil' Donkey	285581	2143069	inv_horse3_donkey	Likely stolen from Newstead in the Arathi Highlands, this stalwart little donkey was destined to be eaten by kobolds.
+401183	mount	1183	Skullripper	287848	132193	ability_hunter_pet_raptor	She's a clever girl.
 401185	flyer	1185	Witherbark Direwing	286091	132182	ability_hunter_pet_bat	Only a handful of these giant bats remain in the Arathi Highlands, carefully raised by the Witherbark forest trolls who first brought them here.
 401190	flyer	1190	Pureheart Courser	288116	2153980	inv_horse2white	These coursers have long been known to exist, but only befriend those that have gone to great lengths for friendship.
 401191	mount	1191	Frenzied Feltalon	238784	840193	ability_mount_fireravengodmountgreen	The Legion experimented with the corruption of many different types of wildlife, such as this fiery bird species from a molten world.
@@ -391,6 +439,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401198	mount	1198	Kul Tiran Charger	288974	2238243	inv_horsekultiran	The Kul Tiran military prides itself on mastery of both sea, through a vast navy, and land, with armed cavalry.
 401199	mount	1199	Blackpaw	200706	571585	spell_druid_bearhug	Blackpaw was just hibernating, minding his own business, and then suddenly there was a warfront.
 401200	flyer	1200	Ashenvale Chimaera	289750	2406628	inv_chimera3	Ashenvale chimaeras were used frequently by the Kaldorei to decimate structures in battles against the humans, orcs, and undead.
+401201	mount	1201	Frightened Kodo	212247	132245	ability_mount_kodo_03	Nothing frightens a kodo like seeing a bear with antlers.
 401203	mount	1203	Umber Nightsaber	289246	2475037	inv_nightsaber2brown	Nightsabers are an integral part of the Kaldorei's army, serving as both mount and assault weapon in one.
 401204	mount	1204	Sandy Nightsaber	289249	2475039	inv_nightsaber2mountyellow	A rare color for a nightsaber, and rarely seen, they are prized amongst huntresses.
 401205	mount	1205	Kaldorei Nightsaber	289247	2344137	inv_nightsaber2mount	The connection between a nightsaber and its hunter or huntress is nearly inseparable.
@@ -401,6 +450,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401210	flyer	1210	Bloodthirsty Dreadwing	260307	132182	ability_hunter_pet_bat	The forsaken prefer the use of these bloodthirsty hunters, both for their speed as a mount, and the psychological effect they have on their enemies.
 401211	flyer	1211	Bloodgorged Hunter	255151	132182	ability_hunter_pet_bat	If he wasn't so full, you wouldn't have caught him.
 401212	flyer	1212	Island Thunderscale	290158	1610629	inv_stormdragonmount2_fel	One of the larger native dragon species on Azeroth, this subspecies subsists almost entirely on fish. And fishermen.
+401213	mount	1213	Risen Mare	205050	132264	ability_mount_undeadhorse	Something terrible happened in the lost town of Havenswood.
 401214	mount	1214	Azureshell Krolusk	290393	1573603	inv_trilobitemount_blue	Captured from the desolate sands of Vol'dun, this mount is surprisingly docile in captivity.
 401215	mount	1215	Rubyshell Krolusk	290394	1573607	inv_trilobitemount_red	Captured from the desolate sands of Vol'dun, this mount is surprisingly docile in captivity.
 401216	flyer	1216	Priestess' Moonsaber	290159	2470995	inv_saber3mount	Once these elegant cats were only given to high-ranking priestesses of Elune, but now they ride into battle with all manner of champion, in the service of vengeance.
@@ -421,6 +471,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401238	mount	1238	Snapback Scuttler	291238	2819574	inv_crabmount	Giant crabs are native to Nazjatar and a favored food of the naga. This one must have been well-kept to grow this large.
 401239	mount	1239	X-995 Mechanocat	292666,292667,292668,292669	2831006	inv_mechanicaltiger_grey	The X-995 is the ultimate in customizeable feline robo-companionship.
 401240	flyer	1240	Obsidian Worldbreaker	291272	2734740	inv_encrypted13	"I have had many names throughout history, all of them spoken with dread: Neltharion, Xaxas, and many more. Yet you shall know me best as Deathwing, for so I am! I am the bane of life, the darkness within history, the lord of death, the master of destruction. And I tell you now, and so it is true, that this world is mine!" - Neltharion, the Earth-Warder
+401242	mount	1242	Beastlord's Irontusk	290215	2829668	inv_armoredelekkmount	One of Darmac's trained beasts, its tusks can pierce even the hardest Iron Horde steel.
 401243	mount	1243	Beastlord's Warwolf	257466	2829669	inv_armoredwolfmount	One of Darmac's trained beasts, it was raised in a crucible of molten fire and shows no fear.
 401245	mount	1245	Bloodflank Charger	291388	2835167	inv_hordehorsemount	Stolen from the Arathi Basin stables, this fire-hearted charger now steeds for the Horde.
 401246	mount	1246	Ironclad Frostclaw	291389	2828483	inv_alliancewolfmount	Captured in the snows of Alterac Valley, this bloodthirsty hunter now roars for the Alliance.
@@ -445,12 +496,14 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401277	flyer	1277	Honeyback Hivemother	292492	2027852	inv_bee_black	Destined to become queen of her hive, she scouts Kul Tiras and Zandalar in search of a suitable home for a new colony to flourish.
 401282	flyer	1282	Black Serpent of N'Zoth	292708	3005317	inv_nzothserpentmount_black	The black serpents of N'Zoth are the harbingers of his ultimate vision becoming reality. Only those servants or enemies that can tread this space have any chance of wrangling them.
 401283	mount	1283	Mechagon Mechanostrider	292759	3041211	inv_mechagnomestrider	The best mount, logically, serves multiple purposes -- sometimes you need to get places AND reach something high up once you get there.
+401285	mount	1285	Frostwolf Snarler	292901	3044237	inv_frostwolfhowler	Raised in the Alterac Mountains by the Frostwolf Clan, trained to bite dwarves.
 401286	mount	1286	Caravan Hyena	292902,294762	3045400	inv_vulperamount	The canopy atop this dune-wanderer can be stored at your campsite, should you desire to feel the wind in your fur.
 401287	flyer	1287	Explorer's Jungle Hopper	293202	3022736	inv_explorergyrocopter	For when you're making a crash landing in the middle of an uncharted swamp because it's the only way to access that ancient temple.
 401288	mount	1288	Explorer's Dunetrekker	293203	3010087	inv_camelmount2	The surly dunetrekker can easily carry a set of explorers to the nearest ruins and back without the need to rest.
 401289	flyer	1289	Ensorcelled Everwyrm	293335,294449,294451	3040844	inv_aetherserpentmount	Anima is a fundamental force that infuses the Shadowlands. It flows through many creatures, but is also traded, bartered for, and fought over.
 401290	flyer	1290	Squeakers, the Trickster	293351	3016707	inv_ratmount2	The locals in Halfhill swear that whenever a batch of grain is missing, a farmworking instrument is misplaced, or a bushel of berries can't be found, you can hear a mischievous squeaking, and are reminded to slow down and accept what life gives you.
 401291	flyer	1291	Lucky Yun	293352	3054095	inv_oxmount	The Pandaren believe that merely rubbing one's hands on the shiny hide of the ox will grant prosperity, the challenge is catching it.
+401292	mount	1292	Stormpike Battle Ram	293396	3061883	inv_stormpikebattlecharger	Raised in the Alterac Mountains by the Stormpike Clan, trained to headbutt orcs.
 401293	flyer	1293	Ny'alotha Allseer	293512	3067412	inv_eyeballjellyfishmount	To find him, drown yourself in the Circle of Stars.
 401297	flyer	1297	Clutch of Ha-Li	294247	3229545	inv_thunderislebirdbossmount_blue	The brood of Ha-Li are comfortable in the blue skies of Pandaria, hunting unsuspecting prey.
 401298	mount	1298	Hopecrusher Gargon	293822	3056147	inv_deathwargmountblack	Once the loyal mount of a House Briarbane lord, it turned on the lord and his retinue. Members of House Briarbane now whisper of a dark Gargon lying in wait even baiting venthyr who venture through the darker parts of the Chalice District of Revendreth.
@@ -495,6 +548,14 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401361	flyer	1361	Duskflutter Ardenmoth	295206	3255389	inv_mothardenwealdmount_dark	These ardenmoths prefer the dark and damp forests of northwest Ardenweald, where fungal colonies are perpetually blooming.
 401362	mount	1362	Spinemaw Gladechewer	294349	3084143	inv_decomposermountyellow	Spriggan riders tie bits of anima-less detritus to the end of sticks in front of their gorm mounts to steer. It's... an imperfect art.
 401363	flyer	1363	Sinful Gladiator's Soul Eater	297306	3593686	inv_shadebeastmount	This mount shows a proclivity for snacking upon the souls cast out of Revendreth.
+401364	mount	1364	War-Bred Tauralus	296465	3849323	inv_giantbeastmount_blue	The soldiers of Maldraxxus protect the Shadowlands, and require a mount that is both capable and calm when faced with overwhelming odds.
+401365	mount	1365	Plaguerot Tauralus	296466	3849324	inv_giantbeastmount_green	The tauralus is considered courageous, though scholars of Maldraxxus have long wondered if their lack of fear is simply due to the tiny size of their brains.
+401366	mount	1366	Bonehoof Tauralus	296467	3511737	inv_giantbeastmount	There are quite a few reasons that you do not want to stand behind a tauralus, the hooves and whip-like tails being the least of them.
+401367	mount	1367	Chosen Tauralus	296468	3849325	inv_giantbeastmount_orange	Even an unarmored tauralus is a valuable ally in battle, its enormous horns capable of piercing even plate armor.
+401368	mount	1368	Armored War-Bred Tauralus	296469	3849326	inv_giantbeastmount2_blue	The tauralus that serve the armies of Maldraxxus have had all traits of compassion bred out of them, and are only adorned in armor when they show that no sword or spell can stop them from carrying their rider to victory.
+401369	mount	1369	Armored Plaguerot Tauralus	296470	3849327	inv_giantbeastmount2_green	When fully armored, a tauralus can take an incredible amount of damage before falling, making it a valuable ally in battle.
+401370	mount	1370	Armored Bonehoof Tauralus	296471	3511738	inv_giantbeastmount2	A favored mount of the House of the Chosen, the tauralus only gets more angry and vicious when exposed to battle.
+401371	mount	1371	Armored Chosen Tauralus	296472	3849328	inv_giantbeastmount2_orange	The tauralus has two tails, which are both absolutely necessary for whipping away buzzing pests like the bloodlouse.
 401372	mount	1372	Blisterback Bloodtusk	298169	3456125	inv_maldraxxusboarmount_black	The House of the Chosen train their mounts in all manner of difficult circumstances, so that no matter the battle, they will never falter.
 401373	mount	1373	Gorespine	298168	3456126	inv_maldraxxusboarmount_green	Nerissa trampled over countless bodies on the back of Gorespine as she rose to prominence as the commander of the Lichsworn forces for the House of Rituals.
 401374	mount	1374	Bonecleaver's Skullboar	298167	3456127	inv_maldraxxusboarmount_grey	Sabreil was known for the ruthless efficiency with which she dismembered foes, feeding their bones to her loyal skullboar.
@@ -515,6 +576,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401394	mount	1394	Phalynx of Loyalty	294333	3061648	inv_automatonlionmount_black	Some within the Ascended keep a phalynx as a pet. While they may not be as furry as a larion, they are much less likely to eat your other pets.
 401395	mount	1395	Phalynx of Humility	294332	3061649	inv_automatonlionmount_bronze	The phalynx does not fetch, though it is not known why this is.
 401396	mount	1396	Phalynx of Courage	294334	3061647	inv_automatonlionmount	A phalynx is considered both a worthy companion and a lithe opponent to test one's reflexes against.
+401397	flyer	1397	Wildseed Cradle	298594	3747572	inv_ardenwealdpod	The most precious cargo in all Ardenweald, the wildseeds, are cradled by this lovingly-crafted cart. It is imbued with anima to allow it to hover over the ground.
 401398	mount	1398	Phalynx of Purity	294331	3061650	inv_automatonlionmount_silver	Little is known about the origination of phalynx technology, the machinations of which are taught more akin to religion than engineering.
 401399	mount	1399	Eternal Phalynx of Purity	294336	3061650	inv_automatonlionmount_silver	The armored phalynx is a favorite companion of the mightiest warriors of the Ascended as it is both fearless and vicious in battle.
 401400	mount	1400	Eternal Phalynx of Courage	294338	3061634	inv_automatonlionmount2	Many bars of gildenite are required to forge one of these sparkling mounts, but the sight of them alone is worth the gathering time.
@@ -529,11 +591,13 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401410	flyer	1410	Hulking Deathroc	298149	3546654	inv_rocmaldraxxusmountpurple	Deathrocs are stitched monstrosities from the discarded viscera, bone, and organs that were not required to construct soldiers for the House of Constructs.
 401411	flyer	1411	Predatory Plagueroc	298150	3546385	inv_rocmaldraxxusmountgreen	Gieger's everlasting hunger is legendary amongst the House of Constructs, and no beast is too large or bony to fit inside its massive stomach.
 401413	flyer	1413	Dauntless Duskrunner	297870	3155424	inv_horse2bastionmount_purple	The Path of Ascension is a challenging trial, and those that display all of the facets the Kyrian hold dear will be duly rewarded.
+401414	flyer	1414	Sinrunner Blanchy	298449	2143082	inv_horse3saddle001_evil	In life, Blanchy appeared to be an affectionate, well-behaved horse of excellent disposition and appetite. What evils must she have committed in secret to have earned her place among the condemned souls of Revendreth?
 401415	mount	1415	Arboreal Gulper	298498	3731082	inv_toadardenwealdmount	The wood and foliage growing atop this toad is a natural part of its body, helping it siphon anima from the air to nourish itself.
 401416	mount	1416	Mawsworn Charger	301947	3636569	ability_mount_mawhorsespikes_blue	The fate of all horse mounts.
 401417	mount	1417	Hand of Hrestimorak	298546	3743307	inv_mawguardhandmountblue	The treachery of Hrestimorak was infamous, betraying his people to claim power. Facing damnation in the Maw, he tried to subvert the Jailer... a foolish act that would earn him an eternity of torment.
 401419	flyer	1419	Sintouched Deathwalker	297644	3614351	inv_deathelementalmount_black	Forged from the sins of countless diabolical dungeon denizens. Only those with the skills to overcome them may hold its reins.
 401420	mount	1420	Umbral Scythehorn	294344	3084138	inv_decomposermountblack	Umbral gorm are the most docile of all gorm, but they also grow the largest horns and mandibles. They are probably so docile because other creatures avoid riling them.
+401421	mount	1421	Court Sinrunner	298721	2143093	inv_horse3saddle003_evil	Sinrunners were once the steeds of dark souls, carried in the wake of either their sins or their masters' sins to Revendreth. While some chose to run free, many continue to serve darkness in death as they did in life.
 401422	mount	1422	Warstitched Darkhound	298223	3849320	inv_darkhoundmount_draka_blue	These warhounds are crafted by the House of Constructs to carry any rider into the thick of battle, rending and tearing enemy mounts all the while.
 401423	flyer	1423	Highwind Darkmane	293769	3849784	inv_wingedlion2mount_dark	The Forsworn and their mounts take on a darker aspect upon renouncing the path laid forth by the Archon. While tame enough to ride, the Highwind Darkmane has a fiercely independent streak.
 401424	mount	1424	Snowstorm	298731	3753812	inv_bearmountblizzard	He comes from the ice and snow, under the Azeroth sun where adventurers go.
@@ -642,6 +706,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401552	flyer	1552	Carcinized Zerethsteed	302135	4216936	inv_progenitorbotminemount	The few of these mysterious creatures that remain appear to be impossibly old, almost timeless. Perhaps they were created by the First Ones, because no schematic to synthesize these has yet been discovered.
 401553	flyer	1553	Liberated Slyvern	302148	4218759	inv_foxwyvernmountblack	It's difficult to tell because it's far too angry, but this slyvern is actually glad it's not owned by gnolls anymore.
 401556	flyer	1556	Tangled Dreamweaver	302300	4096390	inv_drakemountemerald	The last of the sleepers are finally awakening, bringing the dreams of the dragons back to the lands.
+401563	flyer	1563	Highland Drake	306003	4622497	inv_companiondrake	The drakes of Azure Span follow a strict personal code of honor as they explore the isles anew.
 401564	mount	1564	Colossal Soulshredder Mawrat	304995	4287554	inv_mawratmount_01	The incredible prowess you have demonstrated within the Jailer's Tower has instilled sufficient respect into this fearsome creature, enabling its use as a mount.
 401565	mount	1565	Colossal Umbrahide Mawrat	304997	4287556	inv_mawratmount_03	This disturbingly large Mawrat is an anomaly amongst its species. These Colossal Mawrats lurk only in the most distant and darkest reaches of Torghast.
 401566	mount	1566	Colossal Ebonclaw Mawrat	304980	4287558	inv_mawratmount_05	This vicious and cunning creature has grown to its astonishing size by not only feasting upon the weakened souls in the Jailer's Tower, but also vulnerable Mawsworn.
@@ -664,11 +729,16 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401585	mount	1585	Colossal Wraithbound Mawrat	304998	4287557	inv_mawratmount_04	Infused by the energies of tormented souls, these creatures have adopted ghostlike abilities that make them quite elusive.
 401586	flyer	1586	Armored Golden Pterrordax	305477	4395377	inv_pterrordax2mount_gold	Painted and adorned with gold, these Pterrordax patrol the skies over the tomb of Atal'Dazar.
 401587	flyer	1587	Zereth Overseer	305484	4216936	inv_progenitorbotminemount	Enigmatic and aloof, this construct of the First Ones flies on a graceful stream of perfect geometric understanding.
+401588	flyer	1588	Winding Slitherdrake	305540	4922469	inv_companionserpent	These drakes feel at home in the depths of the earth and the far reaches of the sky.
+401589	flyer	1589	Renewed Proto-Drake	307058	4622499	inv_companionprotodragon	As the isles awaken, these proto-drakes answer the call to soar the skies alongside mortals.
+401590	flyer	1590	Windborne Velocidrake	305268	4622500	inv_companionpterrordaxdrake	The long talons of the velocidrake give it an edge on the plains.
+401591	flyer	1591	Cliffside Wylderdrake	307056	4622502	inv_companionwyvern	Often roosting along the steep cliff faces of Thaldraszus, they're swift to the skies in times of danger.
 401594	flyer	1594	Jade, Bright Foreseer	305757	4381911	inv_rabbitmount	The presence of this majestic Pandaren rabbit spirit brings joy and happiness and is heralded as a wonderful omen. Legend says that in its eyes, you can glimpse the greatest happiness of your life, even if it is yet to come.
 401595	mount	1595	Cerulean Marsh Hopper	305766	4395376	ivn_toadloamount_blue	Gottum's expansion into export markets was inevitable with news of the Trading Post reaching even into the depths of the Frogmarsh.
 401596	flyer	1596	Amalgam of Rage	305767	4396090	inv_cerberusmount	The fearsome beast ridden by Astaroth himself is now yours to command.
 401597	mount	1597	Grimhowl	305428	2016650	inv_darkhoundmount	Otherwise known as The Flame Woof, the Fetcher of the Igneous, Molten Core's Best Friend, Forgehound Maximus, the Best Fiery Boy, and "oh no is that an AXE on his face!?"
 401599	flyer	1599	Eternal Gladiator's Soul Eater	297309	3593821	inv_shadebeastmount_orange	This soul eater's gaze unnerves you. Best not meet its eyes for too long.
+401600	mount	1600	Elusive Emerald Hawkstrider	306262	132230	ability_mount_cockatricemount_green	Unseen for many years, this brightly hued hawkstrider emerged from hiding to help defend the Ghostlands from the Scourge. Its prowess shines as brilliantly as its feathers.
 401602	flyer	1602	Tuskarr Shoreglider	306300	4500249	inv_tuskarrglider	The Tuskarr learned long ago that some of the bones of the sea creatures they hunted were light and buoyant, making for effective glider materials.
 401603	mount	1603	Subterranean Magmammoth	300965	4034834	inv_mammoth2lavamount_blue	Awakened from a long slumber, this beast has yet to see the light of day.
 401612	mount	1612	Loyal Magmammoth	300964	4034835	inv_mammoth2lavamount_orange	Liberated from the Qalashi and harnessed by your ingenuity (and your harness), this magmammoth is ready to lava stomp wherever you want to go.
@@ -699,6 +769,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401657	mount	1657	Brown Scouting Ottuk	302075	4093849	inv_riverotterlargemount01_brown	Wily and playful in their natural habitat, ottuks possess keen eyes that can scout far afield as ably as they watch for predators.
 401658	mount	1658	Ivory Trader's Ottuk	302076	4093855	inv_riverotterlargemount01_white	No adult knows why some ottuks are white, but any tuskarr child can tell you: it's because they eat too much snow.
 401659	mount	1659	Yellow Scouting Ottuk	302077	4093859	inv_riverotterlargemount01_yellow	The yellow scouting ottuk love to hide and they blend in well to their surroundings. When not 'playing' hide and seek with their riders, they are perfect companions when scouting enemy encampments.
+401660	flyer	1660	Crimson Gladiator's Drake	307712	4571779	inv_drake2mountgladiator	Forged in the fires of conquest, and armored to the teeth.
 401662	flyer	1662	Telix the Stormhorn	308180	4508509	inv_beetleprimalmount	Once a simple beetle of the Forbidden Reach, Telix became infused with storm magic when Raszageth was unleashed. With its newly heightened senses, Telix roams the Dragon Isles alongside the Dragonscale Expedition--and you!
 401664	mount	1664	Guardian Vorquin	308729	4282543	inv_kirinmount_dark	Trained using ancient dracthyr methods, these armored vorquin are the pinnacle of tactical mounted ground warfare.
 401665	mount	1665	Swift Armored Vorquin	308731	4282542	inv_kirinmount_bronze	Trained using ancient dracthyr methods, these armored vorquin are the pinnacle of tactical mounted ground warfare.
@@ -716,6 +787,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401686	mount	1686	Obsidian Vorquin	310114	4731150	inv_kirinmountdracthyr_black	Respected for their resilience in battle, even against dragonfire, these noble beasts are the prized mounts of the dracthyr cavalry.
 401688	mount	1688	Vicious Sabertooth	306798	4526000	inv_vicioussabertoothalliance	The elite Alliance forces that use these sabertooth mounts use a battle cry that translates from Darnassian as "here kitty kitty".
 401689	mount	1689	Vicious Sabertooth	306800	4526001	inv_vicioussabertoothhorde	The elite Horde forces that use these sabertooth mounts use a battle cry that translates from Thalassian as "pspspspsps".
+401690	flyer	1690	Whelpling	307459	4622499	inv_companionprotodragon	
 401692	flyer	1692	Wondrous Wavewhisker	310848	5059959	inv_magicalfishmount	They say one of these magical fish is born when a fisherfolk dreams of the one that got away... and grows bigger with each retelling of the tale.
 401698	flyer	1698	Rocket Shredder 9001	311429,311433,311434,311435	4723319	inv_goblinshredderrocketmount	The salesgoblin always tells people about the RS-9001's huge variety of attachments, but somehow neglects to mention that you never get to pick the attachments it'll have when you mount up.
 401699	flyer	1699	Gleaming Moonbeast	311517	4695616	inv_magicalowlbearmount	Armored in glistening silver, these devoted mounts are said to be a blessing from Elune herself.
@@ -734,15 +806,23 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401740	mount	1740	Vicious War Snail	312358	4627336	inv_vicioussnail_alliance	The Alliance uses these ravenous snail mounts to traverse over any obstacle in battlefields.
 401741	mount	1741	Vicious War Snail	312359	4627343	inv_vicioussnail_horde	The Horde uses these ravenous snail mounts to traverse over any obstacle in battlefields.
 401742	mount	1742	Felcrystal Scorpion	312606	4277238	ability_mount_hordescorpiongreen	The results of a fel infusion experiment with one of Skorpyron's offspring.
+401744	flyer	1744	Grotto Netherwing Drake	312642	5161800	inv_companiondrake_netherwing_teal	After traveling to Outland and back, it's only natural these drakes seek out new skies.
 401772	flyer	1772	Scarlet Pterrordax	313038	1624587	inv_pterrordax2mount_red	This pterrordax was so eager to take to the skies that its handler couldn't finish training it.
+401773	flyer	1773	Harbor Gryphon	313039	773274	inv_misc_elitegryphon	This gryphon was the runt of its pride, left behind when its brethren were sent for training. Today, however, it is ready to prove its worth.
+401774	mount	1774	Valiance	313069	132264	ability_mount_undeadhorse	Most undead steeds have their riders chosen for them. Valiance, on the other hand, chooses its own rider.
+401776	mount	1776	White War Wolf	214336	132266	ability_mount_whitedirewolf	Can a wolf's hunger ever be satiated? These lupine brutes seek and devour the enemies of the Horde.
+401777	flyer	1777	Ravenous Black Gryphon	285524	773274	inv_misc_elitegryphon	War corrupted these once-proud creatures. The susurration of their wings now whispers omens of imminent demise.
 401778	flyer	1778	Gold-Toed Albatross	284357	1929243	inv_vulturemount_alabatrosswhite	Soaring from a distant timeway, this never-before-seen avian variant was born in a world of order.
 401779	flyer	1779	Felstorm Dragon	291689	1610629	inv_stormdragonmount2_fel	The Burning Legion defeated dragons in a distant timeway. These foul fel wyrms chose corruption and servitude over destruction.
 401781	mount	1781	Sulfur Hound	313194	236191	ability_hunter_pet_corehound	The Black Empire subjugated these humbled and hateful hounds. Utterly obedient, they still serve the strong.
 401782	mount	1782	Perfected Juggernaut	251510	897696	ability_mount_ironjuggernautmount	Perfection, like beauty, is in the eye of the beholder. But eyesight can be surgically enhanced.
+401783	flyer	1783	Scourgebound Vanquisher	231155	303868	ability_mount_redfrostwyrm_01	Once bound in service to the Scourge, these undead dragons exist only to spread death, disease, and destruction.
 401784	flyer	1784	Royal Swarmer	313276	4277166	inv_aqirflyingmount_yellow	These drones will swarm anyone who dares approach their queen uninvited.
 401785	mount	1785	Ancestral Clefthoof	313532	4277172	inv_clefthoofdraenormount_purple	This clefthoof has seen ages pass, witnessing everything and patiently teaching many to ride.
+401792	flyer	1792	Algarian Stormrider	313958	5306251	inv_gryphonstormmount	Flying true even in the harshest conditions, this lightning-infused rook was trained to soar through the skies of the Isle of Dorn and into the depths below.
 401794	mount	1794	Pattie	291875	2916285	inv_alpacamount_ivory	Preservationist Kathos encountered Pattie on her first assignment to Vol'dun. Pattie developed an affinity to Preservationist work but is eager to delve deeper, helping adventurers in their sleuthing.
 401795	flyer	1795	Auspicious Arborwyrm	313692	5140802	inv_lunardragonmount	Sprouting to life only once every sixty years, this living wooden dragon combines the patience of a tree and the grace of a dragon in flight.
+401796	flyer	1796	Whelpling	313773	4572401	inv_dragonwhelp3_bronze	
 401797	mount	1797	Ginormous Grrloc	313796	5244693	inv_murlocmount_purple	It's the second biggest murloc you've ever seen!
 401798	flyer	1798	Azure Worldchiller	313876	5260432	inv_encrypted13_blue	In the corners of Azeroth, stories are told of a dreaded dragon who swept a pall of torment over the land. In some versions of this story, his fiery presence brought cataclysmic death and destruction worldwide. In other versions, he is blue.
 401799	flyer	1799	Eve's Ghastly Rider	313768	5242794	inv_broommount2_red	The preferred transportation of the Fenlow family (especially during Hallow's End).
@@ -760,8 +840,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 401818	flyer	1818	Anu'relos, Flame's Guidance	314378	5171363	inv_dreamowl_firemount	Though her feathers flicker with flame's destructive potential, they do not scorch, but simply radiate a comfortable heat.
 401819	mount	1819	Vicious Moonbeast	314381	4900032	inv_viciousowlbearmountalliance	Unlike most of its kind, this moonbeast has a taste for Horde blood and an affinity for the color blue.
 401820	mount	1820	Vicious Moonbeast	314391	4900033	inv_viciousowlbearmounthorde	Unlike most of its kind, this moonbeast has a taste for Alliance blood and an affinity for the color red.
+401822	flyer	1822	Draconic Gladiator's Drake	314390	5145984	inv_drake2mountgladiator_purple	Its wings darken the skies with the shadow of conquest.
 401824	mount	1824	Brown-Furred Spiky Bakar	311719	4741710	inv_dogprimalmount	Such a good boy. Or girl. It's hard to tell sometimes. Always good though.
 401825	mount	1825	Taivan	311720	4741710	inv_dogprimalmount	You don't have to be what the world expects you to be. Be who Taivan knows you *can* be.
+401830	flyer	1830	Flourishing Whimsydrake	314211	5390426	inv_companionfaeriedragon	These playful protectors of the Emerald Dream may be larger than their faerie dragon relatives, but they are no less mischievous.
 401831	flyer	1831	Verdant Gladiator's Slitherdrake	314488	5208286	inv_serpentmountgladiator_green	This drake visited many heroes in their dreams before joining your cause.
 401833	mount	1833	Springtide Dreamtalon	314893	5370987	inv_sabretoothraptormount_white	Surging with the kind of energy and enthusiasm that can make anyone envious.
 401834	mount	1834	Ochre Dreamtalon	314906	5370985	inv_sabretoothraptormount_green	Playful dreamtalons often decorate themselves in a myriad of colors that only autumn offers.
@@ -822,11 +904,14 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402090	flyer	2090	Polly Roger	317262	5578050	inv_parrotpiratemount_blue	The scourge of the slightly-northeastern seas, giant parrots like Polly can live for up to 2000 years. What a wonderful curse on your next of kin.
 402091	flyer	2091	Voyaging Wilderling	317829	5607688	inv_wolfserpentmount2	These playful visitors from another realm thrive while traveling to new lands with new friends.
 402114	flyer	2114	Zovaal's Soul Eater	297313	3593820	inv_shadebeastmount_gray	"Was I a good boy?" the soul asked Zovaal. "No. I'm told you were the worst."
+402116	flyer	2116	Remembered Golden Gryphon	318052	294468	ability_mount_goldengryphon	They love lions in Stormwind, and the gryphon is half lion. This is why these creatures are an air travel staple throughout the Alliance.
+402117	flyer	2117	Remembered Wind Rider	318055	298596	ability_mount_tawnywindrider	Hundreds of battles across a dozen campaigns have been fought and won on the backs of these honored creatures.
 402118	flyer	2118	Amber Pterrordax	318105	838682	ability_mount_pterodactylmount	The Pterrordax could and would eat you in seconds. Are you sure sitting on its back is a good idea?
 402119	flyer	2119	Stonevault Mechsuit	318228	5530986	inv_dwarvenmechboss	Metal once ruined, restored to life by scrap and song.
 402140	flyer	2140	Charming Courier	318601	5633768	inv_owldragonmount	Neither snow nor rain nor heat nor gloom of night stays these charming couriers from the swift completion of their appointed rounds.
 402142	flyer	2142	August Phoenix	319094	5690106	ability_mount_pandarenphoenix_white	The magnificent August Phoenixes are blessed by Chi-Ji to fill the hearts of riders with wonder and hope for the future.
 402143	flyer	2143	Astral Emperor's Serpent	319095	5751588	inv_celestialserpentmount_gold	After the unburdened Emperor Shaohao gave his final breath to protect his people, a golden serpent descended from the heavens to alight the emperor's spirit to the peaks of Kun-Lai Summit.
+402144	flyer	2144	Delver's Dirigible	318919	6029241	inv_companiondelvesairship	This aircraft will help you delve straight into adventure, wherever it may be!
 402145	flyer	2145	Kickin' Kezan Waveshredder	319192	5661095	inv_goblinsurfboardmount_blue	If everybody had an ocean, they'd go surfing with this sweet waveshredder. But in the case of not having an ocean, you can surf the skies! Hang 8!
 402148	flyer	2148	Smoldering Cinderbee	319250	5633719	inv_firebeemount_	A somewhat surprising choice of mount, the Council of Dornogal assures you riding it is safe. Mostly.
 402150	flyer	2150	Vicious Skyflayer	319274	5715596	inv_viciousflyingnerubian2_horde	This creature hungers for battle with the contemptible Alliance.
@@ -869,6 +954,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402220	flyer	2220	Retrained Skyrazor	319982	5792082	inv_nerubianwarbeastmount_cyan	One of a handful of skyrazors captured by Arathi forces during the Sureki offensive after Queen Ansurek's downfall, this beast has found great use in sniffing out void corruption at home and abroad.
 402222	flyer	2222	Siesbarg	319984	5792083	inv_nerubianwarbeastmount_dark	Poor guy.
 402223	flyer	2223	Ascendant Skyrazor	319985	5792085	inv_nerubianwarbeastmount_white	Intended for the most devoted of the Sureki elite, these skyrazors were favored by Queen Ansurek for both their cunning and brutality.
+402224	flyer	2224	Frayfeather Hippogryph	222472	2020396	inv_hippogryphmountnightelf	This majestic hippogryph hails from the Frayfeather Highlands of Feralas. Though it previously protected its hatchlings, now it chooses to serve a greater cause.
+402225	mount	2225	Amani Hunting Bear	320151	132121	ability_druid_demoralizingroar	The Amani trolls ride this fierce creature on ceremonial hunts in honor of the bear god Nalorakk.
 402230	flyer	2230	Ivory Goliathus	320168	5520460	inv_nerubianbeetlelargemount_tan	These giant beetles spend their lives in the darkest tunnels of Khaz Algar. Though they are deprived even of the faintest glimmer of artificial sunlight, they still thrive.
 402232	mount	2232	Savage Ebony Battle Turtle	320280	4498799	inv_turtlemount2_dark	The cannons are powered by an unquenchable rage to seek out enemies and bring them to justice. Nothing can outrun a cannon.
 402233	mount	2233	Earthen Ordinant's Ramolith	316418	5350153	inv_earthenpaladinmount	Beneath the stone surface beats a heart emboldened by order to set this world free from darkness.
@@ -905,9 +992,11 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402293	flyer	2293	Darkfuse Spy-Eye	322861	6126216	inv_goblinflyingmachine_black	Perfect for the up-and-comer who wants to climb the ladder by making everyone else's business THEIR business.
 402294	flyer	2294	Mean Green Flying Machine	322859	6126218	inv_goblinflyingmachine_green	Steamwheedle's top engineers claim they invented this work of mechanical genius, while the other cartels copied their plans.
 402295	flyer	2295	Bilgewater Bombardier	322857	6126219	inv_goblinflyingmachine_red	For rapid transport of Cartel trade goods and other highly volatile substances.
+402296	flyer	2296	Delver's Gob-Trotter	322995	5917277	inv_airshipmountgoblin	This aircraft will help you delve straight into adventure, if it doesn't explode!
 402298	flyer	2298	Prized Gladiator's Fel Bat	323005	6124221	inv_felbatgladiatormount_copper	Awakened from caves in the battlefield, and armored to the fray.
 402299	flyer	2299	Vicious Electro Eel	323006	5946611	inv_electriceelviciousmount_red	These aquatic beasts enjoy torturing the Alliance with their electric shocks.
 402300	flyer	2300	Vicious Electro Eel	323007	5946610	inv_electriceelviciousmount_blue	These aquatic beasts enjoy torturing the Horde with their electric shocks.
+402301	flyer	2301	Unstable Rocket	223647	132262	ability_mount_rocketmount	What it lacks in safety features it more than makes up for in speed and style. Not for the faint of heart.
 402303	mount	2303	Violet Goblin Shredder	322854	6124652	inv_goblinshreddermech_purple	This shredder has been lovingly painted with a non-corrosive paint to ensure a lasting sheen.
 402304	flyer	2304	Chaos-Forged Gryphon	323098	6126079	inv_30thgryphonmount_gold	Born and raised during a time of great chaos, this mount has survived hardships known by few.
 402305	flyer	2305	Chaos-Forged Hippogryph	323099	6036388	inv_30thhippogryphmount	Born and raised during a time of great chaos, this mount has survived hardships known by few.
@@ -915,6 +1004,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402308	flyer	2308	Chaos-Forged Wind Rider	323105	6080694	inv_30thwyvernmount_red	Born and raised during a time of great chaos, this mount has survived hardships known by few.
 402313	flyer	2313	Junkmaestro's Magnetomech	323400	6157163	inv_goblinshreddermechboss	Well-suited for compacting trash into rollable balls. Junkmaestro apocrypha claims these might become worlds of their own if only they could get big enough.
 402315	flyer	2315	Timbered Sky Snake	323445	6118902	inv_lunarsnakemount	A living, breathing, flying work of art.
+402317	flyer	2317	Enchanted Spellweave Carpet	228064	1029755	inv_tailoring_purplecarpet	Dalaran mages have created an elegant spellweave and self-stitch aura to accompany this flying carpet. Allowing anyone to handle any loose threads and fly in style.
 402321	flyer	2321	Timely Buzzbee	324145	6220328	inv_sandbeemount	Buzzing through the time punctual as ever, these Buzzbees harvest the errant sands of time and return them safely to the Timeways.
 402322	flyer	2322	Thrayir, Eyes of the Siren	279033	897087	ability_mount_stormcrowmount	In a fit of rage and despair, Thrayir conjured a storm that would ravage the land and annihilate Cyrce's enemies. After nearly ten thousand years, the seafury tempest continues to roil as an echo of his power.
 402324	flyer	2324	Hooktalon	323755	5578052	inv_parrotpiratemount_purple	Hooktalon once sailed with the Bloodsail Buccaneers, and later with the Blackwater Raiders, but he left to see what plunder he could find beyond the high seas.
@@ -931,6 +1021,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402469	mount	2469	Prismatic Snapdragon	326133,326134,326135,326136	2027958	inv_seaeel_teal	Chameleonic creatures can oftentimes adapt their cells to match the color of the outside world. This snapdragon adopted this ability, but only to match the contents of their stomach; taking the phrase 'you are what you eat' to a whole new level.
 402470	flyer	2470	Nightfall Skyreaver	325059	943739	ability_mount_ironchimera	Descending on their prey in the dead of night, the cries of these skyreavers once instilled terror in all the children of Draenor.
 402471	flyer	2471	Ur'zul Fleshripper	276642	1581749	inv_soulhoundmount_red	This terrifying ur'zul incorporates its latest victims into itself, creating a nearly unstoppable monster. Good thing you are treating it well, or you might be its next treat.
+402473	flyer	2473	Broodling of Sinestra	227797	236235	ability_mount_drake_twilight	After the fall of the Bastion of Twilight, a few scattered twilight whelps escaped Vexiona's sway. Some of these whelps have allied with mortals and are willing to bear them as riders.
 402474	flyer	2474	Copper-Maned Quilen	325096	644374	ability_mount_quilenflyingmount	Raised in the stables of the Iron Qon, these mounts are ardently steadfast, never leaving their posts even when they sensed the demise of their masters.
 402476	flyer	2476	Sha-Warped Cloud Serpent	325466	6238482	inv_shaserpentmount	Sha has warped this cloud serpent into an even more fearsome creature. The emotions that flow through this creature make it an unmistakable harbinger of doom.
 402477	mount	2477	Sha-Warped Riding Tiger	325468	6243518	inv_shatigermount	Sha has warped this tiger into an even more fearsome creature. The emotions that flow through this creature make it an unmistakable harbinger of doom.
@@ -947,7 +1038,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402492	flyer	2492	Spring Butterfly	326174	6382168	inv_butterflymount_pink	Take to the skies on a glittering, shimmering, spring butterfly.
 402494	flyer	2494	Midnight Butterfly	326175	6382038	inv_butterflymount_purple	PH
 402495	mount	2495	Emerald Snail	326181	5003560	inv_snailrockmount_green	This snail protects its treasures with the ferocity of a dragon, but perhaps not the speed.
+402496	flyer	2496	Void-Scarred Gryphon	325079	773274	inv_misc_elitegryphon	Abandoned by its trainers the Void-Scarred Gryphon scrounged on any scrap of food that remained, most corrupted by the void. With the void now sustaining them, they only land when their fickle tastes are satisfied by untainted food that they just remember enjoying.
+402497	mount	2497	Void-Forged Stallion	326212	132251	ability_mount_nightmarehorse	Forged just as their shoes once were, these beasts are less horses now and void energy in their likeness.
 402498	mount	2498	Void-Scarred Pack Mother	326214	132224	ability_mount_blackdirewolf	Fighting her corrupted handlers this pack mother freed herself and her pups. However, freedom from their handlers did not free them from the void in this lost place. She taught her pups to be even more dangerous beasts, and they now stalk throughout Orgrimmar fetching her food as all compete to survive.
+402499	flyer	2499	Void-Scarred Windrider	326208	132268	ability_mount_wyvern_01	When the void energies were released, it drove most windriders feral. They killed each other and their trainers. The gates to their roost were locked by the survivors. Some surviving windriders can still be seen gliding above, but none dare return to their new deadly domain to see what remains.
 402500	flyer	2500	Ny'alothan Shadow Worm	274312	1519577	inv_serpentmount_blue	A remnant of the Black Empire's past, these precursors of the abyss worms are once again resurging with the rise of Ny'alotha.
 402501	flyer	2501	Corruption of the Aspects	326360	6698671	inv_dragonchromaticmount2	With N'Zoth's triumph, what started with Galakrond comes to fruition. With the Aspects gone, the corruption of their species is complete.
 402502	flyer	2502	Void-Crystal Panther	327586	656234	ability_mount_onyxpanther_black	Although many precious gems have been corrupted by void energies in horrific visions, Master Jewelcrafters can still utilize them to craft mighty panther steeds.
@@ -957,6 +1051,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402508	flyer	2508	Enterprising Shreddertank	326644	6331355	inv_goblinspidertank	Optimized shredder designed for maximum shredding efficiency.
 402510	flyer	2510	Terror of the Wastes	326902	6320429	inv_voidflyermount_purple	It's not world-devouringly bad, just misunderstood.
 402511	flyer	2511	Terror of the Night	326903	6320430	inv_voidflyermount_red	Don't be deceived by its bright colors, it is capable of sneaking up on anyone (or anything).
+402512	flyer	2512	Delver's Mana-Skimmer	326177	6361900	inv_airshipmountethereal	This aircraft will help you delve straight into adventure, or maybe other dimensions!
 402518	flyer	2518	Chrono Corsair	328170	6709878	inv_piratedragonmount	Always on the lookout for the next golden opportunity, this Infinite Dragonflight pirate has soared through the timeways to find a crew for the perfect heist.
 402519	mount	2519	Radiant Imperial Lynx	324612	6322044	inv_arathilynxmount_nightfall	The Radiant Imperial Lynx embodies the ongoing strength and courage it takes to chase back the darkness. They hoist us up so that we may hold our torches high for all who seek refuge from the encroaching darkness.
 402520	mount	2520	Spring Harvesthog	327822	6702279	inv_hedgehogmount_green	The Spring Harvesthog is at its most energetic in the early morning. It will spend most of its day snuffling for food or bellowing out calls for other harvesthogs.
@@ -985,6 +1080,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402561	mount	2561	Curious Slateback	329098	6661375	inv_kareshroamermount_crimson	This curious slateback somehow managed to get itself stuck in a box. How it fit inside is still up in the air.
 402566	flyer	2566	Lana'thel's Crimson Cascade	329135	6839181	inv_bloodelementalmount	The Blood Queen's mastery of the sanguine arts allowed her to conjure a fearsome servant to bear her into battle. Adorned in livery suited to her court, it is masked with a fearsome visage, and adorned with wings and claws to bring to mind its master's wrath.
 402567	flyer	2567	Voidwing Dragonhawk	329156	6841376	inv_dragonhawk2voidmount	Cutting through the skies, it flies with silent wings and eyes that glow with the echo of forgotten stars.
+402568	flyer	2568	Lightwing Dragonhawk	329155	6841375	inv_dragonhawk2lightmount	Radiating warmth and grace, it soars on wings of light.
 402569	flyer	2569	Unbound Star-Eater	329157	6841475	inv_cosmicdragonmount	In the void-scarred wake of the All-Devouring and his kith, twisted remnants of distant worlds and forgotten aeons find their way across the Great Dark.
 402570	mount	2570	Vicious Void Creeper	329220	6841157	inv_viciousvoidcreepermount_blue	Originating from K'aresh, these creatures like to burrow and ambush unsuspecting Horde.
 402571	mount	2571	Vicious Void Creeper	329221	6841158	inv_viciousvoidcreepermount_orange	Originating from K'aresh, these creatures like to burrow and ambush unsuspecting Alliance.
@@ -1000,8 +1096,9 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402581	mount	2581	Banshee's Sickening Charger	329394	6882415	inv_forsakenhorsemount_yellow	
 402582	flyer	2582	Shaohao's Sage Serpent	329417	6795069	inv_celestialserpentmount_jade	The lessons Shaohao learned in life and death and the passion he held for his home have coalesced into this ethereal serpent, a reflection of the Emperor's wisdom.
 402586	mount	2586	Moonlit Nightsaber	329644	2475038	inv_nightsaber2mountwhite	"Her white glow upon their silvered fur, her bright-blue gaze in their moonlit eyes. Oh, how the moons smile on these creatures." -Mother Kalo'thera, High Priestess of Elune, A Blessing in Hajiri
+402587	mount	2587	Ivory Savagemane	283649	838684	ability_mount_raptor_white	According to Raptari legend, during Dazar's first ascent up the slopes of Zandalar, the soon-to-be-King was guided through the darkness by the shimmer of ivory scales and gleaming red eyes.
 402593	mount	2593	Slag Basilisk	336103	6927206	inv_basaliskmount_red	Originally dwelling deep underground where their diet consisted of obsidian and basalt, the slag basilisks surfaced when their homes were disturbed by the Legion.
-402598	flyer	2598	Voidlight Surger	329156	7135882	inv_112_dragonhawk_transformation	Shifting between radiant light and consuming void, it surges through the skies in a dance of balance.
+402598	flyer	2598	Voidlight Surger	329156,329155	7135882	inv_112_dragonhawk_transformation	Shifting between radiant light and consuming void, it surges through the skies in a dance of balance.
 402600	mount	2600	Unarmored Deathtusk Felboar	325054	1240370	ability_mount_felboarmount	Wandering the glades of Felwood on a steady diet of cursed truffles and lost travelers. Do not pet.
 402601	mount	2601	Pearlescent Krolusk	329957	1573610	inv_trilobitemount_white	Introduced as an invasive species to K'aresh, Krolusk have found some use as beasts of burden.
 402602	mount	2602	Translocated Gorger	299090	3767410	inv_devourermediummount	Accidentally transported when the Brokers moved Tazavesh, this gorger has found a new world ripe with potential sources of energy, such as anima beacons...and riders.
@@ -1009,6 +1106,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402604	flyer	2604	OC91 Chariot	330005	6792093	inv_overchargedmech	The OC91 Chariot mechsuit is overcharged with the power of Titans. The enhanced power reportedly increases the reflexes and abilities of the pilot.
 402605	flyer	2605	Inarius' Charger	330062	6739959	inv_inariusmount	A symbol of vengeance throughout all known realms.
 402606	flyer	2606	Royal Voidwing	327493	6856023	inv_voiddragonmount2ethereal_king	A cosmic terror warped and hardened by the cruelties of the Nexus-King, now oathsworn to your service.
+402607	flyer	2607	Ashes of Belo'ren	330474	7049048	inv_darkwellphoenixmount	One of Al'ar's last clutch, Belo'ren was taken to the Isle of Quel'Danas and raised to defend the Sunwell from any who would threaten it with his very life. It is said that death will never claim him.
 402608	flyer	2608	Light-Forged Mechsuit	330496	5862953	inv_crystalmech_orange	Cooperation between the newly-awakened earthen Ordinants and the smiths of Hallowfall has resulted an improved, light-forged earthen mechsuit.
 402611	mount	2611	Dusk Grimlynx	328673	7386623	inv_harronircatmount_blue	Famously adept at hunting at dusk as the light of dusk blends this grimlynx's foliage with its surroundings.
 402612	flyer	2612	Void-Forged Overseer	330706	7051426	inv_progenitorbotmountcn	After the Sepulcher of the First Ones was opened, this construct of the First Ones was stolen by the brokers and sold to the ethereals in a transaction at the Veiled Market. Under the ethereals' ingenious modifications, it integrated the mysteries of the Aether, gliding through the air with extraordinary elegance, leaving behind a trail of shimmering stardust.
@@ -1019,6 +1117,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402619	mount	2619	Cinder-Seared Elekk	331303	7079469	inv_elekkfelmount_orange	The Burning Legion sought to destroy, steal or corrupt anything that brought joy to the draenei, and the elekks of Draneor were no exception.
 402620	mount	2620	Void-Razed Elekk	331304	7079470	inv_elekkfelmount_purple	Their temperament is as wild as the twisted forces that warped their creation and they only serve who they choose.
 402621	mount	2621	Legion-Forged Elekk	331305	7079471	inv_elekkfelmount_red	The Burning Legion envied the draenei's bond with the elekks of Draenor. Many demonic beast-masters warped the breed to serve their needs, but none could control them.
+402622	flyer	2622	The Headless Horseman's Chilling Charger	331406	7096231	inv_headlesshorsemanmount2_blue	Through the air you will fly, on your foes you descend, this charger will carry you to deliver their end.
+402623	flyer	2623	The Headless Horseman's Ghoulish Charger	331407	7096232	inv_headlesshorsemanmount2_green	Tricks have been played, your enemies beaten, this ghoulish charger awaits a treat, friend.
+402624	flyer	2624	The Headless Horseman's Burning Charger	331408	7096233	inv_headlesshorsemanmount2_red	The fires blaze on, in the steed's heart and soul, now take to the sky as a sight to behold.
+402625	flyer	2625	The Headless Horseman's Hallowed Charger	331409	7096234	inv_headlesshorsemanmount2_white	Your future's unknown, with ghosts in your past. With your steed at your side, how long can you last?
 402626	flyer	2626	Adorned Northeron Gryphon	331427	7117170	inv_dwarfgryphonmount_blue	The elder gryphon riders and high shamans of the Northeron Wildhammer often adorned their gryphons in ornate, feather-clad pieces, indicating their rank and status.
 402627	flyer	2627	High Shaman's Aerie Gryphon	331428	7117171	inv_dwarfgryphonmount_green	The ancient Wildhammer shamans who first encountered gryphons believed them to be elemental spirits in mortal form. This encounter would forever imprint on the Wildhammer clan for generations to come.
 402628	flyer	2628	Cinder-Plumed Highland Gryphon	331429	7117172	inv_dwarfgryphonmount_orange	According to Wildhammer legend, the orange plumage found on gryphons is believed to be a hereditary trait passed down from their elemental ancestry.
@@ -1052,6 +1154,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402676	flyer	2676	Golden Sunrunner	336190	3155425	inv_horse2bastionmount_yellow	This free spirit enjoys long trots on the beach and frolicking through varicolored floral fields.
 402677	flyer	2677	Turquoise Courser	336194	1610262	inv_horse2green	Named for its uniquely colored eyes that seem to pierce your soul, the turquoise courser shows more intelligence than her dreamrunner cousins and is known to be an excellent judge of character.
 402678	flyer	2678	Gloomdark Nightmare	336196	1668955	inv_horse2purple	Touched by the Emerald Nightmare, this creature's presence in one's dreams is an omen of misfortune. To see one while awake portends absolute catastrophe.
+402679	mount	2679	Bonesteed of Triumph	270479	2238269	inv_skeletalwarhorse_01_purple	A good warhorse is loyal to its bones. Having shed its mortal coil, this steed is an omen of bold conquest.
+402681	mount	2681	Bonesteed of Bloodshed	270478	1338623	inv_skeletalwarhorse_black	A good warhorse is loyal to its bones. Having shed its mortal coil, this steed is an omen of eternal strife.
+402682	mount	2682	Bonesteed of Plague	270480	877361	inv_skeletalwarhorse	A good warhorse is loyal to its bones. Having shed its mortal coil, this steed is an omen of sickness and suffering.
+402683	mount	2683	Bonesteed of Oblivion	270481	2238268	inv_skeletalwarhorse_01_brown	A good warhorse is loyal to its bones. Having shed its mortal coil, this steed is an omen of scarcity and death.
 402686	mount	2686	Longhorned Sable Talbuk	276294	1602313	inv_argustalbukmount_black	The talbuks of Argus have grown long, coarse fur of brilliant colors that reflects the hues of their broken planet.
 402688	mount	2688	Garnet Ruinstrider	279445	1602321	inv_argustalbukmount_white	Outfitted with sturdy barding, Argussian ruinstriders fearlessly carry their riders across the broken wastes of Argus and beyond.
 402689	mount	2689	Longhorned Bleakhoof Talbuk	276302	1602317	inv_argustalbukmount_felred	Scarred by the chaos wrought by decades of conflict, this fel-infused steed is a perfect match for an intrepid adventurer.
@@ -1073,6 +1179,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402708	flyer	2708	Vibrant Petalwing	329737	6916452	inv_rutaanibirdmount_red	Filling the skies of Harandar with a striking pink hue, the Vibrant Petalwing attained its noteworthy pigment through the nectar of various flora it consumes.
 402710	flyer	2710	Cerulean Sporeglider	325195	6254091	inv_sborebat3mount_blue	This sporeglider likes to gently nuzzle its riders.
 402713	flyer	2713	Ruddy Sporeglider	325194	6254094	inv_sborebat3mount_red	This sporeglider derived its striking hue from the unique fungus growing around Teldrassil's roots.
+402717	flyer	2717	Mechanical Prototype Panther MK-0	337225	7259806	inv_pantheramount	When Gadgetzan citizens pried open Gazlowe palace's underground lab, caged beasts' roars were suffocating. Undermine tech fused combat modules onto these panthers, granting superhuman strength and speed. Rustbolt engineers reprogrammed them exclusively for warriors campaigning in K'aresh. Remember to swap modules at the Morphing Forum before deployment.
 402718	flyer	2718	Steel Prototype Panther MK-0	337311	7259773	inv_pantheramountironhorde	The first Steel Horde soldiers crossing the Dark Portal captured a ferocious nightsaber. Blackrock artisans armed it with magma armor, transforming it into a combat weapon. Warriors may customize its parts at the Morphing Forum to suit their fighting style and dominate the battlefield.
 402719	flyer	2719	Starspark Netherdrake	337348	7317375	inv_netherwingmount	After flying you to the ends of Outland and beyond, the netherwing drake was eventually drawn to the blue skies of Azeroth as well.
 402720	flyer	2720	Felscorned Vilebrood Vanquisher	337351	7117893	inv_dkmountfel	This flying amalgamation of the forces of death and fel pierces the skies with a bone-chilling screech.
@@ -1113,6 +1220,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402776	mount	2776	Amani Blessed Bear	325982	7263307	inv_amanibearmount_amani	Once symbols of conquest, these war-bears now stride again, reborn through Nalorakk's blessing and the renewed spirit of the Amani.
 402778	mount	2778	Ancestral War Bear	338073	7263310	inv_amanibearmount_wood	Its tread resounds with the memory of ancient warriors, a living symbol of the unwavering ferocity the Amani revere.
 402779	mount	2779	Witherbark Warbear Mother	338071	7263309	inv_amanibearmount_witherbark	This warbear mother was captured by the Twilight's Blade while protecting her cub. Her continued separation from her cub is only angering her more. Anyone who manages to reunite her with her cub will have her eternal loyalty.
+402781	mount	2781	Amani Hex Bear	338075	7263305	inv_amanibearmount2_hex	Tricked into fighting along the Hex, this fierce creature now fights for the Amani tribe, hoping to find its way back into the good graces of Nalorakk.
 402785	mount	2785	Relinquished Scarlet Charger	337712	7322710	bloodknightcharger_icon_white	No longer a tool of the Scarlet Crusade, this charger now guides recruits down the path of the Light with renewed purpose.
 402786	flyer	2786	Hexed Vilefeather Eagle	331635	7143519	inv_gianteagle2hexmount	Once a proud sky-hunter, she now soars on withered wings, her spirit twisted by lingering necromantic curses that seep through every rotting plume and ghostlit eye.
 402789	mount	2789	Ravenous Shredclaw	338126	6966388	inv_stalkermount_orange	Fast and dependable, Shredclaws were one of the first creatures tamed in the Voidstorm. Their owners learned quickly not to leave them alone with their pets.
@@ -1148,6 +1256,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402834	mount	2834	Cabbage Pseudoshell	339485	7464584	inv_gardensnailmount_pink	The plants of the deep lands often emulate the creatures of of Azeroth. The purpose of the mimicry is unknown, but can be quite disturbing when the terrestrial mollusks are on the wrong end of an arboreal meal.
 402835	mount	2835	Lavender Pseudoshell	339486	7464585	inv_gardensnailmount_purple	The plants of the deep lands often emulate the creatures of of Azeroth. The purpose of the mimicry is unknown, but can be quite disturbing when the terrestrial mollusks are on the wrong end of an arboreal meal.
 402836	mount	2836	Accented Pseudoshell	339487	7464586	inv_gardensnailmount_red	The plants of the deep lands often emulate the creatures of of Azeroth. The purpose of the mimicry is unknown, but can be quite disturbing when the terrestrial mollusks are on the wrong end of an arboreal meal.
+402837	flyer	2837	Scarlet Lady	339515	7479079	inv_horse3_pinkblanche	In life and in the after life the Scarlet Lady will get you where you need to go in style.
 402838	flyer	2838	Fantastical Goblin Waveshredder	339557	7460360	inv_goblinsurfboardmount_orange	When you're ready for fun you're ready for the Fantastical Goblin Waveshredder. Guaranteed to bring the fun. *Disclaimer: Fun not guaranteed
 402839	flyer	2839	Delver's Arcane Golem	338593	7349783	inv_arcanegolem2mount_green	Originally intended as a gift for Silvermoon, this construct was lost in transit near the shores of Gnarldor Isle.
 402840	flyer	2840	Silvermoon's Arcane Defender	338591	7349784	inv_arcanegolem2mount_red	A gilded variant of the Arcane Guardian, most often seen guarding the more opulent districts of Silvermoon City.
@@ -1168,6 +1277,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402914	flyer	2914	Fel Spirehawk	340095	7493687	inv_stormcrowmount_fel	Looking into the eyes of this mystical beast is like peering into the heart of a fel corrupted sun. Goggles are recommended when you're riding.
 402915	flyer	2915	Unbound Manawyrm	342257	6698671	inv_dragonchromaticmount2	The turbulent void magics that have gripped the Sunwell are attracting the rare great manawyrms, corrupting them as they feed on the unbound magics.
 402917	flyer	2917	Anu'shalla, Shadow's Guidance	340721	7545241	inv_dreamowl_purple_mount	Her wings cut through the sky like shadows on a moonlit night.
+402922	flyer	2922	Stoneforged Sentinel	340847	7570145	inv_companionroc	Sometimes the right tool for the job cannot be simply pulled from a shelf. Craftsmen from across Azeroth have developed the Stoneforged Sentinel to address this need, allowing each to create the perfect guardian for the time and place it is used.
 402926	mount	2926	Gilnean Iron Charger	342116	7551161	inv_gilneashorsemount	This noble horse has seen some battles during the curse uprising.
 402927	mount	2927	Gilnean Copper Charger	342120	7551161	inv_gilneashorsemount	Carve through the night on this loyal, stalwart steed.
 402928	mount	2928	Pyrewood Rebel's Rouncey	342121	7551161	inv_gilneashorsemount	After diligent training from riders in both worgen and human forms, these horses will now bear any rider in Gilnean finery.
@@ -1186,6 +1296,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402951	flyer	2951	Sha-Warped Owl	342816	7658809	inv_shaowlmount	Sha has warped this owl into an even more fearsome creature. The emotions that flow through this creature make it an unmistakable harbinger of doom.
 402961	flyer	2961	Void-Corrupted Hex Eagle	342949	135664	inv_weapon_shortblade_28	A vile ritual can give the ritual master great power. It can also give the target of the ritual great power. This can sometimes go well or poorly for the ritual master.
 402964	mount	2964	Void-Touched Snapdragon	343061	2027958	inv_seaeel_teal	The snapdragon is a resilient creature and loyal by nature. This has made them preferred companions of the naga. However, their latest ritual has made this snapdragon ready for a new home.
+402965	mount	2965	Void-Corrupted Lynx	343062	1392562	inv_leatherworking_70_petleash	The Eversong lynxes are known for their curiosity and this one especially. Sneaking into supply stores, and treasure boxes around ritual sites has changed it forever. Anyone who manages to leash it will have a feisty mount on their hands.
 402972	flyer	2972	Spring Panda	343944	7833729	inv_springpandamount	Equipped with bamboo tools, food and a napping cub, the Spring Panda is ready for an amazing adventure.
 402973	flyer	2973	Blackwater X-TREME Firework Rocket	344151	7826347	inv_rocketmount6_blue	"There is no guarantee this rocket will get you where you want to go in one piece. Warning: Rockets explode!"
 402975	flyer	2975	Bilgewater X-TREME Firework Rocket	344159	7826349	inv_rocketmount6_orange	The engineers of Undermine were so preoccupied with whether or not they COULD make a faster rocket, they didn't stop to think if they should.
@@ -1220,6 +1331,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 403031	flyer	3031	Hexflame Reaver	344857	7879802	inv_manawyrm2mount_poison2	Its glow is a warning: the hunt is already over.
 403032	flyer	3032	Preyhunter's Fury	344858	7879801	inv_manawyrm2mount_poison1	You don't follow tracks; you follow the fading green fire.
 403033	mount	3033	Tortured Gorger	344464	3601543	achievement_dungeon_sanguinedepths_kryxis	Both domanaar and ethereals have tried to cage this devourer. Each time they have failed. Now, soaked in the energies of the void, this tormented gorger is ready to unleash havoc.
+403034	flyer	3034	Living Heartsbane Cauldron	344923	7940961	inv_cauldrondrustvarmount	The wicker constructs of the drust are both deadly and useful. In the case of the Living Heartsbane Cauldron, a cunning witch can both brew and travel simultaneously.
 403036	flyer	3036	Sun Festival's Painted Roc	344993	7948243	inv_gianteagle2sunwalkermount_orange	Long ago, this elusive summer roc inspired many legends, many believing them to be descendants of phoenixes. The ancient tauren saw these majestic creatures as living manifestations of An'she's fire.
 403043	flyer	3043	Corroded Soul Crusher	345095	7939992	inv_serpentgolemmount	Aeons passed without leaving a mark upon its arcane frame. It took the corrosive ichor of Ula'Tek to finally erode what eternity could not.
 403044	flyer	3044	Shadow Spirehawk	345167	7786929	inv_stormcrowmount_ink	Looking into the eyes of this mystical beast is like peering into a solar eclipse. Goggles are recommended when you're riding.
@@ -1232,6 +1344,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 403062	mount	3062	Venomous Coiler	345409	7551427	inv_writhesmount_green	A native of the deadly venom pits within the Vaults of Atal'Utek, this monstrosity poisons the air it slithers past.
 403063	flyer	3063	Breath of Blight	345433	7938194	inv_windserpent3mount_skeletal_green	A sickly haze trails in its wake, poisoning earth, air, and anything foolish enough to pursue it.
 403064	flyer	3064	Breath of Ruin	345434	7938195	inv_windserpent3mount_skeletal_red	Where its shadow falls, even the bravest hear the echo of forgotten wars.
+403066	flyer	3066	Corrupted Swarmer	345454	8014728	inv_aqirflying_blue	The Aqir swarmers feast on heroes and cowards alike to grow their ranks.
+403069	flyer	3069	Umbral Ashes	345510	7949449	inv_darkwellphoenixmount2	Its flames consume all but the worthy.
 403102	mount	3102	Crested Ember Leafmimic	346137	8028501	inv_chameleonmount_red	This sturdy leafmimic can be found only in the warmest of areas. Its red scales allow it to hide undiscovered in the heated alcoves it prefers.
 403103	mount	3103	Crested Aqua Leafmimic	346138	8028502	inv_chameleonmount_blue	The aqua leafmimic is a rare sight indeed. Found only in the forests of Ashenvale, its darkened scales allow it to hide among the trees and groves undetected.
 403104	mount	3104	Crested Verdant Leafmimic	346139	8028503	inv_chameleonmount_green	Found primarily in areas with dense vegetation, this leafmimic is rarely spotted due to the natural hues of its scales, allowing it to blend in with its surroundings.
@@ -1239,6 +1353,12 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 403107	mount	3107	Cerulean Prideclaw	346747	7754350	inv_catskybornemount_blue	A fierce and loyal mount that will accompany you on all your journeys.
 403119	flyer	3119	Wintry Witchwick's Rider	346821	7935945	inv_broomstickspicewitch	Sleek, stylish, and spooky, the Witchwick Rider offers a smooth and surprisingly comfortable ride, thanks to the ergonomic saddle requested by many a spellcaster seeking cushioned support.
 403125	mount	3125	Veteran Adventurer's Loyal Companion	346834	7931171	inv_dwarfbearmount	When it is time to answer the call to adventure, this bear will be ready to take you there.
+403137	mount	3137	Sporebearer Fungal Strider	347570	8262534	inv_fungalstridermount	Stride in style and bring the fun on this massive mount. Speak to Hoshena in the Den in Harandar to select what passengers will accompany you on your journeys.
+403138	mount	3138	Hot Motocross Bunmover 4000	347632	8270412	inv_trikebakermount_blue	Warning: Contents may be hot and delicious.
+403139	mount	3139	Hot Motocross Bunmover 4200	347633	8270411	inv_trikebakermount_green	Warning: Contents may be hot and delicious.
+403141	mount	3141	Hot Motocross Bunmover 4400	347634	8270410	inv_trikebakermount_purple	Riding the line between Sweet and Savory Avenue.
+403142	mount	3142	Hot Motocross Bunmover 4600	347635	8270409	inv_trikebakermount_teal	When dessert manufacturing meets speed optimization. Intact bun delivery not guaranteed.
+403144	flyer	3144	Loa-Blessed Wayfarer	347674	8269989	inv_loalabyrinthgolemmount	A construct as ancient as the loa themselves, tasked with ferrying spirits unto De Other Side.
 410115	pet	115	Land Shark	215595	294472	inv_pet_babyshark	After birth, newborn sharks quickly flee their hungry mothers. Their early independence makes them dangerous, even while young.
 410261	pet	261	Personal World Destroyer	233512	133861	inv_misc_enggizmos_03	Goblin engineering at its finest. Blueprints based on the massive fel reaver in Hellfire Peninsula.
 410262	pet	262	De-Weaponized Mechanical Companion	233559	466036	inv_pet_deweaonizedmechcompanion	The gold standard for sturdy gnomish design, this mechanical critter is the perfect companion for the lonely engineer on the go.

@@ -1,10 +1,10 @@
 # Retail Collection
 
-Every retail mount and battle pet that
+Every retail mount, and every retail battle pet that
 [wow-mod-retail-library](https://github.com/buildthehomelab/wow-mod-retail-library) has a look
 for, as something a player of an [AzerothCore](https://www.azerothcore.org/) (WotLK 3.3.5a) server
-can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 2,905 of them:
-1,240 mounts (634 of them fly) and 1,665 companion pets.
+can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 3,025 of them:
+1,360 mounts (689 of them fly) and 1,665 companion pets.
 
 - **A row's spell, item and creature share one id.** A mount is 400000 + its retail mount id, a pet
   410000 + its retail battle pet species id. The Chaos-Forged Gryphon is retail mount 2304, so
@@ -31,11 +31,21 @@ can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 
   breeds, seasonal coats) is one spell here, and its creature wears one of them at random each
   time it is summoned. A creature takes at most four looks, so the three mounts with more keep
   retail's first four.
-- **Left out:** placeholder and test rows in retail's tables; the mounts and pets the client
-  already has (a stock mount whose look retail redrew, like the Charger, stays the stock one);
-  anything another module already sells (the build takes that module's look list, see Building);
-  retail's ghost mounts (only for the dead) and "self mounts" that turn the player into the
-  creature (a mount can't do that here); and a second copy of a row with the same name and looks.
+- **Every retail mount is its own mount**, whatever model it has: the Swift Albino Raptor, on a
+  model the client already has, and the four Primal Raptors, new textures on a client model, are
+  mounts of their own like the rest. Their looks are converted into the library too:
+  [`data/wanted-looks.tsv`](data/wanted-looks.tsv) lists the mounts' looks the library still
+  lacks, and is empty once it has them all.
+- **Left out:** placeholder and test rows in retail's tables; the mounts the client already has
+  (retail's spell is on the client's Mounts skill line: a stock mount whose look retail redrew,
+  like the Charger, stays the stock one) and the pets it has; anything another module already
+  sells (the build takes that module's look list, see Building); retail's ghost mounts (only for
+  the dead) and "self mounts" that turn the player into the creature (a mount can't do that
+  here); and a second row with the same name and looks as another (a class hall's copy of the
+  Great Sunwalker Kodo, a skyriding drake's plain twin). Looks are the same when model and
+  textures are, whatever the display.
+- **Rows never go.** A mount or pet the list has keeps its row in later builds, even when another
+  module starts selling it: the build stops rather than drop one.
 - **Don't drop rows once players have them.** The core deletes a spell it no longer knows from
   every character at login, so a mount removed from the list (or the module uninstalled) is gone
   for good. The build warns when a rebuild drops one (compared with the input patch and with the
@@ -79,7 +89,9 @@ repo under their module names (`mod-retail-creatures`, `mod-retail-library`, `mo
 from:
 
 ```bash
-# the list: one row per retail mount and pet the library has a look for
+# the list: one row per retail mount, and per pet the library has a look for; the mounts' looks
+# the library lacks go to data/wanted-looks.tsv (give it to the census and the library's
+# inventory with --also, rebuild the library, and run this again)
 python3 tools/collection.py --census <census dir> --db2 ~/retail-cache/db2 \
     --listfile ~/retail-cache/community-listfile.csv --spell-patch <your spell patch> \
     --taken ../mod-retail-pets/data/pets.tsv
@@ -109,6 +121,9 @@ Category: Collections
   teach them. 634 of the mounts fly where flying mounts can once you have Expert Riding. Most of
   them can't be found yet: they will come from achievements, vendors and other sources in later
   updates.
+- 120 more mounts join them, so nearly every retail mount the game didn't have is now its own mount:
+  the Primal Raptors, Swift Albino Raptor and Skullripper, the Tauralus herd, the dragonriding
+  drakes, the Delver's airships, the Headless Horseman's chargers, and more.
 
 ## Credits
 
