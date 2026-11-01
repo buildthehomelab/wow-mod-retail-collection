@@ -3,7 +3,7 @@
 the module's world database SQL.
 
     RETAIL_SOURCE=cdn python3 build_items.py --patch patch-z80-spells-and-items.MPQ \\
-        --client /path/to/client --cache ~/retail-cache \\
+        --client /path/to/client --cache ~/retail-cache --sound-dbc <z40's sound tables> \\
         --out patch-z80-spells-and-items-new.MPQ --sql ../data/sql/db-world/mod_retail_collection.sql
 
 --patch is the realm's patch that carries Spell.dbc, SkillLineAbility.dbc, Item.dbc,
@@ -19,6 +19,14 @@ its copies and every other file in it is copied unchanged. Per row of the collec
   HD client packs carry most of retail's icons already).
 
 A row's id is its spell, item, creature, SkillLineAbility, SpellIcon and ItemDisplayInfo id.
+
+A mount summons with retail's own sound for it (the Amani War Bear's roar would be every mount's):
+its spell gets a SpellVisual of its own, the bear's with retail's summon sounds in place of the
+roar, through wow-mod-retail-creatures' spell_sounds.py (block "mounts"). A mount retail plays no
+summon sound for gets its creature's aggro sound. The sounds are SoundEntries rows in this patch,
+built on --sound-dbc: the SoundEntries.dbc and CreatureSoundData.dbc the client has before this
+patch (z40's). The weather patch, which loads later and carries SoundEntries.dbc too, is built on
+this patch's copy.
 
 A `flyer` is a mount that also flies where flying mounts can: the same ground mount spell, bound to
 wow-mod-retail-pets' flyer script (spell_retail_pets_flyer), which adds flight by riding skill.
@@ -77,8 +85,10 @@ KINDS = {
 KINDS["flyer"] = dict(KINDS["mount"], text="Summons and dismisses a rideable %s. This mount can fly "
                       "where flying mounts can, faster with more Riding skill.")
 
+LIBRARY_DISPLAYS = 200000  # wow-mod-retail-library's display = this + the retail display id
+
 SPELL_FIELDS = 234
-F_EFFECT_MISC, F_ICON, F_ACTIVE_ICON, F_NAME, F_DESCRIPTION = 110, 133, 134, 136, 170
+F_EFFECT_MISC, F_VISUAL, F_ICON, F_ACTIVE_ICON, F_NAME, F_DESCRIPTION = 110, 131, 133, 134, 136, 170
 STRING_FIELDS = set(range(136, 152)) | set(range(153, 169)) | set(range(170, 186)) | set(range(187, 203))
 FLOAT_FIELDS = {47, 77, 78, 79, 101, 102, 103, 119, 120, 121, 216, 217, 218, 229, 230, 231}
 # Plain `int` columns of AC's spell_dbc; every other integer column is unsigned.
@@ -162,6 +172,11 @@ def patch_dbcs(files, rows, args, tmp):
     items, item_str, item_fields = read_dbc(files[dbc("Item")])
     displays, display_str, display_fields = read_dbc(files[dbc("ItemDisplayInfo")])
     icons, icon_str, icon_fields = read_dbc(files[dbc("SpellIcon")])
+    # The rows stay where they are (other tools append theirs after the block), and new ones go at
+    # the end: the client reads some tables in file order, so a build never re-sorts one.
+    order = {table: {r[0]: i for i, r in enumerate(table_rows)}
+             for table, table_rows in (("Spell", spells), ("SkillLineAbility", abilities), ("Item", items),
+                                       ("ItemDisplayInfo", displays), ("SpellIcon", icons))}
 
     # The block is the module's: its rows are written again from the collection. A row the
     # collection no longer has goes, and the core then takes that spell from every character
@@ -221,13 +236,40 @@ def patch_dbcs(files, rows, args, tmp):
             files[name] = local
             new_icons += 1
 
-    write_dbc(files[dbc("Spell")], spells, spell_str, fields)
-    write_dbc(files[dbc("SkillLineAbility")], abilities, ability_str, ability_fields)
-    write_dbc(files[dbc("Item")], items, item_str, item_fields)
-    write_dbc(files[dbc("ItemDisplayInfo")], displays, display_str, display_fields)
-    write_dbc(files[dbc("SpellIcon")], icons, icon_str, icon_fields)
+    for table, table_rows, strings, n in (("Spell", spells, spell_str, fields),
+                                          ("SkillLineAbility", abilities, ability_str, ability_fields),
+                                          ("Item", items, item_str, item_fields),
+                                          ("ItemDisplayInfo", displays, display_str, display_fields),
+                                          ("SpellIcon", icons, icon_str, icon_fields)):
+        before = order[table]
+        table_rows.sort(key=lambda r: (r[0] not in before, before.get(r[0], r[0])))
+        write_dbc(files[dbc(table)], table_rows, strings, n, keep_order=True)
     print("%d icons added, %d already in the client" % (new_icons, len({r["icon"].lower() for r in rows} & have)))
+    summon_sounds(files, rows, new_spells, args, tmp)
     return new_spells
+
+
+def summon_sounds(files, rows, new_spells, args, tmp):
+    """Every mount's summon sound: retail's for its spell, or its creature's aggro sound."""
+    import fetch  # wow-mod-retail-creatures
+    from spell_sounds import BLOCKS, SpellSounds
+    sounds = SpellSounds(files, args.sound_dbc, args.cache, BLOCKS["mounts"], tmp)
+    mounts = fetch.db2(args.cache, "Mount")
+    spells = {s[0]: s for s in new_spells}
+    silent = []
+    for r in rows:
+        if r["kind"] == "pet":
+            continue
+        mount = mounts.get(str(r["retail_id"]))
+        kits = sounds.cast_kits(mount["SourceSpellID"]) if mount else []
+        if not kits and r["displays"][0] >= LIBRARY_DISPLAYS:
+            kits = sounds.creature_kits(r["displays"][0] - LIBRARY_DISPLAYS)
+        if not kits:
+            silent.append(r["name"])
+        spells[r["id"]][F_VISUAL] = sounds.give(r["id"], kits)
+    sounds.write()
+    if silent:
+        print("%d mounts summon without a sound (retail has none for them): %s" % (len(silent), ", ".join(silent)))
 
 
 # --- SQL ---------------------------------------------------------------------------------------
@@ -325,6 +367,8 @@ def main():
     ap.add_argument("--cache", required=True, help="wow-mod-retail-creatures' download folder")
     ap.add_argument("--creatures", default=os.path.join(HERE, "..", "..", "mod-retail-creatures"),
                     help="wow-mod-retail-creatures checkout (for its downloader)")
+    ap.add_argument("--sound-dbc", required=True,
+                    help="folder with the SoundEntries.dbc and CreatureSoundData.dbc the client has before this patch (z40's)")
     ap.add_argument("--collection", default=COLLECTION)
     ap.add_argument("--out", required=True, help="the new spell patch")
     ap.add_argument("--sql", help="write the module's world SQL here")
