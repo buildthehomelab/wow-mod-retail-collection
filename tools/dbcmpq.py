@@ -21,8 +21,9 @@ def read_dbc(path):
     return rows, strings, fields
 
 
-def write_dbc(path, rows, strings, fields):
-    rows = sorted(rows, key=lambda r: r[0])
+def write_dbc(path, rows, strings, fields, keep_order=False):
+    if not keep_order:
+        rows = sorted(rows, key=lambda r: r[0])
     with open(path, "wb") as f:
         f.write(struct.pack("<4s4I", b"WDBC", len(rows), fields, fields * 4, len(strings)))
         for r in rows:

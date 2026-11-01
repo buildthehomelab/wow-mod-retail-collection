@@ -22,6 +22,9 @@ can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 
   Riding, and the stock mount speed rules of your server apply (a mod that scales mount speed by
   level scales these too). They are on the Mounts skill line, so a module that shares mounts
   across an account shares these.
+- **Summon sounds** are retail's: each mount plays the sound retail plays when it is summoned (a
+  horse's whinny, a drake's call, the Chaos-Forged Gryphon's battle shout and wind gust). A mount
+  retail gives none plays its creature's aggro sound.
 - **Flyers** are the same ground mount, bound to
   [wow-mod-retail-pets](https://github.com/buildthehomelab/wow-mod-retail-pets)' flyer script: with
   Expert or Artisan Riding they fly where flying mounts can, like retail's mounts. Without that
@@ -97,15 +100,22 @@ python3 tools/collection.py --census <census dir> --db2 ~/retail-cache/db2 \
     --taken ../mod-retail-pets/data/pets.tsv
 # the spell patch and the SQL
 RETAIL_SOURCE=cdn python3 tools/build_items.py --patch <your spell patch> --client <WoW folder> \
-    --cache ~/retail-cache --out <new spell patch> --sql data/sql/db-world/mod_retail_collection.sql
+    --cache ~/retail-cache --sound-dbc <dir> --out <new spell patch> \
+    --sql data/sql/db-world/mod_retail_collection.sql
 ```
 
 `--db2` needs Mount, MountCapability, MountTypeXCapability, SpellMisc, BattlePetSpecies and
 Creature from wago.tools (the census fetches most of them; wow-mod-retail-creatures'
 `fetch.db2` gets the rest). `--client` is only read for its icons; it skips the client's own copy
 of the patch being rebuilt (same file name as `--patch`), so keep that name, or an older build's
-icons count as already there. The build only adds rows in 400000-419999 to the five tables and
-leaves every other row and file alone; running it again on its own output changes nothing.
+icons count as already there. `--sound-dbc` holds the `SoundEntries.dbc` and
+`CreatureSoundData.dbc` the client has before the spell patch (the druid forms pack's patch). The
+build only adds rows in 400000-419999 to the five tables, and its summon sounds in
+wow-mod-retail-creatures' `mounts` block (SpellVisual 91000-92999, SpellVisualKit 91000-93999,
+SoundEntries 993100-994999, plus the `.ogg` files), and leaves every other row and file alone;
+running it again on its own output changes nothing. The spell patch's `SoundEntries.dbc` is the
+one the client keeps only if no later patch ships one: a later one (the weather patch) is built on
+this one's.
 
 ## Removing
 
@@ -124,6 +134,8 @@ Category: Collections
 - 120 more mounts join them, so nearly every retail mount the game didn't have is now its own mount:
   the Primal Raptors, Swift Albino Raptor and Skullripper, the Tauralus herd, the dragonriding
   drakes, the Delver's airships, the Headless Horseman's chargers, and more.
+- Mounts no longer all roar like a bear when you summon them: each one now plays its own summon
+  sound from retail, so a horse whinnies, a drake calls and a gryphon shrieks.
 
 ## Credits
 
