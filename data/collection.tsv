@@ -1350,26 +1350,37 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 403103	mount	3103	Crested Aqua Leafmimic	346138	8028502	inv_chameleonmount_blue	The aqua leafmimic is a rare sight indeed. Found only in the forests of Ashenvale, its darkened scales allow it to hide among the trees and groves undetected.
 403104	mount	3104	Crested Verdant Leafmimic	346139	8028503	inv_chameleonmount_green	Found primarily in areas with dense vegetation, this leafmimic is rarely spotted due to the natural hues of its scales, allowing it to blend in with its surroundings.
 403105	mount	3105	Crested Violet Leafmimic	346140	8028504	inv_chameleonmount_purple	The violet leafmimic can be found in most dense jungles -- but only if your eyesight is keen. The patterns on their scales allow them to blend in with the vibrant foliage and shadows.
+403106	mount	3106	Giant Grrloc	346160	7933423	inv_murlocmount_dark	It's one of the biggest murlocs you've ever seen!
 403107	mount	3107	Cerulean Prideclaw	346747	7754350	inv_catskybornemount_blue	A fierce and loyal mount that will accompany you on all your journeys.
 403119	flyer	3119	Wintry Witchwick's Rider	346821	7935945	inv_broomstickspicewitch	Sleek, stylish, and spooky, the Witchwick Rider offers a smooth and surprisingly comfortable ride, thanks to the ergonomic saddle requested by many a spellcaster seeking cushioned support.
 403125	mount	3125	Veteran Adventurer's Loyal Companion	346834	7931171	inv_dwarfbearmount	When it is time to answer the call to adventure, this bear will be ready to take you there.
+403134	mount	3134	Stone-Carved Crusher	347424	3056150	inv_deathwargmountstone	From quaking hands, and age-worn tools, the carver's work was praised. With drops of blood, and words of old, the statue's eyes unglazed.
+403136	flyer	3136	Shadowpaw Wood Watcher	347446	3747444	inv_fox2_black	They say they watch, through many eyes, the birds and woodland things. But from the groves of ancient trees, the Greenseer coven sings.
 403137	mount	3137	Sporebearer Fungal Strider	347570	8262534	inv_fungalstridermount	Stride in style and bring the fun on this massive mount. Speak to Hoshena in the Den in Harandar to select what passengers will accompany you on your journeys.
 403138	mount	3138	Hot Motocross Bunmover 4000	347632	8270412	inv_trikebakermount_blue	Warning: Contents may be hot and delicious.
 403139	mount	3139	Hot Motocross Bunmover 4200	347633	8270411	inv_trikebakermount_green	Warning: Contents may be hot and delicious.
 403141	mount	3141	Hot Motocross Bunmover 4400	347634	8270410	inv_trikebakermount_purple	Riding the line between Sweet and Savory Avenue.
 403142	mount	3142	Hot Motocross Bunmover 4600	347635	8270409	inv_trikebakermount_teal	When dessert manufacturing meets speed optimization. Intact bun delivery not guaranteed.
+403143	flyer	3143	Ashen Dreadglider	347639	7958551	inv_wolfhawkventhyrmount_red	Far more vicious and resilient than the run of the mill dreadbats of Revendreth, the Ashen Dreadglider gains its strength from a supplemental diet of anima.
 403144	flyer	3144	Loa-Blessed Wayfarer	347674	8269989	inv_loalabyrinthgolemmount	A construct as ancient as the loa themselves, tasked with ferrying spirits unto De Other Side.
+403176	mount	3176	Reanimated Skeletal Raptor	234411	456563	ability_mount_fossilizedraptor	This skeletal raptor belongs in a museum. However, the necromancers who brought these bones back to life were so preoccupied with whether or not they could, they didn't stop to think if they should.
 410115	pet	115	Land Shark	215595	294472	inv_pet_babyshark	After birth, newborn sharks quickly flee their hungry mothers. Their early independence makes them dangerous, even while young.
+410220	pet	220	Withers	245943	132129	ability_druid_forceofnature	A solemn reminder of what was lost when the Worldbreaker changed the face of Azeroth.
+410259	pet	259	Blue Mini Jouster	269048	132188	ability_hunter_pet_dragonhawk	Unlike its gold counterpart, the blue mini jouster takes a leisurely pace when jabbing its opponent's eyeballs.
+410260	pet	260	Gold Mini Jouster	269047	132200	ability_hunter_pet_vulture	This critter is infamous for its ability to unleash a fast and furious eyeball jabbing.
 410261	pet	261	Personal World Destroyer	233512	133861	inv_misc_enggizmos_03	Goblin engineering at its finest. Blueprints based on the massive fel reaver in Hellfire Peninsula.
 410262	pet	262	De-Weaponized Mechanical Companion	233559	466036	inv_pet_deweaonizedmechcompanion	The gold standard for sturdy gnomish design, this mechanical critter is the perfect companion for the lonely engineer on the go.
 410264	pet	264	Crawling Claw	234262	134555	inv_offhand_stratholme_a_02	This appears to be nothing more than the paw of a small primate. A closer inspection shows that the hand has been dried by centuries of exposure to the sands of Uldum.
+410265	pet	265	Pebble	245940	136024	spell_nature_earthelemental_totem	An adventurous little elemental, Pebble escaped hungry gyreworms in the Crumbling Depths, braved the emptiness of the Twisting Nether, and ultimately found himself rescued from a mailbox.
 410266	pet	266	Fossilized Hatchling	234413	458255	trade_archaeology_tinydinosaurskeleton	You stare at her, and she just stares right back. So clever; sometimes it seems as if she's figuring out how to open doors.
 410267	pet	267	Enchanted Lantern	236902	134249	inv_misc_lantern_01	Reduces the likelihood of being eaten by monsters when you enter pitch-black places.
 410268	pet	268	Lil' Deathwing	235338	441880	inv_dragonwhelpcataclysm	Nations tremble under his shadow - the Destroyer, the one-time Aspect of Earth, and the monster responsible for breaking Azeroth asunder. Now in a convenient travel-size!
 410271	pet	271	Rustberg Gull	236499	464160	inv_misc_seagullpet_01	This bird is a salty veteran of the endless naval battles surrounding Tol Barad--a veteran whose grown plump from picking through the leftovers, that is.
 410278	pet	278	Fox Kit	233217	462532	inv_misc_foxkit	The fighting in Tol Barad has made it difficult to find these kits, and numerous would-be owners have decimated the fox population there as a result.
 410279	pet	279	Tiny Shale Spider	236637	134397	inv_misc_qirajicrystal_03	The elemental shale spider is no true arachnid, but it has durability and ferocity that make it feared even in Deepholm.
+410285	pet	285	Landro's Lil' XT	232031	254104	achievement_boss_xt002deconstructor_01	Always 'ready to play,' Landro's Lil' XT is almost indistinguishable from the original. Prone to tantrums and narcolepsy.
 410286	pet	286	Mr. Grubbs	209905	648918	inv_pet_maggot	The grubs of the Plaguelands are a side effect of necromantic corruption and the massive number of corpses there. Mr. Grubbs is from a particularly acrobatic breed.
+410287	pet	287	Tiny Flamefly	228435	237146	inv_inscription_pigment_bug06	After swarming around open lava pits during the day, these strange insects emit a fiery glow at night.
 410289	pet	289	Scooter the Snail	238135	134434	inv_misc_shell_04	You'll find him in his shell, exactly where a snail has to be!
 410291	pet	291	Singing Sunflower	237154	133939	inv_misc_flower_02	This sweet flower will brighten your day with its warm smile and cheerful song! Also strong against undead.
 410292	pet	292	Magic Lamp	236901	134971	inv_shield_26	Higitus figi- hockity pocki- abracadab- prestidig--oh, pinfeathers!
@@ -1378,11 +1389,19 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 410296	pet	296	Moonkin Hatchling	237526,237527	467893	inv_misc_petmoonkinne	Moonkin are blessed by Elune and spread nature's grace wherever they travel. The festive fowls are always in the mood for a dance.
 410297	pet	297	Lil' Ragnaros	237541	254652	achievement_boss_ragnaros	It's never too soon to summon this tiny aspect of the dread Firelord.
 410301	pet	301	Panther Cub	237814	132225	ability_mount_blackpanther	It looked up at you with those huge black eyes and seemed to ask, 'Are you my mommy?'
+410302	pet	302	Landro's Lichling	230507	254094	achievement_boss_kelthuzad_01	How the goblin Landro Longshot initially came into possession of the lichling remains a mystery, but he was all too eager to wager it in a game of cards.
 410303	pet	303	Nightsaber Cub	237846	132242	ability_mount_jungletiger	Elune made nightsabers silver and black so they could meld into the shadows on a moonlit night.
 410306	pet	306	Winterspring Cub	237712	132252	ability_mount_pinktiger	Winterspring cubs are happiest when frolicking in freshly fallen snow.
+410307	pet	307	Lashtail Hatchling	238065	132193	ability_hunter_pet_raptor	Born in the jungles of Stranglethorn, unlucky raptor hatchlings are often captured by the Gurubashi and taken to the troll city of Zul'Gurub.
+410308	pet	308	Legs	238134	254502	achievement_boss_theblackstalker	Wild marsh walkers are dangerously aggressive, but they're loyal and affectionate if you manage to tame them.
 410311	pet	311	Guardian Cub	238359	519402	inv_pet_wingedlion	Still a little clumsy, this tiny winged lion is learning how to be the best mount it can be!
+410316	pet	316	Cenarion Hatchling	216943	132833	inv_egg_02	Not yet the fearsome creatures they grow to in adulthood, the Cenarion hatchlings have an almost harmless appearance that has caught novice trainers of the Cenarion Circle off guard.
+410317	pet	317	Hyjal Bear Cub	238455	446127	inv_misc_bearcubbrown	The cubs of Hyjal suffered much during the Cataclysm. On the bright side, the devastation also led to their newfound love of heights and daredevil stunts.
+410318	pet	318	Crimson Lasher	238429	133941	inv_misc_flower_04	Native to the ashen soils of the Firelands, the lasher was transplanted to Azeroth with the help of the Guardians of Hyjal.
 410319	pet	319	Feline Familiar	274790	236547	achievement_halloween_cat_01	Ride with the moon (and this furry, whiskered witch) in the dead of night!
+410321	pet	321	Creepy Crate	238638	132762	inv_crate_02	Previous owners of the crate have reported the disappearance of other pets from their collection.
 410323	pet	323	Nuts	238693	133944	inv_misc_food_02	Most squirrels hoard acorns for sustenance. Nuts, on the other hand, hoards acorns to stock its supply of ammunition.
+410325	pet	325	Brilliant Kaliri	238776	132926	inv_feather_13	One of the rarest creatures, this kaliri is set apart from others by its brilliant plumage and the lengths hunters will go to capture them.
 410328	pet	328	Purple Puffer	238777	133920	inv_misc_fish_34	You might think this fish out of water would be a weak opponent... until you see the intensity that lies within its protective bubble.
 410329	pet	329	Murkablo	238803	528288	inv_pet_diablobabymurloc	When you're confronting Murkablo or any of the Prime Murlocs, possession of a soulstone is strongly advised.
 410330	pet	330	Darkmoon Monkey	246001	132159	ability_hunter_aspectofthemonkey	The monkeys of Azeroth are infamous tricksters, and these beloved companions of the Darkmoon Faire have taken that innate cunning to a whole new level.
@@ -1391,12 +1410,16 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 410333	pet	333	Gregarious Grell	238919	136218	spell_shadow_summonimp	The grell are embodiments of the wild side of nature. Tame ones are very rare.
 410335	pet	335	Darkmoon Turtle	227678	1738682	inv_babyturtle2_orange	This shelled reptile bravely protects the home on its back with an unwaveringly happy disposition.
 410336	pet	336	Darkmoon Balloon	238344	647625	inv_misc_balloon_01	It just floats along...
+410337	pet	337	Lumpy	245939	134579	inv_ore_tin_01	A stowaway from Greatfather Winter's workshop, this tiny elemental found himself trapped in a present that was stolen by the Abominable Greench.
+410338	pet	338	Darkmoon Tonk	215381	133015	inv_gizmo_goblingtonkcontroller	A favorite of children across Azeroth, this tough little toy can withstand even the most aggressive imagination.
+410339	pet	339	Darkmoon Zeppelin	217192	134509	inv_misc_toy_05	Lacking the mines and rockets of its predecessor, this kid-friendly faire prize is a new favorite among Azeroth's children.
 410340	pet	340	Sea Pony	239109	433440	ability_mount_seahorse	Despite its diminutive size, it is impossible to miss a sea pony cutting through the water.
 410341	pet	341	Lunar Lantern	239163	134971	inv_shield_26	These magical lanterns are acquired at the Lunar Festival, which celebrates the defeat of the Burning Legion by the free races of Azeroth.
 410342	pet	342	Festival Lantern	239333	134971	inv_shield_26	The light from each lantern honors the soul of an ancestor spirit. During the Lunar Festival, these ghostly elders pass along their wisdom to the current generation.
 410343	pet	343	Darkmoon Cub	239137	132242	ability_mount_jungletiger	This snuggly kitten loves to frolic, but sometimes it seems to be chasing things that aren't really there.
 410346	pet	346	Fetish Shaman	239380	135128	inv_spear_05	Fetish shaman are empowered by the spirits of their fallen ancestors. These malevolent spirits are bound to the shaman's tribal spear. Control this spear, and you control the shaman.
 410347	pet	347	Soul of the Aspects	240019	574806	inv_pet_chromaticdragon	The Soul of the Aspects is said to be possessed of mercurial moods ranging from stoic and deliberate to unpredictable and erratic, to loving and deeply pensive.
+410348	pet	348	Eye of the Legion	240538	136155	spell_shadow_evileye	Always watching. Always judging.
 410374	pet	374	Black Lamb	242906	136071	spell_nature_polymorph	Offspring of the black sheep, the black lamb is only found in the forests of Elwynn.
 410378	pet	378	Rabbit	200328,204626	254857	inv_misc_rabbit	When you have two rabbits, you'll often soon have three.
 410379	pet	379	Squirrel	200134	134322	inv_misc_monstertail_01	Most people do not know the difference between a squirrel and a chipmunk. Most don't care.
@@ -1406,108 +1429,182 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 410383	pet	383	Eternal Strider	243798	643423	inv_pet_waterstrider	It seems like a trick to the eyes, but the eternal strider can walk across water, its small feet never breaking the surface.
 410385	pet	385	Mouse	204959,204960	647701	inv_pet_mouse	It seems that mice are completely incapable of resisting cheese even in the face of imprisonment, injury, or death.
 410386	pet	386	Prairie Dog	201072	656176	inv_pet_prairiedog	Distinct from their tree dwelling cousins, these ground squirrels make their homes on the plains of Azeroth and beyond.
+410387	pet	387	Snake	201206,206303,202957,202958	132211	ability_hunter_snaketrap	Due to recent accidents, the goblin cartels have prohibited anyone from bringing snakes on a zeppelin.
 410388	pet	388	Shore Crab	245880,232789,232791,232790	2027878	inv_crab2_ivory	These arthropods line many Azerothian shores and seek to fulfill their one true desire: to pinch.
+410389	pet	389	Tiny Harvester	241886	134065	inv_misc_gear_03	The tiny harvester collects weeds and small grains that the larger reapers may have missed.
 410391	pet	391	Mountain Cottontail	200328,204626,274405,206302	254857	inv_misc_rabbit	Mountain cottontails can leap up a steep incline with speed you would not believe.
 410392	pet	392	Redridge Rat	201141,201418,202176	134324	inv_misc_monstertail_03	The rats in Redridge grow fat from feasting on the bounty of the village larders.
+410395	pet	395	Fledgling Buzzard	241887	132200	ability_hunter_pet_vulture	Always wear a helm in the Redridge Mountains. Buzzards view humanoid hair as excellent nesting material.
 410396	pet	396	Dusk Spiderling	202536,209829,201160	132196	ability_hunter_pet_spider	Native to Duskwood, these eight-legged critters are often used as ingredients in alchemy potions.
+410397	pet	397	Skunk	216633	463569	inv_misc_volatileshadow	Skunks are known as solitary creatures for reasons which are hopefully obvious.
 410398	pet	398	Black Rat	201141	134324	inv_misc_monstertail_03	While many people believe black cats to be bad luck, black rats are held in higher esteem.
+410399	pet	399	Rat Snake	203126,236544	132211	ability_hunter_snaketrap	Years ago, humans introduced these reptiles into Duskwood to cull the local rat population.
 410400	pet	400	Widow Spiderling	235424	132196	ability_hunter_pet_spider	Widow spiderlings have plenty of time to explore Duskwood once they take care of their pesky family commitments.
 410401	pet	401	Strand Crab	232789,232790,232791,245880	2027868	inv_crab2_bronze	The low tide reveals the colonies of strand crabs and the sound of their clicking dance as they feed upon small creatures hidden in the sand.
 410402	pet	402	Swamp Moth	236944,236952,236956,236957	236193	ability_hunter_pet_moth	Prefers to dwell in wet, muddy areas and feed on Sorrowmoss nectar.
+410403	pet	403	Parrot	206189,220995,209554	136036	spell_nature_forceofnature	Parrots can mimic speech, but have difficulty with meaningful conversation.
 410404	pet	404	Long-Tailed Mole	204959,236357	134324	inv_misc_monstertail_03	Thought by many to be nothing more than the subject of children's nursery rhymes, the long-tailed mole is very much real.
+410405	pet	405	Tree Python	236578,204343	132211	ability_hunter_snaketrap	Stranglethorn's Gurubashi trolls often capture these powerful beasts to keep as pets... or to cook as meals.
 410406	pet	406	Beetle	207511,215467,208971,215468	237144	inv_inscription_pigment_bug04	A hardy insect that can dwell in just about any climate, the beetle is known to thrive on battlefields after the fighting has ended.
 410407	pet	407	Forest Spiderling	244816,220923	132196	ability_hunter_pet_spider	This vicious species weaves elaborate webs throughout the dense jungles of Stranglethorn Vale.
 410408	pet	408	Lizard Hatchling	236583,236599,236584	463491	trade_archaeology_trolllizardfootcharm	If a female lizard does not lay her clutch in a well camouflaged area, her eggs will likely be devoured by Lashtail Raptors.
+410409	pet	409	Polly	242509	136036	spell_nature_forceofnature	Parrots can't get enough of the fresh fish the Bloodscalp trolls eat. They're less interested in dry flatbreads.
 410410	pet	410	Wharf Rat	201141,201418,202176	134324	inv_misc_monstertail_03	Just like the rough and tumble sailors who live dockside, the wharf rats are feral, violent creatures.
+410411	pet	411	Baby Ape	221362	651242	inv_pet_achievement_winapetbattle	Young apes quickly learn to hang from branches with their feet, leaving both hands free to fling objects at interlopers.
 410412	pet	412	Spider	244816,220923	132196	ability_hunter_pet_spider	The most common of the arachnid family, these critters spin their webs in nearly every corner of Azeroth.
+410414	pet	414	Scorpid	215469,205905,215470,215471	132195	ability_hunter_pet_scorpid	Venom capable of killing creatures up to 100 times its own body weight.
 410415	pet	415	Fire Beetle	208971	237144	inv_inscription_pigment_bug04	Drawn to heat and the smell of smoke, the fire beetle's diet consists of ash.
+410416	pet	416	Scorpling	241960	132195	ability_hunter_pet_scorpid	Despite its snapping claws and venom-dripping tail, it is the bite of the diminutive scorpling that is the greatest threat.
 410417	pet	417	Rat	201141,201418,202176	134324	inv_misc_monstertail_03	The intrepid archaeologist Harrison Jones has a well documented fear of rats.
+410418	pet	418	Water Snake	201986,201987,202954,202956	132211	ability_hunter_snaketrap	Brought to Orgrimmar aboard merchant ships, these short-lived reptiles are considered pests by the city's residents.
 410419	pet	419	Small Frog	206297,201924,206295,200901	237579	spell_shaman_hex	This is a small frog.
 410420	pet	420	Toad	200901	237579	spell_shaman_hex	The song of late summer nights is the song of toads.
 410421	pet	421	Crimson Moth	236671	236193	ability_hunter_pet_moth	Prefers to dwell in humid, tropical areas and feed on Kingsblood nectar.
+410422	pet	422	Moccasin	201986	132211	ability_hunter_snaketrap	When hunting or evading predators, this snake can travel on the surface of water for short distances.
 410423	pet	423	Lava Crab	228507	2027886	inv_crab2_vermillian	The thick exoskeleton of this adaptable arthropod allows it to thrive in harsh environments.
+410424	pet	424	Roach	202177	294474	inv_pet_cockroach	A nuisance to most, roaches' incredible survivability sets them apart from other species.
+410425	pet	425	Ash Viper	204268,236544,235802	132211	ability_hunter_snaketrap	This ill-tempered snake species makes its home around the fiery molten pits of the Burning Steppes.
 410427	pet	427	Ash Spiderling	242365	132196	ability_hunter_pet_spider	The rock-hard carapaces of these spiders allow them to survive in the Searing Gorge's blistering heat.
 410428	pet	428	Molten Hatchling	242051	132196	ability_hunter_pet_spider	These blisteringly hot spiders camouflage themselves by blending in with oozing magma.
 410429	pet	429	Lava Beetle	241981	237144	inv_inscription_pigment_bug04	Beetles in the Burning Steppes roll magma into tiny balls and eat them once they cool off.
 410430	pet	430	Gold Beetle	215467,215468	237144	inv_inscription_pigment_bug04	Tiny, autonomous machines created by the Titans to clean and maintain their mighty edifices.
+410431	pet	431	Rattlesnake	235804,201987	132211	ability_hunter_snaketrap	Wildhammer dwarves train young gryphons by sending them out to hunt rattlesnakes in the Twilight Highlands.
+410432	pet	432	Stripe-Tailed Scorpid	215469,205905,236617,236616	132195	ability_hunter_pet_scorpid	Less venomous but more aggressive than other breeds of scorpion.
 410433	pet	433	Spiky Lizard	236585	463491	trade_archaeology_trolllizardfootcharm	The coloration of the spiky lizard allows it to blend in seamlessly with the desert sands of Silithus.
+410437	pet	437	Little Black Ram	242068	132248	ability_mount_mountainram	These rams hone their fighting skills by head-butting twigs and saplings near Loch Modan.
+410438	pet	438	King Snake	202954	136040	spell_nature_guardianward	This snake is often seen sunning on the exposed rocks high in the Badlands.
+410439	pet	439	Restless Shadeling	245917	132123	ability_druid_dreamstate	These creatures are silent, save for the occasional sigh of otherworldly despair.
 410440	pet	440	Snow Cub	242203	132252	ability_mount_pinktiger	The thick snow near Dun Morogh acts as camouflage for snow cubs learning to hunt.
 410441	pet	441	Alpine Hare	236342	254857	inv_misc_rabbit	The alpine hare can burrow into the permafrost and hibernate for weeks or even months.
+410442	pet	442	Irradiated Roach	202177	294474	inv_pet_cockroach	Most creatures cannot withstand a fraction of the harsh conditions that roaches can thrive in.
 410443	pet	443	Grasslands Cottontail	200328,204626,206302	254857	inv_misc_rabbit	Despite their idyllic surroundings, grasslands cottontails hop at surprising speed when evading their pursuers.
+410445	pet	445	Tiny Twister	245936	236154	ability_druid_galewinds	Twisters delight in sneaking up on unsuspecting creatures and surprising them with gusts up their nostrils.
 410446	pet	446	Jade Oozeling	242218	134437	inv_misc_slime_01	Jade Oozelings glow in the dark, making them a welcome sight to workers in pitch-black mineshafts.
+410447	pet	447	Fawn	200654	656350	inv_pet_fawn	Pay attention to deer crossings. Even a fawn will total a goblin trike.
 410448	pet	448	Hare	201560	254857	inv_misc_rabbit	A carrot, a box, a stick, and some string. Wait a few hours and you'll have a hare.
 410449	pet	449	Brown Marmot	245899	2126349	inv_prairiedog_brown	Distinct from their Azerothian relatives, these critters of Outland make their home in Blade's Edge Mountains.
 410450	pet	450	Maggot	209904,209906	651538	inv_misc_food_vendor_boiledsilkwormpupa	The preferred habitat of this creature is woodland areas where it can safely complete its metamorphosis.
 410452	pet	452	Red-Tailed Chipmunk	236620	134322	inv_misc_monstertail_01	According to the tales of the night elves, the first red-tailed chipmunk was colored so after the theft and consumption of a sacred apple.
+410453	pet	453	Infested Bear Cub	242229	648803	inv_pet_diseasedbearcub	Infested cubs still listen for the telltale buzzing of bees even though they can no longer taste honey.
 410454	pet	454	Undercity Rat	201141,201418,202176	134324	inv_misc_monstertail_03	Even the rats of Lordaeron fell to the apothecaries' plague, chewing upon the tainted flesh of the dead.
 410455	pet	455	Blighted Squirrel	242334	646782	inv_pet_diseasedsquirrel	Undead squirrels have acquired a taste for the strange berries and mushrooms that now grow in Silverpine Forest.
+410456	pet	456	Blighthawk	242265	648726	inv_pet_undeadeagle	Curiously, this hawk uses its razor-sharp talons to peel the bark off trees as it searches for bugs, even though it has no need for sustenance.
 410457	pet	457	Festering Maggot	209904	236197	ability_hunter_pet_worm	It can swallow three times its own body weight in blood.
+410458	pet	458	Lost of Lordaeron	245952	135974	spell_holy_senseundead	These small spirits find their undead neighbors to be poor company, so they typically wander Tirisfal Glades alone.
 410459	pet	459	Cat	205585,205555,205556,205586	132167	ability_hunter_catlikereflexes	After centuries of domestication, these furry critters inhabit nearly every human nation in the Eastern Kingdoms.
+410460	pet	460	Ruby Sapling	242335	132129	ability_druid_forceofnature	Small elemental saplings grow into treants, fierce defenders of forests and groves.
 410461	pet	461	Larva	209906,209904,209905	651538	inv_misc_food_vendor_boiledsilkwormpupa	This new arrival to Azeroth was spawned a short time ago. It seeks to thrive while awaiting its next phase of evolution.
 410463	pet	463	Spirit Crab	232791	133275	inv_jewelcrafting_truesilvercrab	The souls of slain crabs seek vengeance against the murlocs who ate them.
+410464	pet	464	Grey Moth	242343	236193	ability_hunter_pet_moth	You can easily locate moths if you wear expensive garments near Ammen Vale. They can't resist the delicious taste of high fashion.
+410465	pet	465	Ravager Hatchling	242344	132194	ability_hunter_pet_ravager	These voracious carnivores first arrived on Azeroth aboard the draenei's dimensional fortress, the Exodar.
 410466	pet	466	Spiny Lizard	236583,236584,236585,236598	463491	trade_archaeology_trolllizardfootcharm	The children of Orgrimmar frequently capture these lizards as pets. The adults of Orgrimmar frequently step on them.
 410467	pet	467	Dung Beetle	207511,215467,208971,215468	133570	inv_misc_ahnqirajtrinket_01	A desert dwelling forager attracted to areas rich with dung.
 410468	pet	468	Creepy Crawly	246940	133570	inv_misc_ahnqirajtrinket_01	These beetles often make their homes in quarries abandoned by the Horde war machine in Durotar.
 410469	pet	469	Twilight Beetle	207511,236644	133570	inv_misc_ahnqirajtrinket_01	An enigmatic species, said to feed off the chaotic energies of the Old Gods.
 410470	pet	470	Twilight Spider	238672	132196	ability_hunter_pet_spider	Twisted by the Twilight Hammer's dark magic, these sinister critters are known to feed on their own young.
+410471	pet	471	Robo-Chick	207920	656513	inv_pet_mechanicalchicken	Originally built by an irate goblin to annoy neighbors with an early morning wake-up call.
 410472	pet	472	Rabid Nut Varmint 5000	226532	134322	inv_misc_monstertail_01	Considered by most to be a significant improvement to the 4000 series, there were nonetheless serious concerns about the amount of heat they produced.
 410473	pet	473	Turquoise Turtle	227881	1738680	inv_babyturtle2_black	Turtles are feared by the naga, who consider them bad luck and give them a wide berth on the shores of Azshara.
 410474	pet	474	Cheetah Cub	242362	132242	ability_mount_jungletiger	These playful feline cubs practice their hunting skills by stalking each other through the Barrens.
+410475	pet	475	Giraffe Calf	245896	132368	ability_warstomp	The barbaric centaur over-hunted giraffes for decades, but it was the tauren who saved this species from extinction.
+410477	pet	477	Gazelle Fawn	245958	132368	ability_warstomp	Young gazelles quickly learn to flee when they hear the war cries of tauren hunters in Mulgore. They don't hear the good hunters, unfortunately.
 410478	pet	478	Forest Moth	236944,236952,236956,236957	236193	ability_hunter_pet_moth	Prefers to dwell in cool, forested areas and feed on Mageroyal nectar.
 410479	pet	479	Elfin Rabbit	200328,204626,262734,206302	254857	inv_misc_rabbit	Their proximity to the magic of the elves has caused some of them unnatural long life. And in some elfin rabbits...stranger things.
 410480	pet	480	Topaz Shale Hatchling	236648	134395	inv_misc_qirajicrystal_01	Prized by gem crafters, the undamaged carapace of a topaz hatchling can be used to create stunning inlays for rings and bracelets.
+410482	pet	482	Rock Viper	204268,236544	132211	ability_hunter_snaketrap	Long ago, Mount Hyjal's druids tempered this species to live in peace alongside the region's other creatures.
 410483	pet	483	Horny Toad	236583,236598,236599	237579	spell_shaman_hex	There are many scholars who question whether it is a toad or not.
 410484	pet	484	Desert Spider	245906,245907	132196	ability_hunter_pet_spider	This cunning species tunnels beneath Uldum and erupts from the ground to ensnare its prey.
 410485	pet	485	Stone Armadillo	242381	464159	inv_misc_babyarmadillopet	When these sleepy critters aren't snoozing, they use their massive claws to dig for tasty insect snacks.
 410487	pet	487	Alpine Chipmunk	236620	134322	inv_misc_monstertail_01	Many an explorer has been entranced by the adorable nature of the alpine chipmunk, failing to notice its small teeth on frostbitten digits.
+410488	pet	488	Coral Snake	236580	132211	ability_hunter_snaketrap	Brave assassins sometimes capture these critters to use their highly toxic venom to poison weapons.
+410489	pet	489	Spawn of Onyxia	242745	134154	inv_misc_head_dragon_black	These vicious fire-breathing whelps escaped Onyxia's lair and fled into the surrounding region. Handle with extreme caution.
 410491	pet	491	Sand Kitten	205586	132167	ability_hunter_catlikereflexes	Originally bred by the Sandfury trolls as pets, these feral and savage felines prowl the deserts of Tanaris.
 410492	pet	492	Stinkbug	207511,215467,208971,215468	237144	inv_inscription_pigment_bug04	A desert-dwelling insect which defends its eggs by spraying a foul, ogrelike scent.
 410493	pet	493	Shimmershell Snail	242407,242408,242409	442735	trade_archaeology_fossil_snailshell	Hunts for food just below the water's surface on the coast of Darkshore.
+410494	pet	494	Silithid Hatchling	242416	236195	ability_hunter_pet_silithid	These hatchlings entertain themselves by clacking their mandibles together in increasingly complex rhythms.
 410495	pet	495	Frog	206297,201924,206295,200901	237579	spell_shaman_hex	For every frog, a prince and princess in waiting.
 410496	pet	496	Rusty Snail	242409	442735	trade_archaeology_fossil_snailshell	Don't let their lack of a face fool you--these slimy critters are angry and just itching for a fight.
+410497	pet	497	Tainted Cockroach	202177	294474	inv_pet_cockroach	Even cockroaches were not strong enough to withstand the foul seepage of demonic corruption.
 410498	pet	498	Tainted Moth	236944,236952,236956,236957	236193	ability_hunter_pet_moth	Prefers to dwell in corrupted woodlands and feed on Purple Lotus nectar.
 410499	pet	499	Tainted Rat	201141	134324	inv_misc_monstertail_03	There are some things too dirty even for rats.
+410500	pet	500	Minfernal	246003	136219	spell_shadow_summoninfernal	These ill-tempered constructs of flame and rage sometimes rise from the remains of larger infernals who fall in battle.
 410502	pet	502	Spotted Bell Frog	206297,206296	237579	spell_shaman_hex	The dwarven explorer who first discovered the spotted bell frog could not decide between naming it after the unique spot pattern or the sound of the frog's mating ritual. She chose both.
 410503	pet	503	Silky Moth	236944,236952,236953,236955	236193	ability_hunter_pet_moth	Prefers to dwell in the shadow of Nordrassil and feed on Stormvine nectar.
 410504	pet	504	Diemetradon Hatchling	245913	134318	inv_misc_monsterscales_16	Diemetradons abandon their hatchlings in Un'Goro Crater to fend for themselves. Only the strongest survive.
 410505	pet	505	Twilight Iguana	242415	463491	trade_archaeology_trolllizardfootcharm	Although most reptiles enjoy basking in sunlight, these scaly beasts love bathing in the glow of Azeroth's twin moons.
 410506	pet	506	Venomspitter Hatchling	245908	132196	ability_hunter_pet_spider	These eight-legged critters have lurked in the shadowy cliffs of the Stonetalon Mountains for millennia.
+410507	pet	507	Crested Owl	206300	132192	ability_hunter_pet_owl	Many owls nest high in the stone structures of Darnassus, hunting any pests that enter the night elves' city.
+410508	pet	508	Darkshore Cub	242412	446127	inv_misc_bearcubbrown	The fur of the darkshore bears owes to the almost perpetual gloom they live in, and their vision in the darkness is uncanny.
+410509	pet	509	Tiny Bog Beast	242202	135049	inv_shoulder_18	These small elementals cling to the backs of larger mire beasts, picking off tasty bugs and mites.
+410511	pet	511	Sidewinder	235804,235802	132211	ability_hunter_snaketrap	Native to Azeroth's desert regions, these resilient reptiles can survive for weeks without water.
 410512	pet	512	Scarab Hatchling	235113,236594,235112,236595	133570	inv_misc_ahnqirajtrinket_01	Spawn of the nefarious Shrieker Scarabs of Ahn'Qiraj, the hatchlings are much more docile (and quiet) than their parents.
+410513	pet	513	Qiraji Guardling	242523	236829	achievement_zone_silithus_01	The squeaks used by these tiny insectoids may sound cute, but they're actually screaming for your death.
+410514	pet	514	Flayer Youngling	242553	366938	ability_racial_flayer	A brash fel orc once tried to enslave these critters as his personal soldiers. Pieces of him are still scattered across Outland.
+410515	pet	515	Sporeling Sprout	242554	134532	inv_mushroom_11	These pudgy little beings often get themselves into trouble while hunting down their favorite snack: glow caps.
+410517	pet	517	Warpstalker Hatchling	245998	132201	ability_hunter_pet_warpstalker	After hatching, these twisted reptiles devour the weaker members of their clutches as an act of dominance.
+410518	pet	518	Clefthoof Runt	242575	134060	inv_misc_foot_centaur	For ogres, comparing a female's hair to a clefthoof's shaggy coat is a term of great endearment.
 410519	pet	519	Fel Flame	245923	135794	spell_fire_felfire	Born from demonic magic, these petulant little entities corrupt everything they touch with foul energies.
+410521	pet	521	Fledgling Nether Ray	245988	132191	ability_hunter_pet_netherray	Adult nether rays are relatively docile, but their younglings are short-tempered and highly energetic beasts.
 410523	pet	523	Devouring Maggot	245885,245886,245887	134895	inv_qiraj_skinsandworm	Howling Fjord teems with the ever shifting cycle of life. When a creature dies, its body is quickly consumed by maggots, which in turn pass those nutrients on to a number of other creatures.
+410525	pet	525	Turkey	245968	250626	inv_thanksgiving_turkey	A key food source during the Feast of Winter Veil.
+410528	pet	528	Scalded Basilisk Hatchling	245953	463491	trade_archaeology_trolllizardfootcharm	This grumpy species of basilisk roams the Blade's Edge Mountains, avoiding contact with other critters whenever possible.
+410529	pet	529	Fjord Worg Pup	242617	132203	ability_hunter_pet_wolf	There's an old vrykul saying that goes, 'Let sleeping worgs lie, unless you don't want your face anymore.'
 410530	pet	530	Oily Slimeling	242781	134438	inv_misc_slime_02	These living blobs of ooze lack even the most rudimentary form of intelligence, but that doesn't mean they can't be your friend.
+410532	pet	532	Stunted Shardhorn	242708	236194	ability_hunter_pet_rhino	The fierce wolvar hunt these ill-tempered brutes for their horns, which are then carved into talismans and other trinkets.
 410534	pet	534	Imperial Eagle Chick	242709	132172	ability_hunter_eagleeye	The taunka collect the feathers of these noble birds of prey to use in crude fortunetelling ceremonies.
+410535	pet	535	Water Waveling	230159	135862	spell_frost_summonwaterelemental_2	The trolls of Zul'Drak inadvertently created these little beings while summoning water elementals to fight the Scourge.
+410536	pet	536	Tundra Penguin	225390,225391	655866	inv_pet_babypengu	Tundra penguins often gather in large groups on the ice for protection against aquatic threats. Unfortunately this makes them easy prey for humanoid hunters seeking meat, skins and other achievements.
+410537	pet	537	Dragonbone Hatchling	242735	132200	ability_hunter_pet_vulture	These skulking little creatures hatch in nests built around the ancient dragon bones of central Northrend.
+410538	pet	538	Scourged Whelpling	242737	134154	inv_misc_head_dragon_black	Kel'Thuzad once nursed a plague-infected whelp to adulthood, feeding it only the finest liquefied remains.
 410539	pet	539	Grotto Vole	204959,204960,236357	134324	inv_misc_monstertail_03	Grotto voles are often confused with mice. Never twice.
 410540	pet	540	Carrion Rat	201141,201418	134324	inv_misc_monstertail_03	Where there is carrion, there will always be rats.
+410541	pet	541	Fire-Proof Roach	202177	294474	inv_pet_cockroach	The outer member of the roaches' eggs protect the larva from incineration. It is here in incubation that they gain the ability to resist the fire and heat of the volcanic climate.
 410542	pet	542	Mac Frog	206297,201924,206295,200901	237579	spell_shaman_hex	Flamboyantly colored and more exuberant than most frogs.
+410543	pet	543	Locust	202177	294474	inv_pet_cockroach	When the locusts swarm, you can hear nothing but the sound of their wings.
 410544	pet	544	Oasis Moth	236944,236952,236956,236957	236193	ability_hunter_pet_moth	Prefers to dwell along desert streams, wells or watering holes and feed on Whiptail nectar.
+410545	pet	545	Leopard Scorpid	215469,205905,215470,236616	132195	ability_hunter_pet_scorpid	Loves to rest inside footwear of unsuspecting travelers during the night.
 410546	pet	546	Tol'vir Scarab	242771	134936	inv_scarab_stone	Carrion feeders often found in large numbers within ancient unearthed tombs; they can survive long periods of time without feeding.
+410547	pet	547	Nordrassil Wisp	245820	136116	spell_nature_wispsplode	During the Third War, thousands of these mystical beings annihilated the demon lord Archimonde.
+410548	pet	548	Wildhammer Gryphon Hatchling	230412,236332,236336	327735	inv_misc_pet_02	Too afraid to attempt flying until thrown from a great height.
 410549	pet	549	Yellow-Bellied Marmot	245900	2126349	inv_prairiedog_brown	Distinct from their plain dwelling relatives, these critters make their homes amidst the war-torn Twilight Highlands.
 410550	pet	550	Highlands Mouse	204959,204960	647701	inv_pet_mouse	The mice of the highlands, perhaps twisted by the Twilight's Hammer, are aggressive and fight for dominance between each other.
+410552	pet	552	Twilight Fiendling	242783	136199	spell_shadow_shadowfiend	Demonstrating that a little evil goes a long way, this fiendling uses its razor-sharp teeth and gaping maw to devour anything in its path.
 410553	pet	553	Stowaway Rat	201141,201418	134324	inv_misc_monstertail_03	In the lean times when adrift at sea, the sight of a rat was a welcome one.
 410554	pet	554	Crimson Shale Hatchling	236605	134396	inv_misc_qirajicrystal_02	Through experimentation, the mages of Dalaran have discovered that the powered remains of a crimson shale spider will greatly increase the conflagration of their fire spells.
+410555	pet	555	Deepholm Cockroach	245897	294474	inv_pet_cockroach	The cockroaches of Deepholm can burrow into stone itself to make their nests.
 410556	pet	556	Crystal Beetle	215467,236644,236613,207511	237144	inv_inscription_pigment_bug04	A cousin to the Twilight Beetle, this insect has learned to feed on crystals which resonate with ancient energies.
+410557	pet	557	Nether Faerie Dragon	242467	236997	inv_egg_06	Much like other faerie dragons, these playful and mystical flyers are born with a natural defense against magic.
 410558	pet	558	Arctic Fox Kit	242757	797544	inv_misc_foxkit_white	During frigid nights in the Storm Peaks, these critters use their fluffy tails as a blanket to stay warm.
 410559	pet	559	Crimson Geode	245879	134396	inv_misc_qirajicrystal_02	Therazane wore these spunky crimson elementals as jewelry before the azure craze swept through Deepholm.
 410560	pet	560	Sea Gull	245995	464160	inv_misc_seagullpet_01	The seagull is a coastal scavenger often found near the docks.
+410562	pet	562	Coral Adder	236544	132211	ability_hunter_snaketrap	The coral adder's venom is so deadly that one bite has been known to kill a full grown kodo beast.
 410564	pet	564	Emerald Turtle	227883	1738681	inv_babyturtle2_green	It is difficult to believe that Shen-zin Su, on whose shell rests all of the Wandering Isle, began life as a tiny emerald turtle.
 410565	pet	565	Jungle Darter	206297	237579	spell_shaman_hex	In the jungle, every leaf could conceal a frog. Stop to check and it could be long gone.
 410566	pet	566	Mirror Strider	245852,245853	643423	inv_pet_waterstrider	When preparing to travel to distant locations, Pandaren will traditionally capture a mirror strider and safely relocate it to another body of water.
+410567	pet	567	Temple Snake	202955,243195	132211	ability_hunter_snaketrap	The Jade Forest's pandaren consider these reptiles distant relatives of the revered Jade Serpent, Yu'lon.
 410568	pet	568	Silkbead Snail	238380,242407,242409	442735	trade_archaeology_fossil_snailshell	Hides in shell to escape claws of nearby crabs.
 410569	pet	569	Garden Frog	205379	237579	spell_shaman_hex	One of the stranger nuisances to horticulturalists, garden frogs can cause untold damage to gardens.
 410570	pet	570	Masked Tanuki	240093	646059	inv_pet_raccoon	There's a raging debate over whether tanukis are raccoons or dogs, but the distinction seems trivial when they're gnawing on your femur.
+410571	pet	571	Grove Viper	235802,202957	132211	ability_hunter_snaketrap	The Jade Forest's mountain hozen fear these venomous reptiles and often hunt them out of pure spite.
 410572	pet	572	Spirebound Crab	245880	2027886	inv_crab2_vermillian	These tiny arthropods are Pandaria natives that call the area of the Windless Isle their home.
 410573	pet	573	Sandy Petrel	245994	464160	inv_misc_seagullpet_01	The sandy petrel flies high above the Windless Isle, safe from landbound predators.
+410626	pet	626	Bat	204732	132182	ability_hunter_pet_bat	This foreboding creature stalks the night skies of the Eastern Plaguelands, feeding on carrion.
 410627	pet	627	Infected Squirrel	210090	646782	inv_pet_diseasedsquirrel	More horrifying than its appearance is that the infected squirrels of the Plaguelands no longer hoard nuts, instead collecting rotten, decaying flesh.
+410628	pet	628	Infected Fawn	237686	132104	ability_creature_poison_02	Only the dimwitted or insane would mount an infected deer head on their wall. The good news is they'll fit right in with their new undead friends.
 410629	pet	629	Shore Crawler	232790	2027878	inv_crab2_ivory	Only found on the shores of Kezan, this lovely sea creature can be a bit snarky.
 410630	pet	630	Gilnean Raven	242872	132915	inv_feather_02	Quoth the raven: the last word you said. It gets old.
+410631	pet	631	Emerald Boa	236578	132211	ability_hunter_snaketrap	Hunted for its beautifully patterned skin, this majestic species thrives alongside Azeroth's lush rivers.
 410632	pet	632	Ash Lizard	236583	463491	trade_archaeology_trolllizardfootcharm	The ash lizard gets its name from the way its shed skin looks, with an appearance like burnt cinders.
+410633	pet	633	Mountain Skunk	216633	463569	inv_misc_volatileshadow	The mountain skunk is most famous for its adventurous nature. No really, that is what it is famous for.
 410634	pet	634	Crystal Spider	227718	132196	ability_hunter_pet_spider	These strange critters glimmer like ice, allowing them to hide among Winterspring's snowy expanses.
+410635	pet	635	Adder	201986,201206,201987	132211	ability_hunter_snaketrap	Unlike other snakes that actively hunt, these crafty reptiles hide in thick foliage and ambush their prey.
 410637	pet	637	Skittering Cavern Crawler	220923	132196	ability_hunter_pet_spider	These arachnids use their razor-sharp legs to carve tunnels in the solid rock of the Blade's Edge Mountains.
+410638	pet	638	Nether Roach	202177	294474	inv_pet_cockroach	The nether roach has adapted to the cold vacuum of space and requires no air to survive. Inside it bears almost no resemblance to a common roach.
 410639	pet	639	Borean Marmot	201072	2126349	inv_prairiedog_brown	Distinct from their cousins found in warmer climes, these hardy critters make their homes in the icy wastes of Northrend.
 410640	pet	640	Snowshoe Hare	200328	254857	inv_misc_rabbit	With the extra large surface area of their legs, snowshoe hares are able to effortlessly hop along the snow while their pursuers get bogged down in the drifts.
 410641	pet	641	Arctic Hare	200328	254857	inv_misc_rabbit	The heart of an arctic hare beats twice as fast as a common hare.
 410644	pet	644	Fjord Rat	222175	134324	inv_misc_monstertail_03	If not for being extremely accident prone, the fjord rat might take over the world.
+410645	pet	645	Highlands Turkey	245970	250626	inv_thanksgiving_turkey	Capable of flying, unlike domesticated types.
 410646	pet	646	Chicken	200304	250626	inv_thanksgiving_turkey	Tends to avoid crossing roads, regardless of motivations.
 410647	pet	647	Grizzly Squirrel	200134,258382	134322	inv_misc_monstertail_01	In the deep forest, even the small creatures must have the ferocity to fend for themselves.
 410648	pet	648	Huge Toad	205379	237579	spell_shaman_hex	This is a huge toad.
@@ -1537,6 +1634,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 410716	pet	716	Amethyst Spiderling	238672	132196	ability_hunter_pet_spider	A rarity among arachnids, these non-venomous critters feed solely on plants and fruit.
 410717	pet	717	Savory Beetle	245996	237144	inv_inscription_pigment_bug04	The most delicious of the beetle family.
 410718	pet	718	Luyu Moth	236955	236193	ability_hunter_pet_moth	A daring, narcissist insect willing to brave any threat in its pursuit of the spotlight.
+410722	pet	722	Mei Li Sparkler	228434	236196	ability_hunter_pet_wasp	Feeds on small leaves and grass when full grown.
 410723	pet	723	Spiny Terrapin	242859	656345	ability_mount_pandaranmountepicblack	Angering a spiny terrapin will cause it to withdraw into its shell and begin to spin wildly towards an attacker.
 410724	pet	724	Alpine Foxling	236388	797544	inv_misc_foxkit_white	Burrows deep into snowbanks to hide from predators.
 410725	pet	725	Alpine Foxling Kit	242757	797544	inv_misc_foxkit_white	Occasionally sneaks bites of food from kills made by much larger animals.
@@ -1545,6 +1643,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 410728	pet	728	Szechuan Chicken	200304,205369,243152,243153	250626	inv_thanksgiving_turkey	Will only lay eggs in bright light.
 410729	pet	729	Tolai Hare	206302	254857	inv_misc_rabbit	In the ancient fables, the first Tolai hare strode across the gulf between the stars before it upset them and they tumbled from the heavens to the world below.
 410730	pet	730	Tolai Hare Pup	228998	254857	inv_misc_rabbit	Tolai hare pups are sent from their dens at a young age to find their own way.
+410731	pet	731	Zooey Snake	204440	132211	ability_hunter_snaketrap	These reptiles possess hooked scales, allowing them to slither up Kun-Lai Summit's rocky slopes and steep cliffs.
 410732	pet	732	Amber Moth	236956	236193	ability_hunter_pet_moth	Known to flourish in the rainy season, this insect is drawn to lightning storms.
 410733	pet	733	Grassland Hopper	243344,243352	646325	inv_pet_cricket	At night, the grassland hoppers fill the night with their maddening song. Those unaccustomed to it have spent many a sleepless night serenaded by their mating calls.
 410737	pet	737	Mongoose	243347	237409	inv_misc_monstertail_07	Contrary to its benign appearance, mongoose are dangerous carnivores, well known for their ability to hunt venomous snakes that could kill much larger creatures.
@@ -1553,13 +1652,18 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 410741	pet	741	Silent Hedgehog	245984	644001	inv_pet_porcupine	These hedgehogs may be silent, but often are heard the cries of those that foolishly step upon their quills.
 410742	pet	742	Clouded Hedgehog	245985	644001	inv_pet_porcupine	Hedgehogs are not at all fond of croquet nor flamingos.
 410743	pet	743	Rapana Whelk	245882,245883,234590	442735	trade_archaeology_fossil_snailshell	Has been spotted fighting other whelks for prime food sources.
+410744	pet	744	Resilient Roach	245898	294474	inv_pet_cockroach	The roaches of the Dread Wastes dwell in the shadows. Some people swear the shadows travel with them.
+410745	pet	745	Crunchy Scorpion	215469,205905,236617,236616	132195	ability_hunter_pet_scorpid	Unique carapace is prized by trinket makers for its texture and strength.
 410746	pet	746	Emperor Crab	245881	2027883	inv_crab2_sapphire	The emperor crab was named for its regal appearance: the ridges of its shell and its raised claws eerily resembling a crown. One that would pinch your eyes out if you tried to wear it.
+410747	pet	747	Effervescent Glowfly	246000	236196	ability_hunter_pet_wasp	Luminescent body used to attract mates.
 410748	pet	748	Gilded Moth	236956	236193	ability_hunter_pet_moth	This delicate insect's wings are often sewn into clothing and armor.
 410749	pet	749	Golden Civet	243428	645906	inv_pet_otter	Civets are landbound cousins of the otter and are prized for their heady musks.
 410750	pet	750	Golden Civet Kitten	243259,243260	645906	inv_pet_otter	The civets are known to guard their young ferociously.
 410751	pet	751	Dancing Water Skimmer	240584	643423	inv_pet_waterstrider	Named for their apparent dancelike behavior when skimming aquatic surfaces, the species uses erratic movements to avoid being devoured by fish and other underwater predators.
 410752	pet	752	Yellow-Bellied Bullfrog	206297,222468	237579	spell_shaman_hex	Despite its menacing appearance, the yellow-bellied bullfrog was aptly named.
 410753	pet	753	Garden Moth	236671	236193	ability_hunter_pet_moth	Known to flourish in the rainy season, this insect is drawn to lightning storms.
+410754	pet	754	Shrine Fly	220042	236196	ability_hunter_pet_wasp	This species of insect is drawn to the latent energy in shrines, their luminescent appearance adding to the mystique of the places of power.
+410755	pet	755	Death's Head Cockroach	202177	294474	inv_pet_cockroach	The markings on the carapace of this cockroach closely resemble that of the Death's Head.
 410756	pet	756	Fungal Moth	236944,236952,236953,236955	236193	ability_hunter_pet_moth	Prefers to dwell in dark caves and feed on Heartblossom nectar.
 410792	pet	792	Jade Crane Chick	243868	646586	inv_pet_babycrane	A graceful creature from the isle of Pandaria.
 410802	pet	802	Thundering Serpent Hatchling	243865	646018	inv_pet_babycloudserpent	A baby version of the mighty Thundering Cloud Serpent that hails from the far lands of Pandaria.
@@ -1568,43 +1672,67 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 410819	pet	819	Wild Crimson Hatchling	243874	630863	inv_pandarenserpentpet	It's red, so it must fly faster.
 410820	pet	820	Singing Cricket	243127	646325	inv_pet_cricket	Known to feast on the tasty plants in Krasarang Wilds.
 410821	pet	821	Feral Vermling	245894	646445	inv_pet_vermin	It keeps looking at me. I think it wants to bite me.
+410823	pet	823	Highlands Skunk	222447	463569	inv_misc_volatileshadow	This ferocious skunk can spray an attacker from thirty yards away, temporarily blinding them. Handle with caution!
+410834	pet	834	Grinder	245938	399041	inv_misc_reforgedarchstone_01	Mogu sorcerers, keepers of the secret to bringing stone to life, prefer these stolid companions over more beastly familiars.
 410835	pet	835	Hopling	243597	594273	achievement_brewery_1	The great big world can be a dangerous place for such a tiny, adorable creature.
 410836	pet	836	Aqua Strider	245854	133942	inv_misc_flute_01	Water striders serve an important role in Jinyu culture, acting as a mount, means of sending communications, and even a family pet.
 410837	pet	837	Emerald Shale Hatchling	236603	134397	inv_misc_qirajicrystal_03	Adventurers have reported rare sightings of a monstrous sized emerald shale spider, which the denizens of Deepholm have come to call the Jadefang.
 410838	pet	838	Amethyst Shale Hatchling	236604	134399	inv_misc_qirajicrystal_05	Adult amethyst shale spiders prefer to create their nests against the outer walls of Deepholm.
 410844	pet	844	Mechanical Pandaren Dragonling	245386	236473	achievement_dungeon_coablackdragonflight_normal	Constructed from a seemingly impossible mass of gears, springs, wires, and a little something special, this dragonling embodies the spirit of Pandaria as seen through an engineer's goggles.
+410845	pet	845	Jade Owl	215905	133247	inv_jewelcrafting_jadeowl	Jade is naturally rich with life and color, making it the perfect raw material for this gentle companion. It is said the wind created by their wings can soothe the troubled mind.
+410846	pet	846	Sapphire Cub	242297	133236	inv_jewelcrafting_blackpearlpanther	While each cub is crafted in the same fashion, tiny imperfections in the gemstones create a unique personality when imbued with life. They are, however, always playful and friendly.
 410847	pet	847	Fishy	242721	237309	inv_misc_fish_58	Many believe (incorrectly) that goldfish have no memories. Trainers who have worked with them know this is clearly not the case and have the bruises to prove it.
 410848	pet	848	Darkmoon Rabbit	245957	237182	inv_jewelcrafting_crimsonhare	This rabbit is much stronger than it looks.
 410849	pet	849	Chi-Ji Kite	244791	604252	ability_mount_pandarenkitemount	A beautiful kite brought to life by the scribes of Pandaria.
 410850	pet	850	Yu'lon Kite	244792	133840	inv_misc_dragonkite_04	Who knew scribes could make kites?
 410851	pet	851	Horned Lizard	236583,236585	463491	trade_archaeology_trolllizardfootcharm	Not only is it quick, it's loud too!
 410855	pet	855	Venus	245195	463540	inv_misc_lifeblood	Seems odd that he doesn't like flies... right?
+410856	pet	856	Jade Tentacle	245987	254105	achievement_boss_yoggsaron_01	Careful now, she can get a bit frisky sometimes!
 410868	pet	868	Pandaren Water Spirit	245942	656560	inv_pet_pandarenelemental	Water spirits are especially mischievous, and are known to frequent the canals of the Stormstout Brewery.
 410903	pet	903	Baneling	245527	656595	ability_pet_baneling	A rolling, explosive member of the Zerg swarm, the baneling deals terrible, terrible damage. Very dangerous in close quarters.
 411013	pet	1013	Wanderer's Festival Hatchling	244779	656342	ability_mount_pandaranmountblack	Legend has it that a seadragon turtle just like this one grew up to become Shen-zin Su, the Wandering Isle. Perhaps your little turtle will grow into something amazing?
+411039	pet	1039	Imperial Moth	244551	236193	ability_hunter_pet_moth	The larval form of this moth is world-renowned for creating the finest silk in Azeroth.
 411040	pet	1040	Imperial Silkworm	240521	648918	inv_pet_maggot	This plump red caterpillar is world-renowned for creating the finest silk in Azeroth.
 411042	pet	1042	Red Cricket	246385	646325	inv_pet_cricket	Be careful, he might eat all your crops!
 411061	pet	1061	Darkmoon Hatchling	246163	132198	ability_hunter_pet_tallstrider	Most of Violet's numerous forest strider hatchlings are turned into Faire fare by Stamp Thunderhorn, though a few are raised as mounts or purchased by adventurers looking for a petite purple pet.
+411062	pet	1062	Darkmoon Glowfly	246171	1044485	inv_dragonflypet_blue	Their eerie green light, reminiscent of fel flames, is occasionally seen flitting through the twisted trees of Darkmoon Island.
 411063	pet	1063	Darkmoon Eye	246174	136155	spell_shadow_evileye	Don't even think about cheating now.
 411068	pet	1068	Crow	236743	645217	ability_hunter_murderofcrows	While smaller than the infamous ravens of Gilneas, crows are no less clever or cunning.
 411117	pet	1117	Cinder Kitten	246720	666530	inv_misc_firekitty	A playful, purring pyromaniac. Don't pet these kittens without fireproof mittens!
 411124	pet	1124	Pandaren Fire Spirit	246809	774324	inv_pet_pandarenelemental_fire	Though it appears to be a vaguely-related cousin to the Cinder Kitten, the two creatures actually share no ancestry.
 411125	pet	1125	Pandaren Air Spirit	246810	774322	inv_pet_pandarenelemental_air	These spirits represent the heart of Pandaria's elemental powers.
 411126	pet	1126	Pandaren Earth Spirit	246811	774323	inv_pet_pandarenelemental_earth	The elements of Pandaria can be cute and playful, until their homeland is threatened.
+411127	pet	1127	Spectral Cub	230409	298591	ability_mount_spectraltiger	Capable of sitting in even the smallest of boxes, thanks to its ghostly nature.
 411128	pet	1128	Sumprush Rodent	240714,240717	645526	inv_pet_beaver	A rodent of usual size.
+411142	pet	1142	Clock'em	246882	134152	inv_misc_head_clockworkgnome_01	Created for one purpose and one purpose alone: to punch little critters, as hard as it possibly can.
 411143	pet	1143	Giant Bone Spider	246898	134899	inv_qirajidol_death	Found in a dusty egg clutch at the back of Maexxna's lair, these creatures are already undead when they hatch.
+411144	pet	1144	Fungal Abomination	246896	571319	spell_druid_wildmushroom_frenzy	Loatheb's body is covered in small pods capable of spreading blighted fungal spores up to 1000 yards given proper wind conditions.
 411145	pet	1145	Mr. Bigglesworth	246897	656579	inv_pet_cats_siamesecat	Upon exiting the freezing necropolis of Naxxramas, Mr. Bigglesworth promptly found a warm spot in the sun to take a long nap in.
+411146	pet	1146	Stitched Pup	246921	133718	inv_misc_bone_01	When Gluth died to a band of brave adventurers, these lil' guys were found in the corpse, gnawing on giant, undead bones.
+411147	pet	1147	Harbinger of Flame	246900	132312	ability_searingarrow	Few of these fiery harbingers remain following Ragnaros' defeat in the Firelands.
 411149	pet	1149	Corefire Imp	246923	136218	spell_shadow_summonimp	These tiny flame imps roam the Molten Core in large swarms and can replenish their numbers rapidly.
 411150	pet	1150	Ashstone Core	246902	237011	inv_elemental_eternal_shadow	The cooled core of Golemagg, it appears to retain some semi-sentient properties.
+411151	pet	1151	Untamed Hatchling	246903	236469	achievement_dungeon_coablackdragonflight	One of Razorgore's eggs that miraculously survived in Blackwing Lair.
+411152	pet	1152	Chrominius	246925	377270	inv_misc_rubysanctum1	Opponents that face this fierce chromatic monstrosity just hope it doesn't have Time Stop!
+411153	pet	1153	Death Talon Whelpguard	246905	236472	achievement_dungeon_coablackdragonflight_heroic	A runt of the Black Talon, left to guard the whelps.
+411154	pet	1154	Viscidus Globule	246924	132108	ability_creature_poison_06	This small globule didn't make it back to Viscidus in time to re-form.
+411155	pet	1155	Anubisath Idol	246922	134908	inv_qirajidol_strife	An anubisath idol from the Temple of Ahn'qiraj, infused with ancient qiraji magic.
+411156	pet	1156	Mini Mindslayer	246909	134896	inv_qirajidol_alabaster	The bane of many an adventurer, to look into its eyes is to truly know madness.
+411157	pet	1157	Harpy Youngling	246936	132921	inv_feather_08	They only get more beautiful as they age.
+411158	pet	1158	Stunted Yeti	246937	458252	trade_archaeology_shriveledmonkeypaw	Hunted by locals for years, this is an extremely rare specimen.
 411159	pet	1159	Lofty Libram	246938	133740	inv_misc_book_08	Most people have never read this book.
 411160	pet	1160	Arcane Eye	246941	134416	inv_misc_rune_03	Never take your eye off of it.
+411161	pet	1161	Infinite Whelpling	247636	298656	achievement_boss_infinitecorruptor	You better believe he knows what time it is.
 411162	pet	1162	Fluxfire Feline	246947	668552	inv_pet_mechanicaltigercub	Originally created by the engineers in the bowels of Gnomeregan, the Fluxfire Feline is a marvel of modern engineering.
 411163	pet	1163	Anodized Robo Cub	246948	773096	inv_pet_mechanicalbearcub	The engineering wizards in Everlook created this unique cub as a test model. Unfortunately a few went rogue and were never recovered.
 411164	pet	1164	Cogblade Raptor	247021	774414	inv_pet_mechanicalraptorpet	This model of raptors is produced in the Blade's Edge Mountains. Their robotic roars are a common sound near Toshley Station.
+411165	pet	1165	Nexus Whelpling	247635	797547	inv_misc_head_dragon_nexus	The runts of Malygos brood, these whelplings are prized for their boundless arcane magics.
 411166	pet	1166	Kun-Lai Runt	246953	797882	inv_misc_pet_pandaren_yeti	Indigenous to the peaks of Kun-Lai Summit, this rare yeti is much more dangerous than it looks.
+411167	pet	1167	Emerald Proto-Whelp	246954	587740	ability_mount_feldrake	These beautiful drakes can be found across the shores of Northrend.
 411174	pet	1174	Gusting Grimoire	247348	355498	inv_misc_book_18	A fel-tainted tome whose secrets are so terrible and bizarre that its pages have taken on an eerie semblance of life. Found on many a warlock's nightstand.
 411175	pet	1175	Thundertail Flapper	247633	796787	inv_pet_thunderbeaver_blue	Touched by lightning, these dangerous rodents should be kept at a safe distance.
 411177	pet	1177	Living Sandling	247252	796636	spell_sandelemental	Born of sand, these dangerous creatures can form and disperse in the blink of an eye.
+411178	pet	1178	Sunreaver Micro-Sentry	247848	838516	inv_pet_arcanegolem	Loyal to the Sunreavers from creation, these pint-sized constructs can still pack a punch.
 411179	pet	1179	Electrified Razortooth	247690	801473	inv_pet_babythundercrocodile	Lightning can be seen flowing across its body, teeth to tail.
 411180	pet	1180	Zandalari Kneebiter	247731	797325	inv_zandalaribabyraptorblack	This unique raptor was born on the island of Zandalar and transported here along with the rest of the Zandalari army.
 411181	pet	1181	Elder Python	247887,247994	801474	inv_pet_pythonblack	These snakes have been known to swallow gnomes in one gulp.
@@ -1624,8 +1752,18 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411211	pet	1211	Zandalari Anklerender	248055	797326	inv_zandalaribabyraptorblue	These tiny minions of Zandalar are adept at stowing away within the cargo holds of the enormous Zandalari warships.
 411212	pet	1212	Zandalari Footslasher	248056	797327	inv_zandalaribabyraptorred	Even at this size, these raptors can eviscerate an entire cow in less than 10 seconds.
 411213	pet	1213	Zandalari Toenibbler	248057	797328	inv_zandalaribabyraptorwhite	These adorable beasts are both cuddly and huggable, provided you do not enjoy having a face.
+411226	pet	1226	Lil' Bad Wolf	248878	463876	achievement_worganhead	The oft-forgotten offspring of the Big Bad Wolf, found gorged and asleep in a basket of sweets.
+411227	pet	1227	Menagerie Custodian	248857	236513	achievement_dungeon_theviolethold_normal	Primary responsibilities include dusting Medivh's many magical artifacts, an activity which has claimed the life, sanity, or physical composition of the many caretakers preceding Moroes.
+411228	pet	1228	Netherspace Abyssal	248856	615096	spell_warlock_summonabyssal	Upon leaving Netherspace, Malchezaar's Abyssals become strangely distorted by Karazhan's magical protections, rendering them tiny, and much less likely to spontaneously erupt in flames.
 411229	pet	1229	Fiendish Imp	248662	460856	ability_warlock_impoweredimp	A minion of Terestian Illhoof, this tricky imp was left in Karazhan when the portal to the Twisting Nether closed behind it.
+411230	pet	1230	Tideskipper	248855	443382	inv_misc_deepseascales	An astounding find for the scientific community of Azeroth, who have long pondered, often in taverns, what a baby Sea Giant might look like.
+411231	pet	1231	Tainted Waveling	248666	136030	spell_nature_elementalshields	The spawn of Hydross, considered by the elemental community to be the "Earl of Puddles."
+411232	pet	1232	Coilfang Stalker	248661	254502	achievement_boss_theblackstalker	It is unknown how Lady Vashj empowers these Fen Striders with their mind-bending powers; even at an early age this creature shows significant psychic ability.
 411233	pet	1233	Pocket Reaver	248664	466089	inv_pet_personalworlddestroyer	Sent through the Twisting Nether by the great Archimonde the Defiler to terrorize tiny civilizations with their medium-sized stomping noises.
+411234	pet	1234	Lesser Voidcaller	248668	538447	warlock_summon_ voidlord	The lanterns carried by Voidcallers bridge the realms of the living and the dead, and often attract wayward ghosts and spirits.
+411235	pet	1235	Phoenix Hawk Hatchling	248663	132188	ability_hunter_pet_dragonhawk	These brightly-colored dragonhawks carry Kael'thas' forces swiftly and unerringly through the nether storm surrounding the Eye.
+411236	pet	1236	Tito	248667	133695	inv_misc_basket_01	Though generally an expert at taking stage direction, the show had to be stopped on more than one occasion when Tito and Roar would lock eyes, resulting in an extended chase around the Karazhan Opera House.
+411237	pet	1237	Gahz'rooki	248651	463493	trade_archaeology_whitehydrafigurine	The trolls have a long and storied history of summoning hydras. While he might not be the biggest or strongest hydra, Gahz'rooki will bite your fingers quite hard if you get too close.
 411238	pet	1238	Unborn Val'kyr	248650	851119	inv_valkierpet	Val'kyr are considered "unborn" until they vanquish a creature of high nobility.
 411243	pet	1243	Living Fluid	248704	237513	spell_deathknight_bloodboil	The dark pools in Primordius' chamber laid stagnant after the fall of the mogu, and murky thoughts began to coalesce.
 411244	pet	1244	Viscous Horror	248705	576309	spell_yorsahj_bloodboil_black	These malicious oozes are highly sensitive to Primordius' pheromone signature.
@@ -1634,12 +1772,16 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411255	pet	1255	Zeradar	264587	1125916	inv_archonpet	Infamous psionic battering ram of the Protoss, Zeradar is also the only archon that can utilize psionic storm. Power overwhelming!
 411256	pet	1256	Rascal-Bot	249084	876476	inv_worserobot	This little guy seems to like to hang out at the fringes of cataclysmic events. There is no evidence to suggest he has anything to do with the cause of these events, though - he's probably just an observer. Or maybe he just gets lost on his trek to other places.
 411266	pet	1266	Xu-Fu, Cub of Xuen	249846	877410	inv_pet_tigergodcub	Fierce and loyal, Xu-Fu loves to hunt by moonlight. Once during a full moon, he killed and ate an entire Ironfur Great Bull, prompting a two day nap.
+411276	pet	1276	Moon Moon	200855	538568	ability_shaman_freedomwolf	Moonfang's cubs grow into massive, slavering, black-furred killing machines...except for Moon Moon.
 411303	pet	1303	Chi-Chi, Hatchling of Chi-Ji	249835	877514	inv_pet_cranegod	Chi-Chi tries to inspire hope with her loud squawk and by chasing, and eventually eating, butterflies.
 411304	pet	1304	Yu'la, Broodling of Yu'lon	249836	877408	inv_pet_jadeserpentpet	A master sculptor devoted her life to creating an incomparably beautiful statue, inspired by her love and reverence for Yu'lon. When the sculptor passed away, Yu'lon breathed a fraction of her essence into the statue, bringing Yu'la into the world.
 411305	pet	1305	Zao, Calfling of Niuzao	249845	900317	inv_pet_yakgod	Always on the lookout for a fight or some tasty grass, Zao keeps his head down and eyes forward.
 411320	pet	1320	Lil' Bling	249289	773178	inv_pet_lilsmokey2	This handsome little robot is the spitting image of his "Dad", Blingtron 4000. As a Blingtron's generosity circuits don't mature until they have been built to maximum specification, you shouldn't expect any free handouts from him.
 411321	pet	1321	Azure Crane Chick	251413	646586	inv_pet_babycrane	Crane chicks of the Timeless Isle sometimes sing a curious song that calms the nerves and soothes the soul.
 411323	pet	1323	Ashleaf Spriteling	240908	136021	spell_nature_dryaddispelmagic	The Ashleaf Sprites of the Timeless Isle tirelessly protect the vegetation of the island from the burning fury of Ordos and his minions.
+411324	pet	1324	Ashwing Moth	251742	236193	ability_hunter_pet_moth	Jinyu assassins employ this moth as both a portable decoy and a light source to reveal weak spots in their enemy's armor.
+411325	pet	1325	Flamering Moth	251301	236193	ability_hunter_pet_moth	Cats and other curious critters often have short-lived play sessions with this moth that end with a face full of singed hair.
+411326	pet	1326	Skywisp Moth	251740,251741	236193	ability_hunter_pet_moth	This curious moth is sometimes found interrupting the spells of a wandering mage or warlock.
 411328	pet	1328	Ruby Droplet	251271	669468	inv_pet_pandarenelementa_fire	The waters of Ruby Lake are colored a strange reddish hue, possibly due to the ruby crystals found deep within the mountains of the Timeless Isle.
 411329	pet	1329	Dandelion Frolicker	251408	348547	item_herbc	While fascinated by flowers, the frolicker has also been known to dance with blades of grass and the occasional weed.
 411330	pet	1330	Death Adder Hatchling	251277	801475	inv_pet_pythonbrown	Late in life, if the environmental conditions are correct, a Death Adder may shed its skin and undergo a transformation into an Imperial Python.
@@ -1660,6 +1802,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411363	pet	1363	Alterac Brew-Pup	251988	930453	inv_stbernarddogpet	A mastiff bred for rescue, the Alterac brewhound's bloodline is famous for having found and resuscitated many mountain travelers trapped beneath the snow... and then slobbering all over them.
 411364	pet	1364	Murkalot	251990	615479	inv_mace_1h_pandung_c_01	We're Crusaders from a fable. We dance whene'er we're able. We do routines and chorus scenes, with footwork impeccable!
 411365	pet	1365	Treasure Goblin	251994	370211	ability_racial_packhobgoblin	Watch your coin purse.
+411384	pet	1384	Hogs	253502	134163	inv_misc_head_gnoll_01	Tenacious and terrible, the mighty Hogs slaughters weaker enemies without hesitation.
+411385	pet	1385	Albino Chimaeraling	253610	236190	ability_hunter_pet_chimera	Both heads are equally fearsome on the terrifying chimaera, each capable of its own unique breath attack.
 411386	pet	1386	Dread Hatchling	253719	952507	inv_ravenlordpet	The dark wings will cloud and consume the minds of the weak, because they are just so adorable!
 411387	pet	1387	Iron Starlette	253748	892829	ability_siege_engineer_detonate	This massive weapon of destruction has been miniaturized for use in the garden. Moles beware!
 411394	pet	1394	Weebomination	254511	136118	spell_shadow_abominationexplosion	Made from bits and pieces of vanquished battle pets, dark magic, and just a pinch of love.
@@ -1670,13 +1814,17 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411416	pet	1416	Teroclaw Hatchling	258722	132921	inv_feather_08	The teroclaw is a potent hunter of the small and furry.
 411426	pet	1426	Elekk Plushie	258170	1044082	inv_tailoring_elekkplushie	This adorable little elephant is always there for you.
 411427	pet	1427	Frostfur Rat	204960,202176	134324	inv_misc_monstertail_03	Annoying and destructive, they can be coaxed with enough cheese to become a tolerable companion.
+411428	pet	1428	Zomstrok	257803	134048	inv_misc_food_92_lobster	Zomstrok is evil incarnate, the unholy mistake of someone maddened by isolation, a creation that could not be undone.
 411429	pet	1429	Autumnal Sproutling	257823	960698	inv_misc_herb_wldsteelbloom_petal	From seed to flower, a tiny terror is grown.
 411430	pet	1430	Forest Sproutling	257822	960698	inv_misc_herb_wldsteelbloom_petal	From seed to flower, a tiny terror is grown.
 411432	pet	1432	Nightshade Sproutling	257824	960698	inv_misc_herb_wldsteelbloom_petal	From seed to flower, a tiny terror is grown.
 411434	pet	1434	Sun Sproutling	257825	960698	inv_misc_herb_wldsteelbloom_petal	From seed to flower, a tiny terror is grown.
+411435	pet	1435	Leatherhide Runt	258606	134060	inv_misc_foot_centaur	Many years ago, an ogre tried to use a leatherhide runt as kickball. He was forever known as Onefoot afterwards.
 411441	pet	1441	Mud Jumper	247992	804968	inv_pet_toad_brown	Orcish children have a tradition where they sneak up on a mud jumper and whisper a secret they wish to come true. If the mud jumper doesn't jump, the wish will come true.
 411442	pet	1442	Ghastly Kid	257970	877477	inv_pet_ goat	In the ultimate demonstration of stubborness, this once-living nannie simply refused to die.
+411446	pet	1446	Meadowstomper Calf	239130	656599	inv_pet_baby_elekk_green	The intelligence and caring nature of elekk calves make them a stalwart lifelong companion.
 411447	pet	1447	Moonshell Crab	256803	2027885	inv_crab2_truesilver	The moonshell crab reflects light so well that they can be picked up and used as a mirror. Just keep your face away from the claws!
+411448	pet	1448	Sea Calf	249259	134480	inv_misc_throwingball_01	The sea calf has a natural affinity for balancing things.
 411449	pet	1449	Deathwatch Hatchling	258395	1044497	inv_ravager2pet_black	This hatchling has an unusual sense that allows it to detect and follow along with alpha predators.
 411450	pet	1450	Draenei Micro Defender	258547	986488	inv_eng_gizmo2	While these tiny mechanical guardians were created to protect domesticated elekks from pests, they also turned out to be really good at giving back massages.
 411451	pet	1451	Molten Corgi	258570	1044792	inv_moltencorgi	Loves to herd imps, roll around in lava, and snuggle with elemental lords.
@@ -1703,22 +1851,35 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411516	pet	1516	Bush Chicken	230969	132926	inv_feather_13	Following their introduction to the mainland by the goblins, Bush Chickens have become the entre du jour for Pilgrim's Bounty due to their high deliciousness and low intelligence.
 411517	pet	1517	Blazing Cindercrawler	238473	519830	inv_helm_circlet_firelands_d_01	Tiny, incinerated corpses of various insects line its cage.
 411518	pet	1518	Stout Alemental	242430	669468	inv_pet_pandarenelementa_fire	The Pandaren Brewmasters accidentally brought a barrel of Uncle Gao's last sentient batch of brew with them to Brewfest.
+411521	pet	1521	Cursed Birman	258169	454045	trade_archaeology_catstatueemeraldeyes	One of this cat's nine lives has returned to haunt the living by yowling loudly when you're trying to sleep.
+411523	pet	1523	Widget the Departed	259330	656575	inv_pet_cats_bombaycat	Not even death would stop this kitten's insatiable curiosity.
+411524	pet	1524	Netherspawn, Spawn of Netherspawn	259352	136007	spell_nature_acid_01	This slime has a long and confusing lineage.
 411530	pet	1530	Frostwolf Ghostpup	259578	1120424	inv_pet_frostwolfpup	The little wolf told to stay. Watching, waiting, for vacant prey. Too proud to leave, she slipped away. Unburdened now, forever free to play.
 411531	pet	1531	Ancient Nest Guardian	259577	986483	inv_eng_clockworkegg	The ancient nest guardian was designed with the unthinkable in mind: to hate cats.
+411532	pet	1532	Ikky	259602	132914	inv_feather_01	Kaliri hatchlings feast on grubs when they're young, and eventually graduate to anything smaller than themselves.
 411533	pet	1533	Lanticore Spawnling	259668	462337	achievement_dungeon_blackwingdescent_raid_chimaron	No one knows what deep part of Blackwing Descent the Lanticore was kept in, but it probably smelled pretty awful.
+411536	pet	1536	Zangar Spore	259885	460954	priest_icon_chakra	In Draenor, the Zangar Sea seeks to overtake the land by releasing thousands of these spores and slowly growing inland over time.
+411537	pet	1537	Crimson Spore	261549	463282	priest_icon_chakra_red	A spore plucked from the Crimson Fen, an area of Gorgrond that was swallowed when Draenor was torn apart by nether magics.
+411538	pet	1538	Umbrafen Spore	261548	463280	priest_icon_chakra_blue	The deep blue Umbrafen would later become home to a tribe of Broken.
+411539	pet	1539	Seaborne Spore	261550	463281	priest_icon_chakra_green	A spore from Zangarra, a central area of the Zangar encroachment that would later bloom into the Zangarmarsh.
+411540	pet	1540	Brilliant Spore	261547	132851	inv_elemental_primal_shadow	Brilliant spores are very rarely seen, found deep under the waves of Draenor within the darkest corners of the Zangar fungal encroachment.
 411541	pet	1541	Hydraling	260016	463493	trade_archaeology_whitehydrafigurine	The hydraling can be an expensive pet, as it is capable of eating from three food bowls at the same time.
 411542	pet	1542	Frostwolf Pup	254855	1120424	inv_pet_frostwolfpup	These pups are bundles of fur and teeth until they grow up, at which point they are really just teeth.
+411543	pet	1543	Pygmy Cow	258932	136072	spell_nature_polymorph_cow	Originally bred to make milk more palatable for gnomes.
 411545	pet	1545	Firewing	259017	526578	ability_mount_fireravengodmount	Don't line her cage with paper unless you want a fire.
 411546	pet	1546	Stormwing	260458	897087	ability_mount_stormcrowmount	Half bird, half elemental, the beautiful Stormwing is truly capable of shock and awe.
 411564	pet	1564	Doom Bloom	260732	134205	inv_misc_herb_dreamingglory	A clear indication why goblin fertilizers should be used sparingly.
+411565	pet	1565	Mechanical Scorpid	249122	986492	inv_eng_metalblingronear	Iron, iron, steel and fire. Bellows, gears, plates, and wire.
 411566	pet	1566	Everbloom Peachick	260819	667692	inv_pet_peacock_green	These tiny creatures seem to favor big, fluffy nests, preferably atop an animal-loving dryad.
 411567	pet	1567	Sentinel's Companion	260820	133247	inv_jewelcrafting_jadeowl	The companion of a night elf sentinel, rarely given out as a gift.
 411568	pet	1568	Puddle Terror	259038	893777	ability_shawaterelemental_reform	Living so closely to the water's surface, the puddle terror is not only friend to all aquatic creatures, it is one.
 411569	pet	1569	Soul of the Forge	258534	1044088	6bf_explosive_shard	When forging enchanted steel, bits of magic seep into the coals. Over a period of years, decades even, the unbound energy slowly takes form, creating a tiny elemental being of immense fortitude.
+411570	pet	1570	Sunfire Kaliri	260617	132919	inv_feather_06	Legend says the Sunfire Kaliri flies into the sun itself when it is ready to die.
 411571	pet	1571	Albino River Calf	258768	1044482	inv_babyhippo01_white	Their white hide would make them vulnerable to sunburn, if it wasn't as thick as plate armor.
 411572	pet	1572	Brilliant Bloodfeather	259130	667690	inv_pet_peacock_blue	The bloodfeather is completely fearless, fanning out its feathers and charging any threat.
 411573	pet	1573	Golden Dawnfeather	259131	667690	inv_pet_peacock_blue	It's said the feathers glitter like gold when the rising sun shines upon them.
 411574	pet	1574	Son of Sethe	260876	1029738	inv_misc_boilingblood	Godlike being now in travel size.
+411575	pet	1575	Sky Fry	260909	132191	ability_hunter_pet_netherray	Playing fetch with a ray is always fun. You don't even have to aim.
 411576	pet	1576	Eye of Observation	260930	236407	achievement_boss_cthun	You'll always feel like... something is watching you.
 411577	pet	1577	Bloodthorn Hatchling	258613	1044499	inv_ravager2pet_red	Ravagers are favored ogre snacks when they are small and less deadly.
 411578	pet	1578	Frostshell Pincher	260923	132186	ability_hunter_pet_crab	The frostshell pinchers build up layers of ice to give them the extra protection from larger predators.
@@ -1726,16 +1887,39 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411581	pet	1581	Fen Crab	260916	132186	ability_hunter_pet_crab	These crafty crustaceans burrow under the mud to avoid being scooped up by larger predators.
 411582	pet	1582	Zangar Crawler	260915	132186	ability_hunter_pet_crab	They feed off of the nutrient-rich fungal spores which gives these crabs the district coloring of their shells.
 411583	pet	1583	Kelp Scuttler	260914	132186	ability_hunter_pet_crab	They will cover themselves in seaweed and other ocean foliage to get the upper claw on their prey.
+411586	pet	1586	Cerulean Moth	260618	236193	ability_hunter_pet_moth	Delicate and dangerous, brilliant and bold, a beauty worth more than gold.
+411587	pet	1587	Royal Moth	260891	236193	ability_hunter_pet_moth	Their deep purple wings are highly sought after by ogre magi believing that they can bring prolonged life when added to potions.
+411588	pet	1588	Dusty Sporewing	260889	236193	ability_hunter_pet_moth	Their wings emit a fine powder as a defensive mechanism when it is in danger.
+411589	pet	1589	Crimsonwing Moth	260888	236193	ability_hunter_pet_moth	Delicate and dangerous, brilliant and bold, a beauty worth more than its weight in gold. Too bad they are so light.
+411590	pet	1590	Swamplighter Firefly	260864	236196	ability_hunter_pet_wasp	Scholars have debated at length about how fireflies glow, but the leading hypothesis is "magic".
+411591	pet	1591	Violet Firefly	260863	236196	ability_hunter_pet_wasp	These fireflies retain their purple glow by eating only purple flowers and nectar.
+411592	pet	1592	Sapphire Firefly	260862	236196	ability_hunter_pet_wasp	It has been referred to as "the flying gem" due to its similar luster to the finest of sapphires.
+411593	pet	1593	Waterfly	260861	236196	ability_hunter_pet_wasp	The watefly uses the surface of the water to reflect the light from their abdomen to attract mates.
 411594	pet	1594	Mudback Calf	258767	979220	inv_babyhippo01	Surprisingly quick when provoked, but easily calmed with a meal of Nagrand arrowbloom.
 411595	pet	1595	Flat-Tooth Calf	258766	1044481	inv_babyhippo01_green	Surprisingly quick when provoked, but easily calmed with a meal of Nagrand arrowbloom.
+411596	pet	1596	Veilwatcher Hatchling	259603	132914	inv_feather_01	Hunted to near extinction for its feathers, this kaliri has developed keen senses.
+411597	pet	1597	Kaliri Hatchling	259034	132914	inv_feather_01	Hunted to near extinction for its feathers, the kaliri has developed keen senses.
 411598	pet	1598	Glowing Sporebat	260972,260973	132197	ability_hunter_pet_sporebat	Wild sporebats are vicious creatures, but if tamed at a young age, they can be loyal companions.
 411599	pet	1599	Shadow Sporebat	260974	132197	ability_hunter_pet_sporebat	Wild sporebats are vicious creatures, but if tamed at a young age, they can be loyal companions.
+411600	pet	1600	Bone Serpent	260975	970830	inv_fishing_innards_bones	Young bone serpents will try to burrow into a living creature's skull and devour their brain. So you may want to wear a night cap.
 411601	pet	1601	Servant of Demidos	261016	136221	spell_shadow_summonvoidwalker	Demidos created a great many servants when he was hosting parties for other void lords.
 411602	pet	1602	Grommloc	261127	1044791	inv_grommloc	No matter how much he screams, never give him demon blood.
 411603	pet	1603	Argi	261128	1044790	inv_babyspacegoat	Often caught chewing on things they shouldn't be, goats were initially blamed for the crash of the Exodar.
+411605	pet	1605	Trunks	261148	656597	inv_pet_baby_elekk_blue	A magical friend created with equal parts adventure and spirit.
 411615	pet	1615	Parched Lizard	236585,243221	463491	trade_archaeology_trolllizardfootcharm	Not only is it quick, it's loud too!
+411622	pet	1622	Grotesque	261884	458967	ability_deathknight_summongargoyle	A smaller gargoyle that is used to divert the flow of rainwater on scourge buildings to prevent mausoleum flooding.
+411623	pet	1623	Leviathan Hatchling	261887	1100171	inv_pet_leviathan_green	The dark green water in the Black Temple's sewer system gives these hydras their distinctive color.
+411624	pet	1624	Abyssius	261888	1100169	inv_pet_abyssal_blue	A fragment of the great abyssal Supremus, Abyssius contains enough fiery essence to burn a hole right through your pocket.
+411625	pet	1625	Fragment of Anger	261890	1100173	inv_pet_reliquaryanger	It's just a little mad.
+411626	pet	1626	Fragment of Suffering	261891	1100175	inv_pet_reliquarysuffering	It's only mildly irritated.
+411627	pet	1627	Fragment of Desire	261889	1100174	inv_pet_reliquarydesire	It's only somewhat interested.
 411628	pet	1628	Sister of Temptation	261892,270439	136220	spell_shadow_summonsuccubus	She's the devil on your shoulder, whispering in your ear.
 411629	pet	1629	Stinkrot	261894	1100170	inv_pet_ghoul	What's that smell?
+411631	pet	1631	Hyjal Wisp	240224	1100178	inv_pet_wisp_purple	Hundreds of these wisps came together to defend Hyjal from Archimonde and save the world.
+411632	pet	1632	Sunblade Micro-Defender	261896	1100176	inv_pet_sunbladeprotector_green	Because you don't want to know what happens when a rat wanders into the Sunwell.
+411633	pet	1633	Chaos Pup	262466	1100177	inv_pet_voidhound	The Twisting Nether is an infinite abyss of terrors and one small corner of extreme cuteness.
+411634	pet	1634	Wretched Servant	261898	1100179	inv_pet_wretchedelf	Magic-addicted elves too small and frail to serve in Kil'Jaeden's army were relegated to servant roles for the higher-class demons.
+411635	pet	1635	K'ute	261900	1100172	inv_pet_naaru	When this pet is near, calming chimes fill your mind and remind you of a time long passed.
 411639	pet	1639	Graves	262354	1065381	inv_gravegolempet	In one invasion of the Haunted Mines, a team of heroes only managed to collect a single skull. The golem that resulted, too small to do much damage to the enemy towers, wandered off into the Nexus, eventually finding its way to Azeroth.
 411655	pet	1655	Slithershock Elver	262440	133897	inv_misc_fish_11	The rivers of Draenor are filled with moray. They are vicious predators, attacking anything that enters the water.
 411656	pet	1656	Young Talbuk	260609	1044501	inv_talbukdraenor_white	Talbuk grow their horns to full size at an early age.
@@ -1756,6 +1940,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411700	pet	1700	Enchanted Torch	269489	1379180	inv_enchanting_70_pet_torch	Strega the Hag didn't like carrying her own torches. One quick enchantment, and the thing would dutifully follow her into the night.
 411701	pet	1701	Enchanted Pen	269488	1379179	inv_enchanting_70_pet_pen	Strega the Hag, tired of writing thank you notes, used her magic to automate the task. Unfortunately, the pen had a dark side and all the recipients received strongly worded letters...
 411705	pet	1705	Grumpy	265071	877481	inv_pet_mastiff	You saved him, but maybe he saved you.
+411706	pet	1706	Ashmaw Cub	265070	446127	inv_misc_bearcubbrown	This little guy has had a rough start at life, be sure to take good care of him.
 411708	pet	1708	Albatross Chick	265066	464160	inv_misc_seagullpet_01	Many sailors believe that harming an albatross will bring terrible luck upon their voyage.
 411709	pet	1709	Fledgling Kingfeather	262219	1392564	artifactability_survivalhunter_eaglesbite	While other species of birds take turns leading the flock during migration, the kingfeather always remains in the lead. Whether this is an effort to help the rest of the flock conserve energy or out of dominance remains unknown.
 411710	pet	1710	Fledgling Oliveback	262217	1392564	artifactability_survivalhunter_eaglesbite	Always in its brother's shadow.
@@ -1779,11 +1964,19 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411729	pet	1729	Olivetail Hare	204626	254857	inv_misc_rabbit	Olivetail is a bit of misnomer, as its whole body is just brown...
 411730	pet	1730	Spectral Spinner	265159	236551	achievement_halloween_spider_01	As if a mine full of non-ghost spiders wasn't scary enough.
 411731	pet	1731	Felspider	272868	134321	inv_misc_monsterspidercarapace_01	It's just like a regular spider, but fel.
+411734	pet	1734	Shimmering Aquafly	265237	236196	ability_hunter_pet_wasp	On very rare occasions glowflies synchronize their flashing creating a spectacular sight for any adventurer lucky enough to catch this phenomenon.
 411735	pet	1735	Terror Larva	230995	134895	inv_qiraj_skinsandworm	The terror larva seeks a host to feed on their dreams and terrors. Soon the larva will grow into the host's worst fears.
+411736	pet	1736	Slithering Brownscale	263674	136040	spell_nature_guardianward	These snakes are extraordinarily docile creatures. However, they blend with their environment so well that many adventurers tread too closely to a nest. Most bites result from totally avoidable incidents.
+411737	pet	1737	Vale Flitter	251292	236193	ability_hunter_pet_moth	Vale flitter normally have incredibly long lifespans. That was until people found use for them in pet battles.
 411738	pet	1738	Auburn Ringtail	264651	646059	inv_pet_raccoon	Is it three white stripes on a brown tail, or two brown stripes on a white tail?
 411739	pet	1739	Spring Strider	243798	643423	inv_pet_waterstrider	Striders glow brightest during spring, hence the name.
+411740	pet	1740	Ghost Maggot	265274	648918	inv_pet_maggot	If a live maggot eats the dead, what does an undead maggot eat?
+411741	pet	1741	Ghastly Rat	265273	515993	achievement_rat	By far the best way to spread the plague of undeath.
 411743	pet	1743	Black-Footed Fox Kit	265389	462532	inv_misc_foxkit	Often it is red-footed after it catches its prey.
 411744	pet	1744	Mist Fox Kit	265390	797544	inv_misc_foxkit_white	It disappears as quietly and mysteriously as the mist.
+411749	pet	1749	Rose Taipan	265457	133262	inv_jewelcrafting_rubyserpent	The last thing you'll see is a streak of red.
+411750	pet	1750	Tiny Apparition	265516	236548	achievement_halloween_ghost_01	It's more cute than spooky.
+411751	pet	1751	Son of Goredome	265527	135705	inv_weapon_shortblade_70	Like father, like son.
 411752	pet	1752	Crispin	265590	133944	inv_misc_food_02	Oddly, he was named Crispin even before the incident.
 411753	pet	1753	Bleakwater Jelly	265630	970806	inv_fishing_f_ammonite1	When a helsquid has devoured most of the food in any area, it can return to its polyp form and begin life anew.
 411754	pet	1754	Sewer-Pipe Jelly	265637	970806	inv_fishing_f_ammonite1	Dalaran's drainage is not as good as you think.
@@ -1791,6 +1984,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411756	pet	1756	Ridgeback Piglet	265667	1044799	inv_giantboarmount_brown	He loves to play in the mud! Then he likes to give you a hug!
 411759	pet	1759	Thaumaturgical Piglet	265671	1044799	inv_giantboarmount_brown	The formula had a bit too much... purple.
 411760	pet	1760	Fel Piglet	265672	1240370	ability_mount_felboarmount	Even piglets are not safe from the Legion's corruption. Although, this one seems harmless enough.
+411761	pet	1761	Echo Batling	265981	132182	ability_hunter_pet_bat	Most bats are not blind, except this one. This one is blind.
+411762	pet	1762	Hog-Nosed Bat	265982	132182	ability_hunter_pet_bat	Never say "oink" in its presence.
 411763	pet	1763	Spiketail Beaver	240713,240716,240717	645526	inv_pet_beaver	Its traveled all the way from New Beavertown.
 411764	pet	1764	Energized Manafiend	265713	237228	inv_jewelcrafting_gem_40	Energized by the ogre-mages of Highmaul, this mana-hungry creature will drain you dry before you know it.
 411765	pet	1765	Empyreal Manafiend	265714	237230	inv_jewelcrafting_gem_42	A shimmering creature made of pure arcane energy, it is hard to focus your eyes directly on it.
@@ -1801,8 +1996,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411776	pet	1776	Mudshell Conch	245883	442735	trade_archaeology_fossil_snailshell	Guess what its bed is. A piece of bread.
 411777	pet	1777	Broot	265813	874857	inv_pet_ancientprotector	I am Broot.
 411778	pet	1778	Dust Bunny	265854	132331	ability_vanish	This very elusive creature likes to hide in places where many adventurers don't frequently travel.
+411802	pet	1802	Fetid Waveling	266155	132886	inv_enchant_voidsphere	After a long night out mages find that their water elementals smell a bit off.
 411803	pet	1803	Thistleleaf Adventurer	266147	463540	inv_misc_lifeblood	Leaving the forest to see the world, which must look so much bigger to such a little guy.
 411804	pet	1804	Risen Saber Kitten	266157	132225	ability_mount_blackpanther	Eternally cute.
+411805	pet	1805	Alarm-o-Bot	274484	133001	inv_gizmo_07	For Sale: Slightly used Alarm-o-Bot. Rebuilt and refurbished. Still annoying.
 411806	pet	1806	Knockoff Blingtron	259042	1005279	inv_misc_blingtron	Don't want to break the bank on that new robot? Have a little helper at half the cost! Come down to Goblin Experimental Engineering Korporation and put in your order! All sales final.
 411807	pet	1807	Vicious Broodling	266210	1387708	inv_pet_spiderdemon	You can identify the cruelest and most vicious of the brood by their reddish hue.
 411808	pet	1808	Leyline Broodling	266212	1387708	inv_pet_spiderdemon	When demons, nightmares, and magic collide!
@@ -1844,14 +2041,23 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411941	pet	1941	Snowfang	273093	1488892	inv_frostwolfpupsnowfang	A pup of Thrall's frostwolf, Snowsong, besting her in combat has earned you a lifelong companion.
 411943	pet	1943	Noblegarden Bunny	228726	254858	inv_misc_rabbit_2	Why do bunnies lay eggs?
 411949	pet	1949	Igneous Flameling	273308	1020381	inv_tradeskillitem_sorcerersfire	Who's ready for a hot stone massage?
+411952	pet	1952	Dreadmaw	273661,273662	236197	ability_hunter_pet_worm	Deep beneath the Argent Tournament grounds a clutch of eggs belonging to mates Acidmaw and Dreadscale was found.
+411953	pet	1953	Snobold Runt	273663	134168	inv_misc_head_kobold_01	Really much more tolerable when he's not riding on your head.
+411954	pet	1954	Nerubian Swarmer	259766	236463	achievement_dungeon_azjollowercity_normal	Thousands of these skittering nightmares swarm underneath Northrend to this day.
+411955	pet	1955	Magma Rageling	273671	236297	ability_warlock_fireandbrimstone	In the eternal balance of frost and fire, the raging flames fuel many aggressive fronts.
+411956	pet	1956	Ironbound Proto-Whelp	226740	298670	achievement_boss_razorscale	The denizens of Ulduar transformed even small whelps into ironclad monstrosities.
 411957	pet	1957	Runeforged Servitor	273673	254109	achievement_dungeon_ulduarraid_irongolem_01	The runeforged sentries of Ulduar march endlessly without the need for rest or recharging.
+411958	pet	1958	Sanctum Cub	229819,273675	133236	inv_jewelcrafting_blackpearlpanther	Rub its belly more than twice and you're just asking to be pounced on.
 411959	pet	1959	Winter Rageling	273684	135988	spell_ice_lament	In the eternal balance of frost and fire, the stolid ice forms a defense without measure.
 411960	pet	1960	Snaplasher	273689,273690	134182	inv_misc_herb_02	Glowing from within, these sprouts have been blessed with a gift from Eonar.
+411961	pet	1961	G0-R41-0N Ultratonk	273692	254102	achievement_boss_theflameleviathan_01	The next level of scrapbot technology: pushes the scrap into a heap, then destroys it with flame vents and rockets.
+411962	pet	1962	Creeping Tentacle	273694,273695,273696	254105	achievement_boss_yoggsaron_01	There is something deeply unsettling about the tentacle, perhaps it is best not to look at it for too long.
 411963	pet	1963	Boneshard	273697	342917	achievement_boss_lordmarrowgar	A small fragment of Lord Marrowgar, it will NOT stop assaulting your shins.
 411964	pet	1964	Blood Boil	273699	1357798	sha_ability_warrior_bloodnova_nightmare	It really seems to want to touch you, but why?
 411965	pet	1965	Blightbreath	273704,273705	348273	achievement_festergutrotface	The eternal answer to the question 'what's that smell?'
 411966	pet	1966	Soulbroken Whelpling	273706	134155	inv_misc_head_dragon_blue	The Lich King tore the spirits of Sindragosa's lost whelps into undeath in front of her skeletal form as a final affront to the great dragon.
 411967	pet	1967	Drudge Ghoul	273707	1100170	inv_pet_ghoul	One of innumerable ghouls summoned by the Lich King in his final battle, left to roam the world for eternity.
+411968	pet	1968	Wicked Soul	273708	460857	ability_warlock_soulswap	An unrepentant soul that was once trapped inside Frostmourne, and now flits restlessly between worlds.
 411969	pet	1969	Stardust	268857	1338949	inv_pet_celestialrabbit	In the end, we are all wrought from stardust.
 411974	pet	1974	Snowfeather Hatchling	270071	1332549	inv_falcosaurospet_white	Snowfeather falcosaur hatchlings instinctively flee to nearby adults when threatened. The species is particularly fond of large prey.
 411975	pet	1975	Direbeak Hatchling	270070	1332548	inv_falcosaurospet_red	Direbeak falcosaurs are heartier than other falcosaur species, but cannot smell as well. They prefer pungent meals and will often eat carrion that has been sitting in the sun for days.
@@ -1859,7 +2065,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 411977	pet	1977	Bloodgazer Hatchling	270068	1332546	inv_falcosaurospet_black	Though they may look fierce, the bloodgazer species of falcosaur has a beak that makes it predisposed to consuming fruits.
 411978	pet	1978	Dutiful Squire	273244	1498974	inv_boastfulsquire_hd	After witnessing your heroism in battle, this squire promised you an oath of fealty.
 411979	pet	1979	Dutiful Gruntling	273245	1498975	inv_boastfulgruntling_hd	After witnessing your heroism in battle, this gruntling promised you an oath of fealty.
+411984	pet	1984	Albino Buzzard	274036	132200	ability_hunter_pet_vulture	Crysa has collected many exotic avians in her travels, none more rare than this hatchling.
 411997	pet	1997	Crackers	258823	1045161	inv_toucan_color4	They say Fleet Admiral Tethys was never without his trusty parrot by his side - or on his shoulder. Tethys could always call him with a whistle.
+411998	pet	1998	Everliving Spore	274468	571318	spell_druid_wildmushroom_bloom	In the fertile grounds of the Wailing Caverns, nothing truly dies.
+411999	pet	1999	Cavern Moccasin	274469,226846,274470,274471	237237	inv_jewelcrafting_jadeserpent	This serpent seems used to being at your side, it may have been the companion of one of the other druids of the fang.
 412000	pet	2000	Young Venomfang	274472,274473	132209	ability_hunter_serpentswiftness	Untouched by the deviate corruption seeping through the Wailing Caverns.
 412001	pet	2001	Dibbler	274513	1548512	creatureportrait_babyspider	This tiny robot specializes in drilling, clamping, and shooting lightning out of its brain. A typical gnome invention.
 412002	pet	2002	Naxxy	274514	1548513	creatureportrait_mininaxx	It's just constantly barfing plague fluid. Where does it come from? Where does it go?
@@ -1871,23 +2080,28 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412035	pet	2035	Bloodbrood Whelpling	275315	1580449	inv_pet_dkwhelplingblood	Unlike other wyrms, blood wyrms drain their foes rather than consuming them whole.
 412036	pet	2036	Frostbrood Whelpling	275316	1580450	inv_pet_dkwhelplingfrost	Among the Death Knight's forces, the frost wyrm is the most formidable. This whelpling is no different.
 412037	pet	2037	Vilebrood Whelpling	275317	1580451	inv_pet_dkwhelplingunholy	Biohazard. Handle with gloves.
+412041	pet	2041	Pocket Cannon	275498	1373903	ability_rogue_cannonballbarrage	Mr. Smite kept this in his trunk, but always seemed to prefer his hammer. Seems like a mistake in hindsight.
 412042	pet	2042	Scraps	275766	135551	inv_weapon_crossbow_22	He's one cowardly companion, because he's got no guts...
 412047	pet	2047	Ban-Fu, Cub of Ban-Lu	275989	1598223	inv_tigergodcubmonk	Introducing the youngest member of the Xuen Dynasty! Daughter of Ban-Lu. Niece of Xu-Fu. Granddaughter of the celestial Xuen... It's Ban-Fu!
 412049	pet	2049	Son of Skum	276262	134310	inv_misc_monsterscales_08	He's very friendly, but any amount of snuggles is going to result in you getting a nasty shock.
 412050	pet	2050	Orphaned Felbat	268861	1321546	inv_felbatmount	Sure are a lot of these around the Broken Shore.
 412051	pet	2051	Twilight	276595	1616893	inv_shadowstalkerpantherpet	This energetic kitten changes colors depending on its mood.
 412057	pet	2057	Tricorne	276956	515993	achievement_rat	He'll plunder your provolone, turn your ship to swiss, then get your gouda. He's a true muenster and the scourge of the seven bries.
+412058	pet	2058	Foe Reaper 0.9	245555	134065	inv_misc_gear_03	The earliest prototype of the deadly Foe Reaper.
 412062	pet	2062	Shadow	277501	1634262	inv_foxpet	Lost on Argus and overtaken by darkness, this playful fox can shrug off the void just by being by your side.
 412063	pet	2063	Sneaky Marmot	201072	594273	achievement_brewery_1	This marmot has been with you this entire time. He's that good.
 412064	pet	2064	Mining Monkey	278106	877482	inv_pet_monkey	Best keep him away from any cannons.
 412065	pet	2065	Dig Rat	201418	647701	inv_pet_mouse	Rogues often kept a few of these in their pockets in times of emergency. Don't ask me why.
 412071	pet	2071	Bronze Proto-Whelp	278222	1380676	spell_warrior_dragoncharge	The Bronze Proto-Whelps have been discovered only in the most peculiar of timelines.
+412072	pet	2072	Ageless Bronze Drake	278261	134156	inv_misc_head_dragon_bronze	This particular drake has oddly retained its age throughout its travels, but its size has certainly changed.
 412076	pet	2076	SpeedyNumberIII	200304	651877	inv_misc_skeweredpeanutchicken	
 412077	pet	2077	Ghost Shark	278989	294472	inv_pet_babyshark	Queen Azshara's curse over the denizens of Azsuna did not only affect the night elves. This shark is doomed to an eternity of bottomless hunger.
 412078	pet	2078	Tinytron	279630,279631,279632,279633	415046	achievement_dungeon_blackwingdescent_darkironcouncil	During their years-long war with the black dragonflight, the dwarves tried crafting smaller golems that were more difficult to hit.
 412079	pet	2079	Discarded Experiment	279634	429380	achievement_dungeon_blackwingdescent_raid_maloriak	Maloriak was nothing if not resourceful, not letting even small scraps of flesh go to waste.
+412080	pet	2080	Rattlejaw	224751	132095	ability_creature_cursed_03	Nefarian's reanimated bone constructs were an effective way to combat the many adventurers that plagued him, and especially their mages.
 412081	pet	2081	Twilight Clutch-Sister	279635,279636,274423	429378	achievement_dungeon_bastion of twilight_twilightascendantcouncil	Even very small things can be corrupted, the apocalypse is for everyone.
 412082	pet	2082	Bound Stream	279637	1385912	shaman_pvp_ripplingwaters	Amongst the rudest of the Twilight's Hammer's corrupting activities was binding the elements of small streams and brooks.
+412083	pet	2083	Faceless Minion	279638	298654	achievement_boss_heraldvolazj	It has no eyes, but it always seems to be staring at you.
 412084	pet	2084	Zephyrian Prince	279641	462522	achievement_dungeon_thevortexpinnacle_lordertan	A minor diety of wind, lording over the tiny breezes that make you think the heat of the summer season will be bearable for a brief moment.
 412085	pet	2085	Drafty	279639	132845	inv_elemental_primal_air	If you feel a slight gust that made you shiver, that was probably Drafty.
 412086	pet	2086	Blazehound	279707	236946	inv_bone_skull_04	Some say it's the pup of Riplimb and Rageface, others say 'I don't want to think about that.'
@@ -1899,6 +2113,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412092	pet	2092	Unstable Tendril	279711	538042	ability_deathwing_grasping_tendrils	Its friends call it "Slappy."
 412093	pet	2093	Amalgam of Destruction	279712	515033	achievement_firelandsraid_balorocthegatekeeper	Infused with the elementium ore used to plate the great dragon Deathwing, and one of the last remnants of the madness that nearly consumed Azeroth.
 412113	pet	2113	Felclaw Marsuul	278451	1715032	inv_feasel_fel	While most of the marsuul on Argus feed on fruits, this particular one prefers the juicy crunch of small rodents.
+412114	pet	2114	Globe Yeti	279795	237419	inv_misc_pelt_10	Who makes them? How do they get there? No one knows, except maybe Greatfather Winter.
+412115	pet	2115	Cross Gazer	279777	538445	warlock_summon_ beholder	I always feel like somebody's watching me.
 412116	pet	2116	Orphaned Marsuul	279776	1715033	inv_feasel_purple	It's not really an orphan. The name just makes you feel better about abducting it.
 412117	pet	2117	Fel Lasher	279783	134207	inv_misc_herb_fellotus	Beautiful and deadly.
 412118	pet	2118	Docile Skyfin	279796	1570762	inv_manaraymount_magenta	Skyfin can be observed in a wide variety of colors. Biologists believe the vibrancy of those colors both help attract mates and ward predators.
@@ -1910,6 +2126,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412124	pet	2124	Bilescourge	278449	1686580	inv_leatherworking_fiendishleather	The final phase of the bilescourge life cycle.
 412126	pet	2126	Antoran Bilescourge	279358	1686580	inv_leatherworking_fiendishleather	Bilescourge mostly feed on the corpses of victims of the Legion. However, since your arrival, it has developed a taste for demon corpses as well.
 412127	pet	2127	Flickering Argunite	278464	294481	inv_pet_scorchedstone	Born from the crash site of the Xenedar on Argus.
+412128	pet	2128	Warpstalker Runt	278508	132201	ability_hunter_pet_warpstalker	While there are many similarities to the warpstalkers from Azeroth, evidence suggests they evolved completely independently from one another. Fascinating!
 412129	pet	2129	Voidstalker Runt	278502	132201	ability_hunter_pet_warpstalker	The void can consume life or meld with it. The latter often has unpercieved consequences.
 412130	pet	2130	Void Shardling	278509	1391780	spell_arcane_blast_nightborne	You have the odd feeling that it wants to kill you.
 412131	pet	2131	Arcane Gorger	278595,278597	132841	inv_elemental_mote_mana	Mana wyrm used to thrive on Argus many millennia ago, but lots has changed since those halcyon days.
@@ -1917,6 +2134,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412133	pet	2133	Pygmy Marsuul	278599,278598	1715031	inv_feasel_blue	It likes to be petted behind the fins.
 412134	pet	2134	Skyfin Juvenile	278499,278500	1570761	inv_manaraymount_blue	Skyfin can fly from birth and there are some observed cases of mothers giving birth midflight!
 412135	pet	2135	Rebellious Imp	279888,279890	460856	ability_warlock_impoweredimp	What are they rebelling against? The real question is what are they NOT rebelling against.
+412136	pet	2136	Uuna	276829	134506	inv_misc_toy_02	Uuna was found bound to an Ur'zul, and was released into the Shadowlands, where she wandered in the utter darkness.
 412143	pet	2143	Tottle	287401	1719412	inv_babytortollan	Tottle's one wish is to explore the world at your side!
 412157	pet	2157	Dart	281984	463492	trade_archaeology_trolltooth w goldfilling	This young crawgling was rescued from a vicious blood troll war camp. With care, and lots of feeding, you earned his trust and Krag'wa asked you to take care of him always.
 412158	pet	2158	Mailemental	282391	413580	achievement_guildperk_gmail	The Postmaster is often described as esoteric, mystical, even inexplicable. For the precious little known about the enigmatic mail-master, perhaps none outside of the wax seal can confirm the existence of the fantastical letter-loving Mailemental.
@@ -1924,9 +2142,12 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412165	pet	2165	Francois	275339	651737	inv_cloudserpent_egg_yellow	Francois, a pompous member of the bockgeoisie, whose wealth and influence was born from the exploitation and labor of the peckletariat.
 412184	pet	2184	Whomper	286020	1998314	inv_snowkid	When Whomper wants to play, he'll let you know with a playful headbutt.
 412185	pet	2185	Cap'n Crackers	286021	1998635	inv_redbird	Don't say anything to Cap'n Crackers that you don't want repeated to you every day for the next 20 years.
+412186	pet	2186	Spawn of Merektha	286088	135461	inv_waepon_bow_zulgrub_d_01	Not much is known about the great snake Merektha and the many eggs in the Temple of Sethraliss, but the residents of Zandalar all seem to have a distinct amount of both respect and fear for these serpents.
 412187	pet	2187	Filthy Slime	286101	252178	ability_vehicle_oiljets	You're not entirely sure where this came from, nor do you really want to know, but you are sure that it does eat a tremendous amount of garbage.
 412188	pet	2188	Poda	286136	2027895	inv_ferret_stripeddark	Poda was just a small part of the larger business, always trying to live up to the standards of his older brother Coda.
 412189	pet	2189	Smoochums	286135	656581	inv_pet_cats_whitekitten	Smoochums loved life in Glenbrook, it was full of people to play with and places to sleep, and also where unspeakable acts happen at the most innocent of tea parties.
+412190	pet	2190	Guardian Cobra Hatchling	286229	237237	inv_jewelcrafting_jadeserpent	A newly hatched Cobra can be just as deadly as a fully grown one, if not more.
+412192	pet	2192	Vengeful Chicken	286231	656513	inv_pet_mechanicalchicken	The wisest engineers of Azeroth all know that the only thing more dangerous than a living evil chicken, is the mind of an evil chicken transplanted into the body of a mechanical chicken.
 412196	pet	2196	Lil' Tika	286445	797327	inv_zandalaribabyraptorred	Most predators favored the soft parts of their prey to attack first. Lil' Tika prefers to go for the face.
 412197	pet	2197	Direhorn Hatchling	286484	840540	inv_babytriceratops_blue	The Direhorn species is among the toughest and strongest of all things that walk on Azeroth. They can seem like gentle giants, but be cautious that you don't find yourself in front of one when they are on a warpath.
 412198	pet	2198	Taptaf	286488	1721029	inv_babypig	Taptaf is loyal beyond a doubt, as long as food is provided.
@@ -1965,6 +2186,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412402	pet	2402	Brutus	287760	1567068	creatureportrait_robot_bulldog	Built with ever-wagging tail technology, Brutus is a mechanically-certified good boy.
 412403	pet	2403	Abyssal Eel	278244	2027958	inv_seaeel_teal	When the Naga invaded Stormsong, they brought their favored pets: Abyssal Eels.
 412404	pet	2404	Seabreeze Bumblebee	281966	2027854	inv_bee_red	These hardy bees form the backbone of a great honey and mead industry. For decades, the Tidesages forbade anyone from taking them outside of Stormsong.
+412405	pet	2405	Corlain Falcon	281079	132188	ability_hunter_pet_dragonhawk	Corlain Falcons are trained from birth to be scouts and fighting companions. The few spared from the Heartsbane curse serve the Order of Embers in the same capacity.
 412406	pet	2406	Drustvar Piglet	227682	1721029	inv_babypig	This piglet avoided being turned into sausage at the hands of Roland with the help of a cunning spider.
 412407	pet	2407	Frenzied Cottontail	280951	2399278	inv_rabbit2_defaultblood	This red-nosed bunny is incredibly soft to the touch; just watch your fingers.
 412408	pet	2408	Bilefang Skitterer	269092	2027859	inv_bonespider2_slate	Silver dust sparkling on each of this spider's legs attracts prey; unwittingly drawn into an inescapable web.
@@ -1977,6 +2199,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412415	pet	2415	Tragg the Curious	288468	1802889	ivn_toadloamount	Krag'wa reluctantly sent Tragg to the Talanji Expedition with the hope that they could find someone suitable to escort him on a tour of Azeroth.
 412416	pet	2416	Lil' Ben'fon	283641	1881827	inv_brontosaurusmount	White Brutosaurs were on the brink of extinction until some enterprising adventurers took action. Lil' Ben'fon may have inherited her father's size, but definitely has her mother's temper!
 412417	pet	2417	Ranishu Runt	276383	2399286	inv_rolypoly_orange	Always hungry, and has a shockingly good personality.
+412418	pet	2418	Child of Jani	278161	2399239	inv_compy_purple	The scavenger Loa thinks you can teach this saurid a thing or two. Just don't lose sight of your coin purse.
 412419	pet	2419	Swamp Toad	276761	804969	inv_pet_toad_green	These toads do not appreciate having their legs pulled off.
 412420	pet	2420	Accursed Hexxer	280852	1726347	inv_tikiman2_bloodtroll	No one knows where this haunted tiki mask came from, or why its so angry all the time. It seems to like you though!
 412421	pet	2421	Saurolisk Hatchling	281219	2027847	inv_babykomododragon_purple	They are so cute before they develop razor-sharp teeth and venom.
@@ -1991,7 +2214,14 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412430	pet	2430	Lost Platysaur	283685	1888348	inv_babysaurolophus	The platysaur species has been roaming around the lands since before time was even measured. An ancient species that has adapted to walking on the land, and also for some reason has adapted to repeating some short sounds three times in a row.
 412431	pet	2431	Dreadtick Leecher	279567	1618564	ability_mount_bloodtick_red	The Dreadticks have grown to be a very invasive and dominant species wherever they wind up, they are incredibly quick to assault any new species until they find a weakness to exploit.
 412432	pet	2432	Fuzzy Creepling	287862	2027962	inv_tarantula2_grey	The young of Arathi Highlands' plains spiders may kick clouds of barbed abdomen hairs into predators' eyes. All this, and poisonous web-spitters, too.
+412433	pet	2433	Aldrusian Sproutling	287870	135437	inv_tradeskillitem_03	So long as one of his Sproutlings remains, Branchlord Aldrus will never truly die.
+412434	pet	2434	Voidwiggler	287871	136221	spell_shadow_summonvoidwalker	Either Darbel Montrose was a terrible warlock, or she simply adored cute things. Perhaps both.
+412436	pet	2436	Scabby	287895	648803	inv_pet_diseasedbearcub	While Yogursa managed to survive the blight infesting many of Hillsbrad's ursines, she was driven mad, and her cubs forever tainted.
+412437	pet	2437	Ragepeep	287903	132150	ability_eyeoftheowl	Part owl, part bear... and part stag, which handily avoids potential lawsuits.
+412438	pet	2438	Foulfeather	274038	1929248	inv_vulturemount_blue	Plaguefeather and her brood feed well on the carrion the battle for Stromgarde has left scattered across the Highlands.
 412439	pet	2439	Azerite Puddle	284157	2065616	inv_radientazeritecore	These drops of Azerite are volatile and prone to explosive reactions when prodded.
+412440	pet	2440	Fozling	287945	451165	spell_shaman_earthquake	A living piece of Arathi's most infamous stone-faced behemoth, Fozruk.
+412441	pet	2441	Squawkling	216880	132200	ability_hunter_pet_vulture	Boulderfist legend recounts a cloud of carrion birds following ogre warriors through the Dark Portal during the Second War; it may be that all two-headed scavengers in Azeroth are their descendants.
 412442	pet	2442	Bumbles	281972	2027852	inv_bee_black	Bumbles may not have been the largest bee of the millions within the hive, but that doesn't mean he can't grow into a champion.
 412445	pet	2445	Scuttle	287999	2061891	inv_crab2pirate	Scuttle was named after the ships he destroys, not his movement patterns, and don't you forget it.
 412446	pet	2446	Sparkleshell Sandcrawler	288000	2027881	inv_crab2_purple	The shells of this particular group of crabs shimmer like gems on the sand.
@@ -1999,6 +2229,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412448	pet	2448	Craghoof Kid	288002	877477	inv_pet_ goat	The hooves of this subgroup of goats have evolved to be equally surefooted on sand or stone.
 412449	pet	2449	False Knucklebump	226524	132189	ability_hunter_pet_gorilla	Someone put this mechanical gorilla on the island to monitor the species, but who, and why?
 412450	pet	2450	Tinder Pup	288004	318343	inv_mace_116	The only balls this hound chases are diamond-hard, fireproof rocks. Very heavy, not fun to throw.
+412451	pet	2451	Bloodstone Tunneler	288005,288006	236197	ability_hunter_pet_worm	Is that a venomous worm in your pocket or... why is that in your pocket?
 412452	pet	2452	Poro	288003	2061724	inv_kakapo	Poro cannot fly, but enjoys a long lifespan hopping along the ground and shaking the fruits from trees.
 412453	pet	2453	Juvenile Brineshell	288007	1508497	inv_misc_claw_lobstrok_teal	Even young brineshell are drawn to the line in the sky that meets the waves, it calls them.
 412454	pet	2454	Kunchong Hatchling	288008	624010	achievement_raid_mantidraid05	Based on the size, the mantid appear to be re-growing their swarm, likely due to the presence of a new empress.
@@ -2007,6 +2238,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412457	pet	2457	Coldlight Surfrunner	286463	970832	inv_fishing_innards_eye	The coldlight once were quite common across the oceans, to the grumbles of many hunters, but no longer.
 412458	pet	2458	Muskflank Calfling	288036	1029741	inv_misc_nativebeastfur	Getting just one of these fragrant beasts damp is the olfactory equivalent to rolling around in a pile of wet dogs.
 412459	pet	2459	Snort	288035	616693	ability_mount_yakmount	Particularly partial to coastal scrub grasses, this hardy species has survived many years in uncharted lands.
+412460	pet	2460	Voru'kar Leecher	288037	237393	inv_misc_monsterclaw_09	The voru'kar are fiercely loyal to their leader, Vorus'arak, who led them to safety from the Lich King's grasp.
 412461	pet	2461	Inky	288034	2101159	inv_babyoctopus_eyepatch	Whatever the story of his mysterious eyepatch is, he's not talking.
 412462	pet	2462	Octopode Fry	288017,288021,288022,288025	2101158	inv_babyoctopus	A baby octopode is technically referred to as a "squish."
 412463	pet	2463	Sandshell Chitterer	288038	134967	inv_shield_21	During the warm summer months, the noise that these pests make is enough to drive a person mad.
@@ -2027,10 +2259,14 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412479	pet	2479	Bucketshell	287998	2061890	inv_crab2horde	No one knows who first started dressing up crabs in Azeroth, and it won't be stopping any time soon.
 412525	pet	2525	Redridge Tarantula	289609	2027964	inv_tarantula2_orange	The tarantulas that inhabit southern Redridge are smaller than their cousins elsewhere in Azeroth, but make up for their size with speed and ferocity.
 412526	pet	2526	Feathers	290422	2490921	inv_mechanicalparrotpet	Thought to be lost in a massive explosion, the smartest of engineers were able to rebuild Feathers into a magnificent mechanical creation.
+412527	pet	2527	Child of Pa'ku	230298	1624588	inv_pterrordax2mount_tan	There is a story told to some children that all winged creatures were unable to fly until Pa'ku provided enough wind to lift them off of the ground.
 412528	pet	2528	Spawn of Krag'wa	277989	2399289	inv_toadswamp_dark	A toad with Krag'wa's bloodline has an average expectancy to leap over seven million times during its lifetime.
+412529	pet	2529	Thunder Lizard Runt	289742	136103	spell_nature_swiftness	The large plates on the back of this lizard are made of a mysterious but highly conductive material, making it ideal to charge up and expel massive amounts of electricity.
 412530	pet	2530	Mechantula	290411	1511262	inv_mechanicalspider	The Mechantula was created by an unknown gnomish Engineer. Rumor has it when the original schematic was found, it was in a room covered with dusty old webbing, but neither the original Mechantula or the engineer who drafted the schematic could be found.
+412531	pet	2531	Mechanical Cockroach	288790	294474	inv_pet_cockroach	Mechanical Cockroaches are less likely to survive an apocalypse than an actual living cockroach, making this one of the more questionable feats of engineering.
 412532	pet	2532	Leper Rat	288785	2126350	inv_prairiedog_diseased	The radiation from all of the machinery in Gnomeregan gives these rats a soft green glow when looked at in absolute darkness.
 412533	pet	2533	Alarm-o-Dog	289767	1567069	creatureportrait_robot_doberman	The Alarm-O-Dog was built for security purposes, but people really wanted one for their home because they are so darn cute.
+412534	pet	2534	Mini Spider Tank	231623	132241	ability_mount_gyrocoptorelite	Nobody is sure why someone thought making a miniature version of the machines in Gnomeregan was a good idea, but they sure are fun to play with.
 412535	pet	2535	Wicker Wraith	286573	136221	spell_shadow_summonvoidwalker	The eerie magic in Drustvar has caused some unimaginable creatures to show up. Some still lurk in the shadows, others seem to be made out of shadows.
 412537	pet	2537	Baby Zandalari Raptor	290027,290031	2459292	inv_raptorbaby_black	The raptors of Zandalar have their feathers at a very young age, making them seem like easy prey to an unsuspecting predator. In reality, these little terrors eat everything they want to and are prey to almost no other species.
 412538	pet	2538	Dasher	290028	2459296	inv_raptorbaby_brown	Like many other species, you can get a rough guess of how large the raptor will be as a fully grown adult by the size of its largest claw.
@@ -2040,7 +2276,9 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412544	pet	2544	Darkshore Sentinel	290155	1387709	inv_pet_wardenowl	The Sentinel Owls of Darkshore are forever protective of their homeland.
 412545	pet	2545	Gust of Cyclarus	205187	132119	ability_druid_cyclone	When Cyclarus came to Darkshore, small cyclones appeared all over the place. Some of them dissipated over time, others found their way back to Cyclarus and were absorbed into the surrounding winds.
 412547	pet	2547	Hydrath Droplet	223000	636335	inv_elemental_spiritofharmony_2	Hydrath Water Droplets are also an excellent skin moisturizer.
+412548	pet	2548	Everburning Treant	290140	135829	spell_fire_totemofwrath	A lone Ancient of Lore in Darnassus managed to save this Treant in its final actions with a magical aura to prevent the flames from burning it any further.
 412549	pet	2549	Void Jelly	290141	537022	spell_priest_voidtendrils	This Jelly has seen better days. Now it sees through fifty different eyes.
+412550	pet	2550	Zur'aj the Depleted	290142	1386549	spell_priest_void flay	Once a mighty warrior of the n'raqi, Zur'aj's power was stolen and absorbed by an unknown rival.
 412551	pet	2551	Baby Stonehide	266487	1387706	inv_pet_babymoose	The playful kicks of these baby moose are enough to knock an orc flat on his back.
 412552	pet	2552	Leatherwing Screecher	290173	132182	ability_hunter_pet_bat	We don't know much about this species, but we do know this: bats aren't bugs.
 412553	pet	2553	Rotting Ghoul	290176	1100170	inv_pet_ghoul	Get it while it lasts.
@@ -2071,6 +2309,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412583	pet	2583	Azure Windseeker	244445	1247267	inv_bluegodcloudserpent	This little cloud serpent's favorite activity is chasing its own tail.
 412584	pet	2584	Spirit of the Spring	239739	774324	inv_pet_pandarenelemental_fire	The elemental spirits of Pandaria have been known to plan tricks to play on unsuspecting visitors years in advance.
 412585	pet	2585	Kor'thik Swarmling	245274	624012	achievement_raid_mantidraid07	Don't let these eat after midnight, legend has it that it's very dangerous.
+412586	pet	2586	Amberglow Stinger	290867	2626043	inv_firefly	The glow eminating from these is both calming and eerie at the same time when in total darkness.
 412587	pet	2587	Spawn of Garalon	290745	624010	achievement_raid_mantidraid05	The kunchong are extremely aggressive and will eat just about anything they can as soon as they are able to walk. If they can't eat it, they will smash it instead.
 412589	pet	2589	Living Amber	242520	646670	ability_creature_amber_02	The mantid are extremely reliant upon amber for many things, and even use it in some of their magic.
 412590	pet	2590	Ravenous Prideling	250919	135782	spell_fire_blueflamering	As a spawn of the most dangerous sha, this little monster has some big plans, but needs to wait a few thousand years first.
@@ -2093,6 +2332,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412660	pet	2660	Muck Slug	291087,291110,291112	2763642	inv_seasluggreen	What else is there to say? Slugs love muck.
 412661	pet	2661	Rustyroot Snooter	288762,288765	2205589	inv_capybara_brown	Snooters have a very good sense of smell and can easily find grass and seeds buried under snow or scrap.
 412662	pet	2662	Duskytooth Snooter	288763	2205590	inv_capybara_dark	The dark fur of the duskytooth allows them to more easily hide in the junkheaps of Mechagon Island.
+412663	pet	2663	Junkheap Roach	288786,288788	294474	inv_pet_cockroach	Of all of the creatures in Mechagon, the roaches seem the most unaffected by all of the changes.
+412664	pet	2664	Experimental Roach	288789	294474	inv_pet_cockroach	Experiments on this roach have grown it to an enormous size. Who would want that?
 412665	pet	2665	Fleeting Frog	278832	2399262	inv_frog2_tropicalblue	The frogs of Mechagon had two choices when faced with mechanization: hide or breed. This species chose the latter.
 412666	pet	2666	Yellow Junkhopper	278851	2399264	inv_frog2_yellow	The frogs of Mechagon had two choices when faced with mechanization: hide or breed. This species chose the former.
 412667	pet	2667	Motorized Croaker	278843,278842,278841	2399254	inv_frog2_mechanical_orange	The mechanical frogs of Mechagon Island have evolved to eat various mechanical insects, somehow.
@@ -2105,6 +2346,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412674	pet	2674	H4ND-EE	274802	1521022	inv_mechanicalhandpet	When you need a hand, you know who to call.
 412675	pet	2675	Clanking Scrapsorter	274803	1521022	inv_mechanicalhandpet	The machinists of Mechagon may automate many of the tasks of the city, but they also spend a lot of time repairing and maintaining their inventions.
 412676	pet	2676	Malfunctioning Microbot	290875,291631,291293	2735924	inv_mechagonpet_junker	Doesn't remember what it was originally programmed to do, just wants to battle other pets.
+412677	pet	2677	Twilight Whelpling	210095	134154	inv_misc_head_dragon_black	A re-emergence of whelps outside of Grim Batol has the red dragonflight worried -- something is happening in the lost city.
 412678	pet	2678	Abyssal Slitherling	278241,278242	2027955	inv_seaeel_green	The eels that inhabit the trenches and chasms of Nazjatar are a favored food of many creatures that inhabit the area.
 412680	pet	2680	Zanj'ir Poker	288873	2267048	inv_babynagablue	Master of poking, stabbing, thrusting, jabbing, and gouging.
 412681	pet	2681	Murgle	291235	3004140	inv_babymurloc3_red	The murloc tribe that Murgle belongs to is one of few that have resisted the naga's enslavement.
@@ -2135,9 +2377,11 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412707	pet	2707	Budding Algan	290993	960692	inv_misc_herb_stranglekelp_blade	There's no mistaking the evidence -- algan breed by budding. We can all put this argument to rest now.
 412708	pet	2708	Coral Lashling	280466	2027890	inv_desertlasherorchid_purple	The predatory coral of Nazjatar can grow incredibly quickly given the right conditions.
 412709	pet	2709	Skittering Eel	292158	133898	inv_misc_fish_12	The eels of Nazjatar are experts at hiding in the many cracks and rocks of the sea floor.
+412710	pet	2710	Drowned Hatchling	292162	656241	inv_pet_babyhippogryph	When the waves crashed down around the city, not all were fortunate enough to receive N'zoth's gift.
 412711	pet	2711	Golden Snorf	288764	2205591	inv_capybara_gold	The birth of an exceptionally rare Golden Snorf was such an abnormality that not even King Mechagon could force himself to mechanize his beloved, fuzzy friend.
 412712	pet	2712	Snowsoft Nibbler	288761	2205588	inv_capybara_albino	Of all snooters, this one has the softest fur. Ironically, it does not like to be pet very much.
 412713	pet	2713	Mustyfur Snooter	288766	2205593	inv_capybara_purple	A rare snooter, and hard to find, it's known for burrowing itself deep under wet foliage to nest.
+412714	pet	2714	OOX-35/MG	275332,275333,275334,275337	3004141	inv_chicken2_mechanical	Many advancements have been made to the initial prototype homing beacon over the years.
 412715	pet	2715	Lost Robogrip	274801	1521022	inv_mechanicalhandpet	It's not clear who the original owner of this arm was, but they're not getting it back now.
 412716	pet	2716	Utility Mechanoclaw	274800	1521022	inv_mechanicalhandpet	As handy as this invention is, it was also programmed to absolutely despise hand puns.
 412717	pet	2717	Microbot XD	290878,290876	2735922	inv_mechagonpet_alarm_silver	One of the microbots used to guard the city of Rustbolt, now purchasable for a reasonable price.
@@ -2146,8 +2390,11 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412720	pet	2720	Arachnoid Skitterbot	290413	2493081	inv_mechanicalspiderpet	No one knows who made these mechanical spiders, but everyone hates them.
 412721	pet	2721	Echoing Oozeling	291656	132108	ability_creature_poison_06	It doesn't take a very large ooze to eat a gnome.
 412747	pet	2747	Gruesome Belcher	292266	2492254	ui_darkshore_warfront_horde_abomination	The stench alone that this thing makes when it burps can easily ruin your day.
+412748	pet	2748	Ziggy	223057	132196	ability_hunter_pet_spider	Every time the mandibles on this vibrate slightly, it is because it gave someone a nightmare.
+412749	pet	2749	Crypt Fiend	209758	237373	inv_misc_head_nerubian_01	Six legs, two claws, multiple eyes, spiked body? This thing has it all!
 412750	pet	2750	Shrieker	210723	2492256	ui_darkshore_warfront_horde_banshee	Dogs can hear her coming from extremely far away.
 412753	pet	2753	Spraybot 0D	291631	2735924	inv_mechagonpet_junker	Even he cannot put out the fire in my heart.
+412754	pet	2754	Ghostly Whelpling	294165	134158	inv_misc_head_dragon_red	Unkillable dragons, what could go wrong?
 412755	pet	2755	Adventurous Hopling	292073	1519435	inv_misc_coinbag15	The last thing that tried to look in its tiny pack was never seen again.
 412756	pet	2756	Irradiated Elementaling	280254	134576	inv_ore_mithril_02	In case of darkness, this little elemental is an infinite source of a soothing green glow.
 412757	pet	2757	Slimy Otter	291250	645906	inv_pet_otter	The slimy coating on this otter provides excellent protection against sunburns.
@@ -2171,6 +2418,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412796	pet	2796	Void-Scarred Toad	295152	237579	spell_shaman_hex	Pulled from a horrific vision of Orgrimmar these toads are soaked in void energy.
 412797	pet	2797	Void-Scarred Pup	294166	1120427	inv_pet_frostwolfpup_shadow	This pup is now more than just a bundle of fur and teeth, it is fur, teeth and void.
 412798	pet	2798	Plagueborn Slime	299018	3459797	inv_maldraxxusslime_green	In Maldraxxus, plague has a strange habit of finding its way back to you.
+412832	pet	2832	Muar	295141	537516	spell_warlock_darkregeneration	The thirst for mana is insatiable, luckily this little one doesn't consume a whole lot.
+412833	pet	2833	Void-Scarred Anubisath	294706	1728726	inv_helm_armor_voidelf_d_01	N'Zoth's corruption spread across many beings, including this little Anubisath.
 412834	pet	2834	Aqir Hivespawn	295174	458247	trade_archaeology_pendant of the aqir	The aqir hive has countless numbers of beings in it, all of which are supportive of the ever-present Hivemind.
 412835	pet	2835	Ra'kim	291810	2103855	inv_icon_wing03b	The winged aqir are very fast and agile, and their wings provide a nice breeze on a warm afternoon.
 412836	pet	2836	Eye of Corruption	292438	3004126	inv_eyeofnzothpet	This creepy eye is looking at everyone, always, and only has to blink once every 10,000 years.
@@ -2181,16 +2430,20 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412841	pet	2841	Void-Scarred Rat	294714	132935	inv_gauntlets_01	A recent debate has risen up about whether Void-Scarred rats are better or worse than plagued rats.
 412842	pet	2842	Anomalus	295171	1500933	inv_misc_food_legion_goooil_pool	This ooze leaves behind a slimy trail as it moves that has a stench that would rival a beast rotting in the dunes of Uldum for a thousand years.
 412843	pet	2843	Void-Scarred Beetle	295172	631519	spell_priest_divinestar_shadow2	The shell on these beetles is quite brittle from the void interference, but it also has a strangely fast regeneration rate.
+412844	pet	2844	Reek	295173	3005319	inv_nzothserpentmount_purple	This little guy grows an additional eye somewhere on its body every year. It rhymes with...
 412845	pet	2845	K'uddly	292233	2958748	inv_babytentacleface	His tentacles give you the best hug your brain has ever felt.
 412846	pet	2846	Corrupted Tentacle	295144	538042	ability_deathwing_grasping_tendrils	Where did it come from, where does it go? Where did you come from, creepy tentacle?
 412847	pet	2847	Rotbreath	295145	2141737	inv_larva2_limegreen	Dragonbreath Chili is nothing compared to the stench coming from the mouth of this thing.
 412848	pet	2848	Aqir Tunneler	292904	1418495	ability_demonhunter_demonspikes2	These Aqir Scarabs are masters at tunneling through any terrain.
 412849	pet	2849	Pygmy Camel	295143	454772	ability_mount_camel_gray	These Pygmy Camels are often mistaken for Mysterious Camel Figurines.
 412850	pet	2850	Cursed Dune Watcher	295146	462729	achievement_dungeon_halls of origination_anraphet	This little guy was exiled and cursed by other watchers of Uldum to spend the rest of its time as a tiny insignificant being.
+412851	pet	2851	Wicked Lurker	295147	237299	inv_misc_eye_04	Three legs, two arms, three eyeballs, the extras are for emergency situations only.
 412852	pet	2852	Jade Defender	295148	237207	inv_jewelcrafting_gem_19	Several adventurous miners have gone after the jade quilen in search of riches, but none have ever been heard from again.
 412853	pet	2853	Windfeather Chick	295149	656318	ability_mount_cranemountblue	Despite what the young pandaren may tell you, the windfeather cranes do not actually have feathers made out of wind.
 412863	pet	2863	Oasis Void-Duster	294884	2103857	inv_icon_wing03d	Nobody is sure what sort of powder is coming off of these moths, and everyone is too terrified to find out what it actually is.
+412864	pet	2864	Void-Scarred Locust	294886	294474	inv_pet_cockroach	Even some of the insects have succumbed to the void. They really do adapt and survive through everything.
 412865	pet	2865	Voidskimmer	294896	643423	inv_pet_waterstrider	These look especially magnificent when gliding over the water under a full moon.
+412866	pet	2866	Voidglower	294895	236196	ability_hunter_pet_wasp	Is the void glow in addition to their natural glow, or does it replace it? The world may never know.
 412867	pet	2867	Golden Chirper	288784	646325	inv_pet_cricket	The golden chirper has managed to stay its pristine self, despite corruption attempts from both the Sha and from the forces of N'Zoth.
 412868	pet	2868	Experiment 13	295150	606551	ability_monk_tigerpalm	The name implies that there were 12 experiments done before this one that were less effective than sticking some guns onto a mechanical tiger. What could those have possibly been?
 412869	pet	2869	Tinyclaw	294943	773096	inv_pet_mechanicalbearcub	This bear's necessities are fresh batteries and an occasional oil change.
@@ -2200,6 +2453,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412888	pet	2888	Glimr	296259	3492863	inv_babymurloc3purple	A wandering adventurer saved a small band of murlocs that had lost their homes, and a glimmer of hope was born.
 412889	pet	2889	PHA7-YNX	299918,299919,299920	3061634	inv_automatonlionmount2	Inspired by the phalynx of Bastion, Engineers have modified the design to be approximately 300% more adorable.
 412890	pet	2890	Sunny	297448	3604137	inv_dogpetgolden	All dogs go to Bastion. Cats go to Revendreth.
+412891	pet	2891	Blushing Spiderling	299863	2027856	inv_bonespider2_brown	The crypts and tombs of Revendreth offer the perfect spider breeding ground, and Tomb Burster's brood has become fiercely territorial of their foothold.
 412892	pet	2892	Bound Lightspawn	299873	525026	spell_fire_ragnaros_supernova	Lightspawn can always be found on the battlefields where light touches, no matter what form it takes.
 412893	pet	2893	Animated Tome	297329	134544	inv_offhand_hyjal_d_01	Beware awakening the power of knowledge.
 412894	pet	2894	Burdened Soul	299925	1357814	sha_spell_warlock_demonsoul_nightmare	A soul burdened with the sins of its past.
@@ -2210,6 +2464,9 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412899	pet	2899	Court Messenger	299902	1103069	inv_icon_daily_mission_scroll	The stone fiends were created to serve as messengers and spies for the realm of Revendreth, and those of the Court of Harvesters serve that role extremely well.
 412900	pet	2900	Dal	299904	2103878	inv_icon_wing07e	A fellow message courier to Chip, Dal was always on time until one day when he did not return from his appointed round.
 412901	pet	2901	Trapped Stonefiend	299903	132766	inv_crate_06	Trapped in a chest and forgotten for years, this stone fiend is mad and looking for a fight.
+412902	pet	2902	Dusky Dredwing Pup	299888	3087791	inv_giantvampirebatmount_silver	This dredwing is the most common of the dredbats, seen throughout the entire realm.
+412903	pet	2903	Crimson Dredwing Pup	299890	3087789	inv_giantvampirebatmount_bronze	A wild dredbat, the crimson pups are tough to tame. Their elusiveness and hardiness set them apart from their kin.
+412904	pet	2904	Violet Dredwing Pup	299889	3087790	inv_giantvampirebatmount_purple	A rare mutation gives this dredbat its violet underbelly, making it a sought after gift for pet collectors with eclectic tastes.
 412905	pet	2905	Dodger	293752	3072468	inv_babyfox_teal	Dodger is a bit small relative to other vulpin, but is excellent at playing hide and seek.
 412907	pet	2907	Rocky	293750	3072466	inv_babyfox_purple	The claws of a vulpin sharpen themselves naturally when walking around on any sort of cobblestone or rocky surface.
 412908	pet	2908	Chirpy Valeshrieker	299898	657489	ability_mount_pandarenphoenix_purple	Despite the adorable name, the chirp is more of a horrible, spine-tingling shriek.
@@ -2251,6 +2508,9 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412944	pet	2944	Oonar's Arm	295576	3386320	inv_skeletonhandpet_blue	The thrill of battle and the grip of war have not yet left the bones of Oonar.
 412945	pet	2945	Corpulent Bonetusk	299857	3456126	inv_maldraxxusboarmount_green	A newborn bonetusk has no visible tusks, but within weeks their tusks grow to a size proportional to their body.
 412946	pet	2946	Pernicious Bonetusk	299856	3456127	inv_maldraxxusboarmount_grey	The tusks on these creatures are fused to their skulls in such a manner that they feel no pain when charging or ramming into anything.
+412947	pet	2947	Luminous Webspinner	299860	2027857	inv_bonespider2_grey	The bright color of the luminous webspinner taunts would-be predators to chase them into their webs.
+412948	pet	2948	Boneweave Hatchling	299858	2027855	inv_bonespider2_black	Maldraxxus is full of mighty and terrifying creatures, causing most denizens to be abnormally calm when around the indigenous species of giant spiders.
+412949	pet	2949	Skittering Venomspitter	299859	2027951	inv_minespider2_violet	If this species spits venom at its prey, is it still technically considered venom, or just really gross?
 412950	pet	2950	Clutch	295577	3386321	inv_skeletonhandpet_bone	That place on your back you can't quite scratch? Get the help of this little guy. Problem solved.
 412952	pet	2952	Bubbling Pustule	299013	3459800	inv_maldraxxusslime_red	The bubbles inside of these ooze creatures make a very satisfying pop noise when they finally surface and rupture.
 412953	pet	2953	Shy Melvin	299014	3459798	inv_maldraxxusslime_plague	One of Plague Deviser Marileth's first creations, Shy Melvin was too timid for the demands placed on slimes by the House of Plagues.
@@ -2264,8 +2524,11 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 412962	pet	2962	Toenail	299922	3622122	tradeskill_abominationstitching_abominations_mid	If you can beat them, stitch them!
 412963	pet	2963	Mu'dud	299921	3622121	tradeskill_abominationstitching_abominations_lesser	The soul that occupies Mu'dud was a harsh ruler in life, and now he seeks to dominate the most violent kingdom of all.
 412964	pet	2964	Foulwing Buzzer	299928	2027900	inv_giantwasp_black	The barbed mandibles on this species will dig deep into anything they bite, causing a lot of irritation.
+412965	pet	2965	Bloodfeaster Spiderling	299864	2027944	inv_minespider2_blood	Unlike most spiders that drain all the fluids from their prey, the bloodfeaster has developed a taste for blood alone.
 412966	pet	2966	Sinheart	295580	3386971	inv_sinstonegolempet	Sometimes sins of great souls are so powerful that they animate the very stones they are placed on.
 412967	pet	2967	Dredger Butler	299901	1505934	inv_misc_notefolded1d	Dredgers are the sweat (and sometimes tears) of Revendreth, and their help is absolutely critical to the workings of Revendreth.
+413006	pet	3006	Stoneskin Dredwing Pup	299891	3087792	inv_giantvampirebatmount_white	These dredbats are built by the Stonewright for the Court of Harvesters. They are bonded to their owners and become fierce fighters.
+413007	pet	3007	Rosetipped Spiderling	299862	2027952	inv_minespider2_wetlands	Identified by the signature coloring of their many legs, these spiders are known for elaborate dances used to threaten and confuse foes.
 413009	pet	3009	The Count	298472	3860423	inv_pet_batpetrevendreth_purple	Roosting in the grounds of Castle Nathria, The Count did not foresee falling into an eternal stone slumber.
 413010	pet	3010	Sinfall Screecher	298473	3860424	inv_pet_batpetrevendreth_red	Joining with their new residents in Sinfall a few of these juvenile dredbats accompanied Renathal's forces into the maw.
 413011	pet	3011	Battie	298470	3860422	inv_pet_batpetrevendreth_dark	Roosting over Sinfall, Battie was roused one evening by the music of the first Ember Court. She has not missed a single one since.
@@ -2290,6 +2553,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413030	pet	3030	Ashen Chomper	299871	3453807	inv_mawrat	Sometimes it is best to leave what strange creature you found in a mysterious jar in the depths of Torghast alone.
 413032	pet	3032	Frenzied Mawrat	299872	3860392	inv_mawratyellow	Its teeth are razor sharp and will chew through just about anything.
 413033	pet	3033	Maw Stalker	299907	3729719	inv_maweye_white	These guardians of Torghast are always watching for suspicious activity.
+413034	pet	3034	Torghast Lurker	299923	237569	spell_shadow_skull	That eerie feeling you get when the shadows seem to shift and follow you isn't just a feeling, it's usually one of these.
 413035	pet	3035	Lavender Nibbler	299852	3065167	inv_decomposersmallpurple	Poking a tiny gormlng in the side makes a very satisfying, squishy noise. It is NOT advisable to poke one too many times.
 413037	pet	3037	Dread	299875	651083	sha_ability_rogue_envelopingshadows	Staring at one of these creates a deep void of emotion at the very core of your being, then fills it with a sense of dread.
 413038	pet	3038	Undying Deathroach	297479	3579949	inv_mawroach_purple	This species has a very distinct set of markings on its back that makes it easy to identify in the unending horrors of the Maw.
@@ -2300,10 +2564,13 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413043	pet	3043	Jiggles	298461	3732497	inv_catslime	Though not very fuzzy, this slimy feline is still one of the most adorable things you've ever seen.
 413044	pet	3044	Spinemaw Gormling	299850	3065164	inv_decomposersmallblack	While young, they have an adorable face and cute little antennae. While grown up, they gain razor sharp pinchers and are unstoppable eating machines. Life is full of compromises.
 413045	pet	3045	Iridescent Ooze	299911,299913,299912	1500910	inv_misc_food_legion_gooamberpurple_multi	This slime seems to change color the more you look at it, and then suddenly, it appears to be looking back at you. Perhaps it is time for a rest.
+413046	pet	3046	Putrid Geist	299114	336781	inv_helmet_149	Despite being decrepit and undead, geists move with exceptional speed and agility.
 413047	pet	3047	Spinebug	295575	3386337	inv_skeletonspinepet_green	You got spinebugged!
 413049	pet	3049	Pulsating Maggot	299867	2141734	inv_larva2_darkred	Normally just a plain white in color, their skin reflects whatever they have eaten and gains wonderful spots of color depending on the organs digested.
+413050	pet	3050	Bleak Skitterer	299861	2027947	inv_minespider2_green	Legends say that if you see a bleak skitterer in your dreams, you are destined to battle one to the death.
 413051	pet	3051	Animated Cruor	299910	3459799	inv_maldraxxusslime_purple	These slimy creatures make the strangest suction noises when they try to climb up a wall. This is a well-known fact in Maldraxxus, for obvious reasons.
 413052	pet	3052	Necroray Spawnling	299929	1570759	inv_manaraymount_black	Toxic spores rain down wherever these creatures fly, turning small, unwary critters into a gruesome feast.
+413053	pet	3053	Moon-Touched Netherwhelp	299476	3846213	inv_dragonwhelpoutland2_light	A strange whelp hatched on Netherwing Ledge, it is thought to be blessed by the waning lunar energies of Shadowmoon Valley.
 413061	pet	3061	Steward Featherling	298481	3731728	inv_babysteward_silver	Stewards looking to move up in steward society know to fluff up their feathers, give out tons of juice, and always be hooting.
 413062	pet	3062	Lost Featherling	298482	3731723	inv_babysteward_dark	Tales say that the stewards were created to aid the denizens of Bastion in their eternal duties. They don't seem to mind.
 413063	pet	3063	Larion Pouncer	298475	3860694	inv_pet_wingedlion2pet_dark	Larion are prideful beasts, and see anyone that enters their territory as a challenge.
@@ -2426,11 +2693,13 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413247	pet	3247	Pocopoc	302001	4327611	inv_progenitorbotpet	This isn't the real Pocopoc, but it provided this replica to you for use outside Zereth Mortis. Its details are so accurate as to be utterly convincing to anyone who hasn't spent lots of time with the real one.
 413248	pet	3248	Ichabod	304773	4206469	inv_harvestgolempet	Ichabod began his existence as a prototype for the fearsome harvest golems terrorizing the farmers of Westfall, but a little gnomish ingenuity has since made him far less likely to attack your knees.
 413249	pet	3249	Lil' Ursoc	305408	4208901	inv_ursocpet	Before he was known as one of the Wild Gods, Ursoc roamed the Grizzly Hills as a cub.
+413250	pet	3250	Egbob	304798	294475	inv_pet_egbert	Some hawkstriders are destined to be great. Others are destined to be Egbob.
 413251	pet	3251	Buzzworth	311370	2027854	inv_bee_red	Some species of red bees are known to lead solitary lives. Still, this busy bee seems happy to make time for you.
 413252	pet	3252	Garrlok	305423	4215254	inv_ogrepet	Ancient Gorian blood runs through Garrlok's veins. As far as anyone knows, only his diminutive stature keeps his imperial ambitions in check.
 413253	pet	3253	Crushhoof	305425	4205812	inv_kodopet	Siege training begins early for kodo calflings that show a lack of inhibition towards breaking things. Mind your shins.
 413254	pet	3254	Watcher of the Huntress	305429	133247	inv_jewelcrafting_jadeowl	To its foes, this Watcher's innocent eyes belie the lethal danger of a prowling Huntress, waiting in the shadows.
 413255	pet	3255	Buttercup	305497	2481371	inv_pet_babymoose_white	His pink antlers make him the life of any party.
+413256	pet	3256	Jeweled Onyx Whelpling	307454	4397690	inv_dragonwhelp3_gemmed_black	The master jewelcrafters of the Dragon Isles have perfected their craft so much that their gemmed statues can be brought to life. This whelp forged of obsidian is now not to be trifled with.
 413259	pet	3259	Shaggy	306517	3733064	inv_rabbitshaggy_brown	This little rabbit is cute from the tip of her button nose to the tips of her deadly claws.
 413260	pet	3260	Snowy Treeflitter	306597	4528721	inv_squirrelflying_albino	Nearly invisible, this creature leaps from tree to snow-covered tree.
 413261	pet	3261	Wakyn	306642	4007138	inv_phoenix2pet	Hope, like this phoenix, rises from the ashes of shattered dreams.
@@ -2466,6 +2735,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413295	pet	3295	Igneoid	308322	1016245	ability_earthen_pillar	An Igneoid is formed when magma makes it to Azeroth's surface and is infused with dark elemental magic. The resulting creature is tiny, fierce, and very cute.
 413296	pet	3296	Palamanther	306623,306622,306626	4056158	inv_salamanderwaterbaby_purple	This salamanther wants to be your best friend.
 413297	pet	3297	Time-Lost Salamanther	306624	4056156	inv_salamanderwaterbaby_orange	This Salamanther met itself while lost in time. The two hung out on a rock together for a few hours. It was nice.
+413299	pet	3299	Echo of the Depths	309371	4554443	inv_10_elementalcombinedfoozles_water	What the deep claims, none can reclaim.
 413300	pet	3300	Ironbeak Duck	306632,306634,306631	3953209	inv_duck_black	Though many creatures of the Dragon Isles are mysterious, the ducks are perhaps the most so. Where did they come from? Where are they going? What are they planning? We may never know.
 413301	pet	3301	Wild Duckling	306636	4048813	inv_duckbaby_black	Quack.
 413302	pet	3302	Pilot	306637	4048814	inv_duckbaby_brown	Still learning how to fly.
@@ -2473,6 +2743,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413306	pet	3306	Quack-E	306639	4048816	inv_duckbaby_mech	Beep. Beep. Beep. Quack.
 413307	pet	3307	Plucky Duckling	306640	4048817	inv_duckbaby_white	This is the terror that flaps o'er the Dragon Isles. This is the winged nightmare that pecks at your emerald dreams. What? No it's not Deathwing, it's a duck!
 413309	pet	3309	Viridescent Duck	306633	3953211	inv_duck_green	These beautiful, elusive birds have very erratic migratory patterns, which can be difficult to track, leading some explorers to erroneously believe ducks simply didn't exist.
+413310	pet	3310	Echo of the Heights	309374	4554444	inv_10_elementalshardfoozles_air	In the mountain air, frost lingers upon the grass as a storm rolls in.
 413311	pet	3311	Ohuna Companion	309378	4094306	inv_eagle2windmount_white	Its eyes can see the flick of a mouse tail from leagues away.
 413313	pet	3313	Grassland Stomper	306651	4033837	inv_thunderlizardprimalbaby_black	Each of this creature's steps shakes the ground. When enough of them run together it sounds like a raging thunderstorm.
 413316	pet	3316	Lubbins	308969	4452489	inv_dragonwhelpproto_white	Who's the cutest little monster? You are!
@@ -2496,6 +2767,11 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413335	pet	3335	Pale Baby Vorquin	306675	4218751	inv_kirinbaby_pale	Behold! A pale vorquin.
 413336	pet	3336	Vorquin Runt	306674	4218749	inv_kirinbaby_dark	It will probably grow bigger. Probably.
 413338	pet	3338	Kobaldt	311668	4572405	inv_porcupinecrystal_blue	Sharp crystal needles protrude from this creature's back, and yet it still wants you to pet it somehow.
+413342	pet	3342	Spyragos	307463	4572403	inv_dragonwhelp3_purple	This little dragon is all fired up! It looks like he's got some things to do.
+413344	pet	3344	Jeweled Sapphire Whelpling	307455	4397609	inv_dragonwhelp3_gemmed	Sometimes you can see blue light flickering deep inside the gems that make up this strange creature.
+413345	pet	3345	Jeweled Amber Whelpling	307456	4397692	inv_dragonwhelp3_gemmed_bronze	The hardest part to shape was the whelpling's cute little snout.
+413346	pet	3346	Jeweled Ruby Whelpling	307458	4397694	inv_dragonwhelp3_gemmed_red	Trade Prince Gallywix wants you to know that he already owns three of these.
+413347	pet	3347	Jeweled Emerald Whelpling	307457	4397693	inv_dragonwhelp3_gemmed_green	A magically infused emerald sits at the heart of this creature.
 413348	pet	3348	Primal Stormling	308961	4554454	inv_10_elementalspiritfoozles_air	Raindrops whip around this creature with frightening speed, ripping and tearing anything that touches it. Experts say the best way to avoid injury is to give it a treat and some snuggles.
 413350	pet	3350	Lord Basilton	306686	4572408	inv_porcupinecrystal_purple	A brilliant executive assistant and apprentice, Lord Basilton also loves to stick his nose into piles of anything interesting.
 413351	pet	3351	Grizzlefur Cub	307767	4532348	inv_bearprimalcub_black	These small bears will not normally attack people, but they have been known to steal the occasional picnic basket.
@@ -2531,7 +2807,10 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413406	pet	3406	Lady Feathersworth	309789	2103802	inv_icon_feather02d	Though she may be fashionably late, Lady Feathersworth will always show up for a party.
 413407	pet	3407	Scout	310085	1600295	inv_aussiepup_bcollie	Scout came to the Dragon Isles for adventure and excitement. After finding you, he got both.
 413408	pet	3408	Petal	309895	1500941	inv_misc_food_legion_gooslime_drop	When the Bushbeard clan decided they were going to have a wedding, they chose Petal to be the flower girl. She was spectacular.
+413409	pet	3409	Tide Spirit	309983	252995	spell_nature_riptide	I wish that I could bind the tides and bend them to my will. But in its depths the sea abides and waits for no one still.
 413410	pet	3410	Dust Spirit	309985	4632784	inv_10_worlddroplevelingoptionalreagent_misc_orb_earth	When it was captured and bound to a cage made of enchanted metal, this spirit managed to twist and reshape the metal into the suit of armor it now wears.
+413411	pet	3411	Blaze Spirit	309987	1786407	ability_racial_foregedinflames	This is the soul of a forest fire. Though its armor keeps its flames under control, you sometimes notice it gazing longingly at dead trees and dry underbrush.
+413412	pet	3412	Gale Spirit	309988	606549	ability_monk_rushingjadewind	When it was the wind, this spirit carried scents to every corner of Azeroth. Sometimes you can still smell on it the barest hint of food, smoke, or the carnage of battle.
 413414	pet	3414	Obsidian Proto-Whelp	310016	4452486	inv_dragonwhelpproto_dark	After finding a clutch of black proto-whelps, Wrathion took them under his wing.
 413415	pet	3415	Cubbly	310109	4532349	inv_bearprimalcub_brown	Cubbly's extended proximity to time magic has given him powers far beyond the average bear.
 413416	pet	3416	Troubled Tome	310161	4549126	inv_10_inscription2_book1_color1	Do you dare to open this book of draconic secrets?
@@ -2551,10 +2830,12 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413482	pet	3482	Cobbleshell	311893,311892	5003559	inv_snailrockmount_black	Slimy, yet also gritty. It would not make a good meal.
 413483	pet	3483	Boulderfang	311307,311897	5045824	inv_viperrock_red	Boulderfangs are known to make cozy nests in cabinets, shoes, and other inconvenient places.
 413484	pet	3484	Slabwing	311306,311898	5009626	inv_sporebatrock_deepred	Despite being made mostly of rock, these creatures can fly. Some attribute this to the strength of their wings, but most agree it's probably just magic.
+413485	pet	3485	Hollow Moth	311900,311899,311309	5015301	inv_mothunderlight_orange	Not all moths spin silk. These moths spin lies.
 413486	pet	3486	Lithengale	311914	4870956	inv_caveswallow_orange	The call of the lithengale is unique among birds in that it has a persistent, driving rhythm.
 413487	pet	3487	Scarlapod	311991	5003562	inv_snailrockmount_red	Because their dens tend to be close to drogbar settlements, these snails are both faster and stronger than those on the surface.
 413488	pet	3488	Deepridger	311919,311920	5009628	inv_sporebatrock_red	The fire at the center of the world burns within its carapace.
 413489	pet	3489	Sunglow Cobra	311922	5045825	inv_viperrock_yellow	A tiny sun seems to burn in its chest.
+413490	pet	3490	Ebonwing Moth	312383	5015306	inv_mothunderlight_rockred	Because they are often attracted to candles, these moths can be a big problem for kobolds.
 413491	pet	3491	Arfus	311022	4878473	inv_arfuspet	There must always be a Lick King.
 413493	pet	3493	Roland	312343	515993	achievement_rat	If Roland has taught you anything, it's that friendship comes at a price. That price is lots and lots of cheese.
 413511	pet	3511	Blaise	312142	4952368	inv_babyfireelemental_orange	Like a campfire, but it wants skritches.
@@ -2594,6 +2875,9 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413546	pet	3546	Skaarn	312191	5015299	inv_viperrock2_blue	Skaarn likes to coil up inside of your backpack.
 413547	pet	3547	Jade Cragviper	312190	5015300	inv_viperrock2_green	The Jade Cragviper's favorite food is broccoli. Actually, sorry. I just made that up.
 413548	pet	3548	Aquapo	312193	5041294	inv_sulfurelemental_water	The fury of the sea in the packge of a puddle.
+413549	pet	3549	Heartseeker Moth	312195	5015302	inv_mothunderlight_pink	Whereas some moths are attracted to light, this particular moth seems attracted to warm, fuzzy feelings. Some say the phrase "butterflies in your stomach" actually refers to an infestation of Heartseeker Moths.
+413550	pet	3550	Undermoth	312196	5015303	inv_mothunderlight_red	Undermoths are known to be some of the most intelligent moths on Azeroth. This is not saying much.
+413551	pet	3551	Teardrop Moth	312201	5015307	inv_mothunderlight_teal	Contrary to their name, these moths are actually quite happy.
 413552	pet	3552	Rithro	311311	4719555	inv_wyvernpetblackdragon_green	While napping in shrubbery, sometimes his snaggletooth gets caught on a leaf.
 413553	pet	3553	Nelthara	313259	4719553	inv_wyvernpetblackdragon_black	Augmented by Adamanthia's Ebon Might, this whelpling is ready to face any challenge.
 413554	pet	3554	Senega	312203	4719554	inv_wyvernpetblackdragon_blue	Senega is always ready for a ley crystal snack.
@@ -2605,9 +2889,14 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 413580	pet	3580	Baa'lial	312632	5159899	inv_demongoat_crimson	Also known as the Lord of Lies, Baa'lial is a master of deceit.
 413582	pet	3582	Blub	312678	4777763	inv_magicalfishpet	Blub's heart has always been bigger than her tank, but once the rest of her got too big she had to find a new home. Fortunately, she can now travel with you and see all the marvels of the world!
 413588	pet	3588	Iggy	312589	4554457	inv_10_elementalspiritfoozles_earth	Solid and dependable, Iggy is always ready for a fierce battle or a gentle metaphor.
+413589	pet	3589	Rusziona	313200	4572399	inv_dragonwhelp3_black	Rusziona's newfound courage means she can accompany you on adventures! Nothing in all of Azeroth can stop her! Not even a duck!
+413590	pet	3590	Belastrasza	313202	4572404	inv_dragonwhelp3_red	Bela has learned some humility since you first met her, so she likely won't boss you around too much.
 413596	pet	3596	Kabluey	313210	4952382	inv_babyfireelemental_blue	Ten thousand years spent floating in a time stasis is quite a bit of time to work on material.
 413597	pet	3597	Princess Vorquistrasza	313271	4218751	inv_kirinbaby_pale	Princess Vorquistrasza wants you to know that she appreciates you coming to her birthday party, but is underwhelmed by your gift.
+413598	pet	3598	Zhusadormu	313274	4572401	inv_dragonwhelp3_bronze	Now that he's no longer sneezing through time, Zhusa is ready to accompany you on your future adventures! Or past adventures! Or future adventures!
+413599	pet	3599	Zalethgos	313277	4572400	inv_dragonwhelp3_blue	Zaleth is looking forward to accompanying you on your adventures. He's already got a list of books he wants to take with him, but Lasztak said he could only bring 2.
 413600	pet	3600	Pallibrius	313279	4624734	inv_10_specialization_professionbook_inscription_color1	Pallibrius is an amazing book because of its wealth of arcane knowledge. Also because of all the pie recipes its previous owner scribbled in the margins.
+413601	pet	3601	Posidriss	313281	4572402	inv_dragonwhelp3_green	Posidriss is excited to go on adventures with you, but maybe let them have a nap first?
 413602	pet	3602	Somnius	313282	4532351	inv_bearprimalcub_white	Somnius is legendary for her ability to sleep through everything except suppertime.
 414253	pet	4253	Slyvy	313581	5238769	inv_pet_celestialfoxwyvern	These astral phenomena are rarely sighted due to the speed of the slyvern. It is a good omen to have one following you around.
 414255	pet	4255	Briarhorn Hatchling	313657	5242418	inv_titanutopiapet_green	Loves: Broccoli, playing, and smashing things. Hates: Meat, sleeping, and mean titan keepers who won't let you smash things.
@@ -2616,6 +2905,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414259	pet	4259	Doomrubble	313662	5157541	inv_babydemonpet_green	He seems to be very angry, but it's possible he's just hungry.
 414260	pet	4260	Killbot 9000	313663	5242530	inv_pet_futurebotpet_brass	DEFECTIVE; REFUSES TO KILL. MARK FOR IMMEDIATE DESTRUCTION OR SALE TO LESS INTELLIGENT ENTITY.
 414261	pet	4261	Obsidian Warwhelp	313664	5194264	inv_apocalypticwhelp_black	A war-obsessed world turned her into a weapon... but they couldn't break her spirit.
+414262	pet	4262	N'Ruby	313666	237410	inv_misc_nerubianchitin_01	A lifetime of servitude to Anub'arak, then the Lich King, and now... you!
 414263	pet	4263	Tobias	314316	5279605	inv_arfuspet_cream	With a nose for secrets, Tobias is ready to be by the side of super sleuths.
 414264	pet	4264	Fyrn	313777	5003505	inv_wooddragonpet	Fyrn will be the first one to show up at your birthday party and the last to leaf.
 414265	pet	4265	Lil' Frostwing	313829	5260512	inv_dragonwhelpcataclysm_blue	Feel the chill nipping at your toes! A menace of Azeroth, now in festive blue and travel-size!
@@ -2665,7 +2955,12 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414426	pet	4426	Bubbles	318078,318079	2027924	inv_hermitcrab_truesilver	Where do all of the bubbles come from? What are they made of? Perhaps some mysteries are best left unexplored.
 414436	pet	4436	Pokee	317704	5206188	inv_needledollpet_green	The needle in Pokee's eye isn't exactly comfortable fashion, but he's stuck with it.
 414437	pet	4437	Fathom	317265	5559623	inv_treasurecrabpet_purple	Weighed down by all the loot he has plundered. He could share the burden he carries but it turns out he's a little shellfish.
+414450	pet	4450	Remembered Riverpaw	318088	134163	inv_misc_head_gnoll_01	Once tenacious and terrible, the riverpaw slaughtered weaker enemies without hesitation.
 414451	pet	4451	Remembered Construct	318205	2492254	ui_darkshore_warfront_horde_abomination	Made from the bits and pieces of vanquished abominations, light magic, and just a pinch of nostalgia.
+414452	pet	4452	Remembered Spawn	318212	134154	inv_misc_head_dragon_black	The faded memory of an Onyxian whelpling, this young dragon has decided that it wants to follow in its own footsteps.
+414455	pet	4455	Rak-Ush Threadling	316508	5688871	inv_achievement_raidnerubian_swarmmother	Awww, aren't her pedipalps adorable?
+414456	pet	4456	Arachnoid Hatchling	316506	5688871	inv_achievement_raidnerubian_swarmmother	Many arachnids are left to fend for themselves after hatching. It's a common topic in spider therapy.
+414457	pet	4457	Chitin Burrower	316509	5688871	inv_achievement_raidnerubian_swarmmother	Tough burrowing claws make it easy for arachnids to get around subterranean areas. But it's a boring life.
 414459	pet	4459	Moss Skipper	314832	5763493	inv_blindcaveskipper_green	Finally caught a blind cave skipper. He flopped helplessly for twenty minutes and then let out a burp. Great companion he is!
 414460	pet	4460	Arathi Chicken	275339	2027866	inv_chicken2_white	These silkie chickens were taken aboard airships by those departing the Arathi Empire in pursuit of their emperor's prophetic vision.
 414461	pet	4461	Greenlands Chicken	275340	2027866	inv_chicken2_white	Free-range chickens are difficult to take care of in Hallowfall, what with all the shadow monsters and fish people.
@@ -2726,6 +3021,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414534	pet	4534	Nightfarm Growthling	318216	5791588	inv_fungallasher_purple	These highly destructive pests are known to destroy crops in Hallowfall.
 414535	pet	4535	Ghostcap Menace	318222,318214	5791587	inv_fungallasher_orange	The alluring twin mushroom cap colors of these fungal creatures attracts sentient and beastial victims alike.
 414536	pet	4536	Blightbud	318221	5791586	inv_fungallasher_magenta	Please keep your blightbud on a leash at all times! They are notorious for the havoc they can wreak on unprotected gardens.
+414537	pet	4537	Chester	314692	134168	inv_misc_head_kobold_01	Part lean, mean candle-throwing machine. Part adventurer wannabe. All kobold.
 414538	pet	4538	Cobalt Ramolith	320664	5767166	inv_protoramearthen_blue	The grand horns of these beasts spark jealousy in other horned grazing animals.
 414539	pet	4539	Granite Ramolith	320662	5767165	inv_protoramearthen_black	Earthen ranchers keep a variety of horned beasts for labor and company. None are so proud as the ramolith.
 414540	pet	4540	Alabaster Stonecharger	320660	5767172	inv_protoramearthen_white	Protorams leave behind stony dust as they frolic, battle, and rest.
@@ -2759,7 +3055,9 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414593	pet	4593	Craggles	323990	237175	inv_jewelcrafting_azureboar	This boarlet escaped Coldridge Valley in search of adventure and maybe a nice apple if she can find one.
 414594	pet	4594	Dalaran Sewer Turtle	216259	1738657	inv_babyturtle2	More than a typical turtle, he's a hero in a half shell!
 414595	pet	4595	Lil' Flameo	311446	4891623	inv_pitlordpet_fire	Lil' Flameo is ready to drop foolish pets if they get in the way.
+414596	pet	4596	Faithful Dog	201100	538568	ability_shaman_freedomwolf	No longer lost or lonely, your faithful companion has decided that by your side is the best place to be.
 414597	pet	4597	Wobbles	320374	5777858	inv_babymolepet_light	Incredibly lifelike, this enchanted wax statue could pass for a real mole. If petting it didn't cause it to melt, that is.
+414598	pet	4598	Coppers	317603	134168	inv_misc_head_kobold_01	One hero's trash is another kobold's treasure. This unfortunately does not work in reverse.
 414599	pet	4599	Mind Slurp	320539	3459799	inv_maldraxxusslime_purple	One shudders to imagine whether the name was based off of what it is... or what it does.
 414602	pet	4602	Claudius	321176	5559625	inv_treasurecrabpet_yellow	Claudius is known for being brutally honest as well as a great singer. He knows your jewels would look better on him.
 414614	pet	4614	Gizmo the Pure	322124	646059	inv_pet_raccoon	In life, Gizmo never hurt a soul. Having been brutally murdered, he now considers violence.
@@ -2792,6 +3090,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414651	pet	4651	Wily Rat	320521,320522,320520	6383519	inv_111_rat_brown	The thicker and more gangly the whiskers, the more devious the rodent. That's just basic biology.
 414652	pet	4652	Acid-Drenched Rat	320524	6383521	inv_111_rat_radioactive	Stop me if you've heard this one before: they fell into a vat of radioactive acid.
 414653	pet	4653	Lab Rat	320525	6383522	inv_111_rat_white	They weren't lying, this rat can absolutely get that dang cheese.
+414654	pet	4654	Underroach	320515,320516	5847066	inv_cockroach2_brown	Scientists, engineers, and gamers of Undermine must keep their desks clean lest they be visited by the underroaches.
+414655	pet	4655	Cruncher	320514	5847065	inv_cockroach2_black	The itchy legs! The wiggly antennae! Okay, fine, he's not cute. But he's trying!
 414656	pet	4656	Bombshell Crab	320711,320712,320708	5874197	inv_crabbomb_blue	The natural habitat of these crabs is so polluted and devoid of shells that they've been forced to take shelter in discarded goblin munitions. Are you gonna keep littering after learning that?
 414657	pet	4657	Venture Bombshell	320713,320710	5874201	inv_crabbomb_yellow	In a pinch, Venture Co. workers might use these creatures for some impromptu demolition. Get it? Pinch?
 414658	pet	4658	Cave Crab	320699,320703,320706	5874148	inv_crabcave_blue	Buried amid sand and sediment, these crabs blend right into their environment.
@@ -2799,6 +3099,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414660	pet	4660	Paleshell Crab	320705	5874152	inv_crabcave_white	Paleshell cave crabs are said to be the tastiest variety. Perhaps that's why they're the hardest to find.
 414661	pet	4661	Mechagopher	275348	2126356	inv_mechanicalprairiedog_black	Do you see pity in these blinking, soulless eyes? I didn't think so.
 414662	pet	4662	Varmint MK II	275352	2126361	inv_mechanicalprairiedog_green	Before the Mark II, Varmints were a sorry excuse for an annoying and over-engineered pest. Now, though? They're absolutely infuriating!
+414663	pet	4663	Lime Roboclucker	275334	3004141	inv_chicken2_mechanical	The acid-green accents add a sporty vibe to this flightless robotic bird thing.
+414664	pet	4664	Iron Chick	275331	3004141	inv_chicken2_mechanical	Shrugs off boiling oil and eleven secret herbs and spices. Just don't introduce it to rust.
 414666	pet	4666	Tropical Frog	322964	2399242	inv_frog2_black	A recent excavation on Zuldazar obliterated the natural habitat of these creatures and sent them spilling into the wilds.
 414667	pet	4667	Spring-Loaded Ribbitron	278845	2399257	inv_frog2_mechanical_yellow	A robotic frog might seem useless, but once you're attacked by a swarm of mechanical flies, you'll be wishing you had one.
 414668	pet	4668	Ultrahopper EX	278836	2399248	inv_frog2_mechanical_black	Faster. Stronger. And it can double jump.
@@ -2807,6 +3109,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414679	pet	4679	Lil'Kaz	323075	6116552	inv_doomguardpet_orange	
 414682	pet	4682	Reven	323434	6075526	inv_foxpetdetective	The game's afoot. Except when it is time to nap. Afterwards though, it's game on!
 414684	pet	4684	Timbered Sky Snakelet	323450	6124758	inv_lunarsnakepet	It is almost as if a wooden toy has come to life. Keep this pet away from children.
+414686	pet	4686	Specter	323482	132266	ability_mount_whitedirewolf	Found by Taunka as a newborn pup Specter is fiercely loyal. Yet he is beginning to live up to his name as he stalks into the world.
 414689	pet	4689	Karazhan Syphoner	323486	132841	inv_elemental_mote_mana	Rarely captured alive, syphoners are some of the most dangerous of the mana wyrms. This one happened to have been distracted while binging on a particularly juicy spell book in the Karazhan library.
 414690	pet	4690	Razeshi B.	319681	5788265	inv_babynaga2_purple	Razeshi B. is known for her short temper, quick wit and sharp barbs. The B. stands for "Best check yourself."
 414691	pet	4691	Grunch	323987	6027035	inv_yetigreench2pet	It's best not to ask how Grunch acquired all these gifts because you know it's not because he's been nice.
@@ -2832,6 +3135,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 414732	pet	4732	Scavenging Snapdragon	324564,324568,324567	2766228	inv_snapdragonmount03	It is said that from the moment they hatch snapdragons are independent from their parents, though the more recent venture to Nazjatar has seemingly debunked this theory.
 414733	pet	4733	Merriment	325783	6243478	inv_shapetclassic	This thing is equally as evil as it is adorable.
 414747	pet	4747	Eye of Chaos	326223	3004126	inv_eyeofnzothpet	For so many years Mathias Shaw had his eyes and ears gathering intelligence around Azeroth. Now at least some eyes have come home.
+414748	pet	4748	Void-Scarred Parrot	326224	2103815	inv_icon_feather05b	Stormwind's Trade District sees many goods and animals pass through its auction house. Once the parrots of Stranglethorn were an expensive luxury. Now those present when N'zoth took over are a scourge.
+414749	pet	4749	Void-Scarred Scorpid	326226	132195	ability_hunter_pet_scorpid	A creature prized by rogues for its venom. Many lived in the many holes and warrens of the Drag, but after the fall these new horrors emerged to menace the survivors.
 414750	pet	4750	Void-Scarred Tallstrider Chick	326225	132198	ability_hunter_pet_tallstrider	Rarely raised in captivity, Tallstrider's are extremely territorial. A small clutch of eggs was found during a hunt, and a tauren trainer came to Orgrimmar to show them off. However, after the fall, they have become deadly once more. So far, no one has been able to direct their corrupted forms.
 414756	pet	4756	Scourge of the Aspects	327663	6648449	inv_chromaticdragonpet2	The Scourge of the Aspects is consumed by rage and filled with a hunger to consume. Its presense is a sign of an unpredictable and erratic future for any form of dragonkin.
 414759	pet	4759	Craboom	320714	5874196	inv_crabbomb_black	Small, snappy, and with a temper as explosive as its name. Handle with caution!
@@ -3006,6 +3311,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 415080	pet	5080	Pinky	344924	7889090	inv_babyfaeriedragon_pink	Pinky just hatched and is ready for adventure. But naptime may take precedence.
 415092	pet	5092	Vibrant Venomfang	343108	8125117	inv_121_pet_babywindserpent_pink	Ula'tek's venom gave rise to new color variants of wind serpents, like this little pink one.
 415093	pet	5093	Snek'zali	343109	8125118	inv_121_pet_babywindserpent_purple	Demands scritches and blood sacrifices.
+415100	pet	5100	Aqir Razorwing	345469	2103895	inv_icon_wingbroken03b	The winged aqir are very fast and agile, and their wings provide a nice breeze on a warm afternoon.
 415114	pet	5114	Kirin Tor Kitty	345526	8014864	inv_catpet_kirintor	Don't be put off by this cat's icy demeanor.
 415115	pet	5115	Archmage's Familiar	345535	8014864	inv_catpet_kirintor	Knocks potions and reagents off shelves for "research purposes."
 415116	pet	5116	Catsramas	345542	7977787	inv_catpet_naxx	Sometimes a good cat nap is all you need to stave off death.
@@ -3024,3 +3330,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 415134	pet	5134	Cauldron Concoction	344361	7558868	inv_hextrollpet_blue	Infused with a raging spirit and a combination of pristine ritual ingredients.
 415137	pet	5137	Lil' Mon	283697	2027894	inv_ferret_light	Big Mon was all alone until he found an injured snakebiter. He nursed the snakebiter back to health and named him Lil' Mon. Big Mon may have been undead, but he wasn't heartless. He loved Lil' Mon and would do anything to protect his only friend.
 415164	pet	5164	J'imothy	347586	8284165	inv_raccoonpet	Got into a spot of trouble digging through magical garbage in Silvermoon. Luckily, you were there to help him out!
+415168	pet	5168	Slayer's Faithful Tracker	347631	5279603	inv_arfuspet_brown	Oh faithful friend, here at my side, through darkened tales to track and guide.
+415169	pet	5169	Inquisitor's Messenger	347636	5547301	inv_cape_special_arathor_d_01_black	On wings of white with torch to bear; a feathered friend by spoken prayer.
+415170	pet	5170	Hex-Cursed Manifestation	349534	2030683	inv_wickerbeastpet	In blackened woods, where foes do dare, even the dark needs friends to care.
+415171	pet	5171	Zyg'ee	319680	5788266	inv_babynaga2_red	From fog and salt, where waters flow, in blackened depths small shadows grow.
+415188	pet	5188	Petite Snow Buddy	338600	655957	inv_pet_snowman	So much holiday spirit inside an itty-bitty amount of snow, it only makes sense to share it with the world!

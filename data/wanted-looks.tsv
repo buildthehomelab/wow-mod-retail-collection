@@ -1,1 +1,16 @@
-retail_display	mount	name	status
+retail_display	kind	id	name	status
+81665	pet	2546	Detective Ray	new model
+92265	pet	2638	Minimancer	new model
+99916	pet	2959	Micromancer	new model
+144705	mount	3000	Shadowbound Storybook	new model
+148609	mount	3161	Attuned Ancient Stegodon	new model
+148610	mount	3162	Crackling Ancient Stegodon	new model
+148611	mount	3163	Rumbling Jungle Stegodon	new model
+148612	mount	3164	Thundering Primal Stegodon	new model
+148626	pet	5184	Bump	new model
+148627	pet	5185	Lump	new model
+148628	pet	5186	Grump	new model
+148629	pet	5187	Frump	new model
+148727	mount	3172	Winterrrgl's Pine-Powered Candy Cane Contraption	new model
+148834	mount	3175	Markeet of the Infinite	not a creature model
+149017	mount	3135	Autumn Dream Jumper	new model
