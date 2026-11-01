@@ -29,7 +29,8 @@ can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 
   [wow-mod-retail-pets](https://github.com/buildthehomelab/wow-mod-retail-pets)' flyer script: with
   Expert or Artisan Riding they fly where flying mounts can, like retail's mounts. Without that
   module on the server they stay on the ground (and the server logs that the script is missing).
-- **Pets** are companions like the stock ones, summoned from the Pets tab.
+- **Pets** are companions like the stock ones, summoned from the Pets tab. The 139 whose retail species has a
+  summon sound play it; the others play the stock companion sound.
 - **Several looks:** a retail mount or pet with more than one look (faction colours, a pet's
   breeds, seasonal coats) is one spell here, and its creature wears one of them at random each
   time it is summoned. A creature takes at most four looks, so the three mounts with more keep

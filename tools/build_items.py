@@ -23,7 +23,9 @@ A row's id is its spell, item, creature, SkillLineAbility, SpellIcon and ItemDis
 A mount summons with retail's own sound for it (the Amani War Bear's roar would be every mount's):
 its spell gets a SpellVisual of its own, the bear's with retail's summon sounds in place of the
 roar, through wow-mod-retail-creatures' spell_sounds.py (block "mounts"). A mount retail plays no
-summon sound for gets its creature's aggro sound. The sounds are SoundEntries rows in this patch,
+summon sound for gets its creature's aggro sound. A pet gets retail's summon sound the same way
+when its species has one (139 do); the others keep the stock companion sound. The sounds are
+SoundEntries rows in this patch,
 built on --sound-dbc: the SoundEntries.dbc and CreatureSoundData.dbc the client has before this
 patch (z40's). The weather patch, which loads later and carries SoundEntries.dbc too, is built on
 this patch's copy.
@@ -250,15 +252,21 @@ def patch_dbcs(files, rows, args, tmp):
 
 
 def summon_sounds(files, rows, new_spells, args, tmp):
-    """Every mount's summon sound: retail's for its spell, or its creature's aggro sound."""
+    """Every mount's summon sound: retail's for its spell, or its creature's aggro sound. A pet
+    has retail's when its species' summon spell plays one, and the stock companion sound if not."""
     import fetch  # wow-mod-retail-creatures
     from spell_sounds import BLOCKS, SpellSounds
     sounds = SpellSounds(files, args.sound_dbc, args.cache, BLOCKS["mounts"], tmp)
     mounts = fetch.db2(args.cache, "Mount")
+    species = fetch.db2(args.cache, "BattlePetSpecies")
     spells = {s[0]: s for s in new_spells}
     silent = []
     for r in rows:
         if r["kind"] == "pet":
+            pet = species.get(str(r["retail_id"]))
+            kits = sounds.cast_kits(pet["SummonSpellID"]) if pet else []
+            if kits:
+                spells[r["id"]][F_VISUAL] = sounds.give(r["id"], kits)
             continue
         mount = mounts.get(str(r["retail_id"]))
         kits = sounds.cast_kits(mount["SourceSpellID"]) if mount else []
