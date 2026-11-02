@@ -1,1 +1,5 @@
-retail_display	mount	name	status
+retail_display	kind	id	name	status
+81665	pet	2546	Detective Ray	new model
+92265	pet	2638	Minimancer	new model
+99916	pet	2959	Micromancer	new model
+148834	mount	3175	Markeet of the Infinite	not a creature model

@@ -1,10 +1,10 @@
 # Retail Collection
 
-Every retail mount, and every retail battle pet that
-[wow-mod-retail-library](https://github.com/buildthehomelab/wow-mod-retail-library) has a look
-for, as something a player of an [AzerothCore](https://www.azerothcore.org/) (WotLK 3.3.5a) server
-can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 3,025 of them:
-1,360 mounts (689 of them fly) and 1,665 companion pets.
+Every retail mount and every battle pet in retail's pet journal, wearing the looks of
+[wow-mod-retail-library](https://github.com/buildthehomelab/wow-mod-retail-library), as something
+a player of an [AzerothCore](https://www.azerothcore.org/) (WotLK 3.3.5a) server can own: a summon
+spell on the Mounts or Pets tab and the item that teaches it. 3,347 of them: 1,372 mounts (693 of
+them fly) and 1,975 companion pets.
 
 - **A row's spell, item and creature share one id.** A mount is 400000 + its retail mount id, a pet
   410000 + its retail battle pet species id. The Chaos-Forged Gryphon is retail mount 2304, so
@@ -29,25 +29,28 @@ can own: a summon spell on the Mounts or Pets tab and the item that teaches it. 
   [wow-mod-retail-pets](https://github.com/buildthehomelab/wow-mod-retail-pets)' flyer script: with
   Expert or Artisan Riding they fly where flying mounts can, like retail's mounts. Without that
   module on the server they stay on the ground (and the server logs that the script is missing).
-- **Pets** are companions like the stock ones, summoned from the Pets tab. The 139 whose retail species has a
+- **Pets** are companions like the stock ones, summoned from the Pets tab. The 157 whose retail species has a
   summon sound play it; the others play the stock companion sound.
 - **Several looks:** a retail mount or pet with more than one look (faction colours, a pet's
   breeds, seasonal coats) is one spell here, and its creature wears one of them at random each
   time it is summoned. A creature takes at most four looks, so the three mounts with more keep
   retail's first four.
-- **Every retail mount is its own mount**, whatever model it has: the Swift Albino Raptor, on a
-  model the client already has, and the four Primal Raptors, new textures on a client model, are
-  mounts of their own like the rest. Their looks are converted into the library too:
-  [`data/wanted-looks.tsv`](data/wanted-looks.tsv) lists the mounts' looks the library still
-  lacks, and is empty once it has them all.
+- **Every retail mount and pet is its own**, whatever model it has: the Swift Albino Raptor and
+  Pebble, on models the client already has, and the four Primal Raptors and Withers, new textures
+  on a client model, are mounts and pets of their own like the rest. Their looks are converted
+  into the library too: [`data/wanted-looks.tsv`](data/wanted-looks.tsv) lists the looks that new
+  mounts and pets still lack in the library. What is in it now can't be converted yet (see the
+  library's README): Markeet of the Infinite, encrypted even in the 12.1.7 test build, and three
+  pets on a skeleton the converter refuses.
 - **Left out:** placeholder and test rows in retail's tables; the mounts the client already has
   (retail's spell is on the client's Mounts skill line: a stock mount whose look retail redrew,
-  like the Charger, stays the stock one) and the pets it has; anything another module already
-  sells (the build takes that module's look list, see Building); retail's ghost mounts (only for
-  the dead) and "self mounts" that turn the player into the creature (a mount can't do that
-  here); and a second row with the same name and looks as another (a class hall's copy of the
-  Great Sunwalker Kodo, a skyriding drake's plain twin). Looks are the same when model and
-  textures are, whatever the display.
+  like the Charger, stays the stock one) and the pets it has, or a pet of that name (Archaeology's
+  Clockwork Gnome); anything another module already sells (the build takes that module's look
+  list, see Building); pets retail hides from its journal and pets with no creature model;
+  retail's ghost mounts (only for the dead) and "self mounts" that turn the player into the
+  creature (a mount can't do that here); and a second row with the same name and looks as another
+  (a class hall's copy of the Great Sunwalker Kodo, a skyriding drake's plain twin, the spare
+  Black Qiraji Battle Tanks). Looks are the same when model and textures are, whatever the display.
 - **Rows never go.** A mount or pet the list has keeps its row in later builds, even when another
   module starts selling it: the build stops rather than drop one.
 - **Don't drop rows once players have them.** The core deletes a spell it no longer knows from
@@ -93,9 +96,9 @@ repo under their module names (`mod-retail-creatures`, `mod-retail-library`, `mo
 from:
 
 ```bash
-# the list: one row per retail mount, and per pet the library has a look for; the mounts' looks
-# the library lacks go to data/wanted-looks.tsv (give it to the census and the library's
-# inventory with --also, rebuild the library, and run this again)
+# the list: one row per retail mount and journal pet; the looks new ones lack in the library go
+# to data/wanted-looks.tsv (give it to the census and the library's inventory with --also, rebuild
+# the library, and run this again)
 python3 tools/collection.py --census <census dir> --db2 ~/retail-cache/db2 \
     --listfile ~/retail-cache/community-listfile.csv --spell-patch <your spell patch> \
     --taken ../mod-retail-pets/data/pets.tsv
@@ -135,6 +138,8 @@ Category: Collections
 - 120 more mounts join them, so nearly every retail mount the game didn't have is now its own mount:
   the Primal Raptors, Swift Albino Raptor and Skullripper, the Tauralus herd, the dragonriding
   drakes, the Delver's airships, the Headless Horseman's chargers, and more.
+- More than 300 more join them: pets such as Pebble, Withers, the Mini Jousters and the raid pets,
+  and mounts such as the Giant Grrloc and the Ashen Dreadglider.
 - Mounts no longer all roar like a bear when you summon them: each one now plays its own summon
   sound from retail, so a horse whinnies, a drake calls and a gryphon shrieks.
 

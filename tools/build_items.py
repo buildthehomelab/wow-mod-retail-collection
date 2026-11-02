@@ -24,7 +24,7 @@ A mount summons with retail's own sound for it (the Amani War Bear's roar would 
 its spell gets a SpellVisual of its own, the bear's with retail's summon sounds in place of the
 roar, through wow-mod-retail-creatures' spell_sounds.py (block "mounts"). A mount retail plays no
 summon sound for gets its creature's aggro sound. A pet gets retail's summon sound the same way
-when its species has one (139 do); the others keep the stock companion sound. The sounds are
+when its species has one (157 do); the others keep the stock companion sound. The sounds are
 SoundEntries rows in this patch,
 built on --sound-dbc: the SoundEntries.dbc and CreatureSoundData.dbc the client has before this
 patch (z40's). The weather patch, which loads later and carries SoundEntries.dbc too, is built on

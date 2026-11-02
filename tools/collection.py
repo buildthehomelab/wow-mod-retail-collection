@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Write data/collection.tsv: one row per retail mount, and per battle pet that
-wow-mod-retail-library has a look for, with what the build needs to make it a spell and an item.
+"""Write data/collection.tsv: one row per retail mount and per battle pet in retail's pet journal,
+with what the build needs to make it a spell and an item.
 
     python3 collection.py --census <census out dir> --db2 ~/retail-cache/db2 \\
         --listfile ~/retail-cache/community-listfile.csv --library ../mod-retail-library \\
@@ -15,13 +15,17 @@ client's Mounts skill line: a stock mount, even when retail redrew its look) or 
 left out, and so is a retail row with the same name and looks as one of those, so nobody owns two
 Chargers. So is one that another module already makes learnable: --taken names that module's
 list (any tsv with `display` and `retail_display` columns, like wow-mod-retail-pets' pets.tsv),
-and a mount or pet that wears any of its looks is left out.
+and a mount or pet that wears any of its looks is left out. A pet with the name of any companion
+spell in the patch is left out too, so a module without a list (Archaeology's pets) has no twin.
 
-Every other retail mount is one, whatever model it has: one the client has (Swift Albino Raptor
-on the stock PvP raptor) or one with new textures on a client model (the Primal Raptors) wears a
-library look like the rest. A mount whose look the library doesn't have yet is listed in
-data/wanted-looks.tsv (--wanted): give that file to the census and to the library's inventory
-(both take --also), rebuild the library, and run this again.
+Every other retail mount or pet is one, whatever model it has: one the client has (Swift Albino
+Raptor on the stock PvP raptor, Pebble on the stock rock elemental) or one with new textures on a
+client model (the Primal Raptors, Withers) wears a library look like the rest. A new mount or pet
+whose look the library doesn't have yet is listed in data/wanted-looks.tsv (--wanted): give that
+file to the census and to the library's inventory (both take --also), rebuild the library, and
+run this again. A pet the list has keeps the looks it wears; its other retail looks aren't asked for.
+A row the list has keeps its name and description; retail's later changes are reported.
+A pet whose looks are all no creature model (a dressed character, a doodad) is left out.
 
 One retail mount or pet is one row, however many looks it has: retail picks one of a mount's
 looks (by faction, or at random) and one of a pet's (its breed), and here the creature wears all
@@ -62,8 +66,10 @@ BLOCK = (400000, 419999)
 
 # Placeholder and test rows in retail's tables.
 JUNK = re.compile(r"[\[(](PH|DND|DNT)[\])]|\bTEST\b|^zz|UNUSED|\(Old\)|^Blue Old God Fish Mount$", re.I)
+# The census's statuses of a look that is a creature model.
+CREATURE_LOOKS = {"new model", "client has it", "client model, new textures"}
 SKILL_COMPANIONS, SKILL_MOUNTS = 778, 777
-F_EFFECT_MISC = 110  # Spell.dbc: the first effect's misc value, a companion spell's creature
+F_EFFECT_MISC, F_NAME = 110, 136  # Spell.dbc: the first effect's misc value (a companion spell's creature), the name
 COLUMNS = ("id", "kind", "retail_id", "name", "displays", "icon_fdid", "icon", "description")
 
 
@@ -101,7 +107,7 @@ def main():
     ap.add_argument("--spell-patch", required=True, help="the patch with the full Spell.dbc and SkillLineAbility.dbc")
     ap.add_argument("--taken", action="append", default=[], help="another module's look list (repeatable)")
     ap.add_argument("--out", default=OUT)
-    ap.add_argument("--wanted", default=WANTED, help="write the mounts' looks the library lacks here")
+    ap.add_argument("--wanted", default=WANTED, help="write the looks new mounts and pets lack in the library here")
     args = ap.parse_args()
 
     # What the client has already: every spell, and the creatures its companion spells summon.
@@ -113,10 +119,13 @@ def main():
                 sys.exit("%s has no %s.dbc" % (args.spell_patch, name))
         # Once the patch has the collection in it, its own rows are not "the client has it"
         # (some retail spell ids fall in the block and would hit them).
-        spells = {r[0]: r for r in dbcmpq.read_dbc(dbc["Spell"])[0] if not BLOCK[0] <= r[0] <= BLOCK[1]}
+        spell_rows, spell_strings, _fields = dbcmpq.read_dbc(dbc["Spell"])
+        spells = {r[0]: r for r in spell_rows if not BLOCK[0] <= r[0] <= BLOCK[1]}
         abilities = [a for a in dbcmpq.read_dbc(dbc["SkillLineAbility"])[0] if not BLOCK[0] <= a[0] <= BLOCK[1]]
     client_pets = {spells[a[2]][F_EFFECT_MISC] for a in abilities if a[1] == SKILL_COMPANIONS and a[2] in spells}
     client_mounts = {a[2] for a in abilities if a[1] == SKILL_MOUNTS and a[2] in spells}
+    client_pet_names = {dbcmpq.string_at(spell_strings, spells[a[2]][F_NAME]).lower()
+                        for a in abilities if a[1] == SKILL_COMPANIONS and a[2] in spells}
 
     looks = {}
     with open(os.path.join(args.library, "data", "looks.tsv"), encoding="utf-8") as f:
@@ -124,14 +133,13 @@ def main():
             looks[int(r["retail_display"])] = int(r["display"])
 
     # Which library looks each retail mount and species wears, in the census's order, and every
-    # retail look of each mount (with its census status), whether the library has it or not.
+    # retail look of each (with its census status), whether the library has it or not.
     # A look is its model and textures: two retail displays with the same ones look the same.
-    displays, mount_looks, look_of = {}, {}, {}
+    displays, retail_looks, look_of = {}, {}, {}
     with open(os.path.join(args.census, "displays.tsv"), encoding="utf-8") as f:
         for r in csv.DictReader(f, delimiter="\t"):
             look_of[int(r["retail_display"])] = (r["model_fdid"], r["textures"]) if r["model_fdid"] else r["retail_display"]
-            if r["kind"] == "mount":
-                mount_looks.setdefault(int(r["id"]), {}).setdefault(int(r["retail_display"]), r["status"])
+            retail_looks.setdefault((r["kind"], int(r["id"])), {}).setdefault(int(r["retail_display"]), r["status"])
             look = looks.get(int(r["retail_display"]))
             if look:
                 wears = displays.setdefault((r["kind"], int(r["id"])), [])
@@ -164,15 +172,17 @@ def main():
     # Rows the list already has stay, even when another module sells that mount now or a spell of
     # another module has its retail spell's id: players may own their spells, and the core takes a
     # spell it no longer knows from every character.
-    had = {}  # id: the looks it wears now
+    had, had_text = {}, {}  # id: the looks it wears now; its name and description
     if os.path.exists(args.out):
         with open(args.out, encoding="utf-8") as f:
-            had = {int(r["id"]): [int(d) for d in r["displays"].split(",")] for r in csv.DictReader(f, delimiter="\t")}
+            for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+                had[int(r["id"])] = [int(d) for d in r["displays"].split(",")]
+                had_text[int(r["id"])] = r["name"], r["description"]
 
     rows, skipped, stock = [], {}, []
     for m in table(args.db2, "Mount"):
         retail_id = int(m["ID"])
-        seen = list(mount_looks.get(retail_id, {}))
+        seen = list(retail_looks.get(("mount", retail_id), {}))
         if not seen:
             continue
         wears = displays.get(("mount", retail_id), [])
@@ -200,22 +210,28 @@ def main():
                          description=clean(m["Description_lang"])))
     for p in table(args.db2, "BattlePetSpecies"):
         retail_id = int(p["ID"])
-        wears = displays.get(("pet", retail_id))
-        if not wears:
+        seen = list(retail_looks.get(("pet", retail_id), {}))
+        if not seen:
             continue
+        wears = displays.get(("pet", retail_id), [])
         name = clean(creatures.get(int(p["CreatureID"]), ""))
-        if taken & set(wears) and PET_BASE + retail_id not in had:
+        if (taken & set(wears) or taken_retail & set(seen)) and PET_BASE + retail_id not in had:
             skipped.setdefault("another module sells it", []).append(name)
             continue
         # (A custom spell of another module can have a retail summon spell's id: Fox Kit's 90637.)
         if (int(p["CreatureID"]) in client_pets or int(p["SummonSpellID"]) in spells) and PET_BASE + retail_id not in had:
             skipped.setdefault("the client has it (a new look of a stock pet)", []).append(name)
             continue
+        # Another module's pet on a spell of its own (Archaeology's Clockwork Gnome), or a stock pet
+        # under the same name: the Pets tab would list two.
+        if name.lower() in client_pet_names and PET_BASE + retail_id not in had:
+            skipped.setdefault("the client has a pet of that name", []).append(name)
+            continue
         if not name or JUNK.search(name):
             skipped.setdefault("placeholder or test", []).append(name or "species %d" % retail_id)
             continue
         rows.append(dict(id=PET_BASE + retail_id, kind="pet", retail_id=retail_id, name=name, displays=wears,
-                         retail=[d - LIBRARY_OFFSET for d in wears], icon_fdid=int(p["IconFileDataID"]),
+                         retail=seen, icon_fdid=int(p["IconFileDataID"]),
                          description=clean(p["Description_lang"])))
 
     # Two retail rows with the same name, one with only looks the other has (a class mount's
@@ -235,29 +251,37 @@ def main():
     rows = [r for r in stock if r["kind"] != "stock"]
 
     # A mount wears its first four retail looks; the library has to have them. Those it lacks are
-    # wanted, and a mount with none of them waits for the next library build.
+    # wanted, and a mount with none of them waits for the next library build. So does a new pet;
+    # a pet the list has stays as it is.
     wanted, waiting = [], []
     for r in rows:
-        if r["kind"] == "pet":
+        if r["kind"] == "pet" and r["id"] in had:
             continue
+        kind = mounts(r["kind"])
+        if kind == "pet":
+            r["retail"] = [d for d in r["retail"] if retail_looks[kind, r["retail_id"]][d] in CREATURE_LOOKS]
+            if not r["retail"]:
+                skipped.setdefault("a pet with no creature model", []).append(r["name"])
+                r["displays"] = []
+                continue
         first = r["retail"][:MAX_LOOKS]
         if len(r["retail"]) > MAX_LOOKS:
             skipped.setdefault("looks past the first %d dropped" % MAX_LOOKS, []).append(
                 "%s (%d)" % (r["name"], len(r["retail"])))
         for d in first:
             if d not in looks:
-                wanted.append((d, r["retail_id"], r["name"], mount_looks[r["retail_id"]][d]))
+                wanted.append((d, kind, r["retail_id"], r["name"], retail_looks[kind, r["retail_id"]][d]))
         r["displays"] = [looks[d] for d in first if d in looks]
         if not r["displays"]:
             waiting.append(r)
+    rows = [r for r in rows if r["displays"]]
     if waiting:
         skipped.setdefault("no look in the library yet (in %s)" % os.path.basename(args.wanted), []).extend(
             r["name"] for r in waiting)
-        rows = [r for r in rows if r not in waiting]
     with open(args.wanted, "w", encoding="utf-8", newline="") as f:
-        f.write("retail_display\tmount\tname\tstatus\n")
-        for d, mount, name, status in sorted(set(wanted)):
-            f.write("%d\t%d\t%s\t%s\n" % (d, mount, name, status))
+        f.write("retail_display\tkind\tid\tname\tstatus\n")
+        for d, kind, retail_id, name, status in sorted(set(wanted)):
+            f.write("%d\t%s\t%d\t%s\t%s\n" % (d, kind, retail_id, name, status))
     for r in rows:
         if len(r["displays"]) > MAX_LOOKS:
             skipped.setdefault("looks past the first %d dropped" % MAX_LOOKS, []).append(
@@ -266,6 +290,10 @@ def main():
         # A row the list has keeps the looks it wears, and only gains ones it lacks.
         if r["id"] in had:
             r["displays"] = (had[r["id"]] + [d for d in r["displays"] if d not in had[r["id"]]])[:max(MAX_LOOKS, len(had[r["id"]]))]
+            # And its text: retail's later rewording would rename something players already own.
+            if (r["name"], r["description"]) != had_text[r["id"]]:
+                skipped.setdefault("retail's text changed, the row keeps its own", []).append(had_text[r["id"]][0])
+                r["name"], r["description"] = had_text[r["id"]]
 
     if any(r["id"] >= PET_BASE for r in rows if r["kind"] != "pet") or any(r["id"] >= PET_BASE + 10000 for r in rows):
         sys.exit("a retail id no longer fits its block (mounts 400000-409999, pets 410000-419999)")
