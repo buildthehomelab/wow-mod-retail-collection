@@ -1308,6 +1308,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 402988	flyer	2988	Voidmancer's Starcarver	344476	7649260	inv_voidsurfboardmount	This pinnacle of Voidmancer transport technology was once a symbol of status and power among high ranking domanaar. After its creator mysteriously vanished, it was viewed as unseemly when used on core worlds gatherings.
 402990	flyer	2990	Netherforged Nullframe	344483	7535090	inv_voidforgedmechsuit	Assembled by the Lightforged, sundered by the Hal'hadar, and restored by a Technomancer. A matrix of light, void, and arcane swirls within this renewed Warframe.
 402994	flyer	2994	Badlands Buzzard	344496	1929247	inv_vulturemount_black	The white buzzards are some of the rarest in all the Badlands. Rumor has it that one may even be caught and tamed to fight alongside hunters.
+403000	flyer	3000	Shadowbound Storybook	344705	7815705	inv_bookmountdrust	'Let me tell you a story!' The stranger implored. And the traveler, road-weary and disquieted by the midnight gloom, agreed.
 403002	mount	3002	Vicious Lightbloom Boar	344739	7816206	inv_viciouslightbloomboar_blue	Motes of energy surround this mount, occasionally reflecting a ray of light across your vision.
 403003	mount	3003	Vicious Lightbloom Boar	344740	7816207	inv_viciouslightbloomboar_red	Motes of energy surround this mount, occasionally reflecting a ray of light across your vision.
 403004	flyer	3004	Autumnal Witchwick's Rider	344745	7935945	inv_broomstickspicewitch	Sleek, stylish, and spooky, the Witchwick Rider offers a smooth and surprisingly comfortable ride, thanks to the ergonomic saddle requested by many a spellcaster seeking cushioned support.
@@ -1355,6 +1356,7 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 403119	flyer	3119	Wintry Witchwick's Rider	346821	7935945	inv_broomstickspicewitch	Sleek, stylish, and spooky, the Witchwick Rider offers a smooth and surprisingly comfortable ride, thanks to the ergonomic saddle requested by many a spellcaster seeking cushioned support.
 403125	mount	3125	Veteran Adventurer's Loyal Companion	346834	7931171	inv_dwarfbearmount	When it is time to answer the call to adventure, this bear will be ready to take you there.
 403134	mount	3134	Stone-Carved Crusher	347424	3056150	inv_deathwargmountstone	From quaking hands, and age-worn tools, the carver's work was praised. With drops of blood, and words of old, the statue's eyes unglazed.
+403135	mount	3135	Autumn Dream Jumper	349017	8519836	inv_toadardenwealdmount_autumn	As the winter night dawns, and the spring lilies fade, the Autumn Jumpers jump, under summer moon's shade.
 403136	flyer	3136	Shadowpaw Wood Watcher	347446	3747444	inv_fox2_black	They say they watch, through many eyes, the birds and woodland things. But from the groves of ancient trees, the Greenseer coven sings.
 403137	mount	3137	Sporebearer Fungal Strider	347570	8262534	inv_fungalstridermount	Stride in style and bring the fun on this massive mount. Speak to Hoshena in the Den in Harandar to select what passengers will accompany you on your journeys.
 403138	mount	3138	Hot Motocross Bunmover 4000	347632	8270412	inv_trikebakermount_blue	Warning: Contents may be hot and delicious.
@@ -1363,6 +1365,11 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 403142	mount	3142	Hot Motocross Bunmover 4600	347635	8270409	inv_trikebakermount_teal	When dessert manufacturing meets speed optimization. Intact bun delivery not guaranteed.
 403143	flyer	3143	Ashen Dreadglider	347639	7958551	inv_wolfhawkventhyrmount_red	Far more vicious and resilient than the run of the mill dreadbats of Revendreth, the Ashen Dreadglider gains its strength from a supplemental diet of anima.
 403144	flyer	3144	Loa-Blessed Wayfarer	347674	8269989	inv_loalabyrinthgolemmount	A construct as ancient as the loa themselves, tasked with ferrying spirits unto De Other Side.
+403161	mount	3161	Attuned Ancient Stegodon	348609	8415317	inv_stegodonprimalmount_black	Among the ancient tauren tribes, only those attuned with the primal forces of the land had any hope of forming a lasting bond with these elemental-charged beasts.
+403162	mount	3162	Crackling Ancient Stegodon	348610	8531288	inv_stegodonprimalmount_blue	You might get a shock when this mount stomps its feet.
+403163	mount	3163	Rumbling Jungle Stegodon	348611	8415318	inv_stegodonprimalmount_green	Long ago, these temperamental creatures once roamed across the vast jungle wilds of southern Kalimdor.
+403164	mount	3164	Thundering Primal Stegodon	348612	8415319	inv_stegodonprimalmount_purple	With so many spikes, neither end is safe to approach.
+403172	flyer	3172	Winterrrgl's Pine-Powered Candy Cane Contraption	348727	8475796	inv_winterbroom	It's pine-y fresh, delivers presents, tastes great and has the merriest of murlocs, Winterrrgl, riding along with you.
 403176	mount	3176	Reanimated Skeletal Raptor	234411	456563	ability_mount_fossilizedraptor	This skeletal raptor belongs in a museum. However, the necromancers who brought these bones back to life were so preoccupied with whether or not they could, they didn't stop to think if they should.
 410115	pet	115	Land Shark	215595	294472	inv_pet_babyshark	After birth, newborn sharks quickly flee their hungry mothers. Their early independence makes them dangerous, even while young.
 410220	pet	220	Withers	245943	132129	ability_druid_forceofnature	A solemn reminder of what was lost when the Worldbreaker changed the face of Azeroth.
@@ -3334,4 +3341,8 @@ id	kind	retail_id	name	displays	icon_fdid	icon	description
 415169	pet	5169	Inquisitor's Messenger	347636	5547301	inv_cape_special_arathor_d_01_black	On wings of white with torch to bear; a feathered friend by spoken prayer.
 415170	pet	5170	Hex-Cursed Manifestation	349534	2030683	inv_wickerbeastpet	In blackened woods, where foes do dare, even the dark needs friends to care.
 415171	pet	5171	Zyg'ee	319680	5788266	inv_babynaga2_red	From fog and salt, where waters flow, in blackened depths small shadows grow.
+415184	pet	5184	Bump	348626	8415179	inv_stegodonprimalpet_black	Small in nature, plenty of strength.
+415185	pet	5185	Lump	348627	8415180	inv_stegodonprimalpet_blue	Once sat alone in a boggy marsh. Now eager to join on your adventures.
+415186	pet	5186	Grump	348628	8415181	inv_stegodonprimalpet_green	Small in nature, mighty in spirit.
+415187	pet	5187	Frump	348629	8415182	inv_stegodonprimalpet_purple	It's not clear how Frump got her name, but she loves being an enigma.
 415188	pet	5188	Petite Snow Buddy	338600	655957	inv_pet_snowman	So much holiday spirit inside an itty-bitty amount of snow, it only makes sense to share it with the world!

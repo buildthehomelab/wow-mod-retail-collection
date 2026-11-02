@@ -3,8 +3,8 @@
 Every retail mount and every battle pet in retail's pet journal, wearing the looks of
 [wow-mod-retail-library](https://github.com/buildthehomelab/wow-mod-retail-library), as something
 a player of an [AzerothCore](https://www.azerothcore.org/) (WotLK 3.3.5a) server can own: a summon
-spell on the Mounts or Pets tab and the item that teaches it. 3,336 of them: 1,365 mounts (691 of
-them fly) and 1,971 companion pets.
+spell on the Mounts or Pets tab and the item that teaches it. 3,347 of them: 1,372 mounts (693 of
+them fly) and 1,975 companion pets.
 
 - **A row's spell, item and creature share one id.** A mount is 400000 + its retail mount id, a pet
   410000 + its retail battle pet species id. The Chaos-Forged Gryphon is retail mount 2304, so
@@ -29,7 +29,7 @@ them fly) and 1,971 companion pets.
   [wow-mod-retail-pets](https://github.com/buildthehomelab/wow-mod-retail-pets)' flyer script: with
   Expert or Artisan Riding they fly where flying mounts can, like retail's mounts. Without that
   module on the server they stay on the ground (and the server logs that the script is missing).
-- **Pets** are companions like the stock ones, summoned from the Pets tab. The 153 whose retail species has a
+- **Pets** are companions like the stock ones, summoned from the Pets tab. The 157 whose retail species has a
   summon sound play it; the others play the stock companion sound.
 - **Several looks:** a retail mount or pet with more than one look (faction colours, a pet's
   breeds, seasonal coats) is one spell here, and its creature wears one of them at random each
@@ -40,8 +40,8 @@ them fly) and 1,971 companion pets.
   on a client model, are mounts and pets of their own like the rest. Their looks are converted
   into the library too: [`data/wanted-looks.tsv`](data/wanted-looks.tsv) lists the looks that new
   mounts and pets still lack in the library. What is in it now can't be converted yet (see the
-  library's README): the 12 rows retail's live build doesn't have the files for, and three pets on
-  a skeleton the converter refuses.
+  library's README): Markeet of the Infinite, encrypted even in the 12.1.7 test build, and three
+  pets on a skeleton the converter refuses.
 - **Left out:** placeholder and test rows in retail's tables; the mounts the client already has
   (retail's spell is on the client's Mounts skill line: a stock mount whose look retail redrew,
   like the Charger, stays the stock one) and the pets it has, or a pet of that name (Archaeology's
