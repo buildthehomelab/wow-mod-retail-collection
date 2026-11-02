@@ -24,6 +24,7 @@ client model (the Primal Raptors, Withers) wears a library look like the rest. A
 whose look the library doesn't have yet is listed in data/wanted-looks.tsv (--wanted): give that
 file to the census and to the library's inventory (both take --also), rebuild the library, and
 run this again. A pet the list has keeps the looks it wears; its other retail looks aren't asked for.
+A row the list has keeps its name and description; retail's later changes are reported.
 A pet whose looks are all no creature model (a dressed character, a doodad) is left out.
 
 One retail mount or pet is one row, however many looks it has: retail picks one of a mount's
@@ -171,10 +172,12 @@ def main():
     # Rows the list already has stay, even when another module sells that mount now or a spell of
     # another module has its retail spell's id: players may own their spells, and the core takes a
     # spell it no longer knows from every character.
-    had = {}  # id: the looks it wears now
+    had, had_text = {}, {}  # id: the looks it wears now; its name and description
     if os.path.exists(args.out):
         with open(args.out, encoding="utf-8") as f:
-            had = {int(r["id"]): [int(d) for d in r["displays"].split(",")] for r in csv.DictReader(f, delimiter="\t")}
+            for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+                had[int(r["id"])] = [int(d) for d in r["displays"].split(",")]
+                had_text[int(r["id"])] = r["name"], r["description"]
 
     rows, skipped, stock = [], {}, []
     for m in table(args.db2, "Mount"):
@@ -287,6 +290,10 @@ def main():
         # A row the list has keeps the looks it wears, and only gains ones it lacks.
         if r["id"] in had:
             r["displays"] = (had[r["id"]] + [d for d in r["displays"] if d not in had[r["id"]]])[:max(MAX_LOOKS, len(had[r["id"]]))]
+            # And its text: retail's later rewording would rename something players already own.
+            if (r["name"], r["description"]) != had_text[r["id"]]:
+                skipped.setdefault("retail's text changed, the row keeps its own", []).append(had_text[r["id"]][0])
+                r["name"], r["description"] = had_text[r["id"]]
 
     if any(r["id"] >= PET_BASE for r in rows if r["kind"] != "pet") or any(r["id"] >= PET_BASE + 10000 for r in rows):
         sys.exit("a retail id no longer fits its block (mounts 400000-409999, pets 410000-419999)")
